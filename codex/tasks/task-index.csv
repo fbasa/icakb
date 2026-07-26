@@ -1,0 +1,464 @@
+id,phase,phase_name,title,status,depends_on
+P0-001,0,Engineering Foundation,Create the Git repository,backlog,
+P0-002,0,Engineering Foundation,Configure branch protection for main,backlog,P0-001
+P0-003,0,Engineering Foundation,Add root .gitignore and .gitattributes,backlog,P0-002
+P0-004,0,Engineering Foundation,Add .editorconfig,backlog,P0-003
+P0-005,0,Engineering Foundation,Create the monorepo directory structure,backlog,P0-004
+P0-006,0,Engineering Foundation,Initialize the pnpm workspace,backlog,P0-005
+P0-007,0,Engineering Foundation,Pin Node.js and pnpm versions,backlog,P0-006
+P0-008,0,Engineering Foundation,Initialize the Python uv workspace,backlog,P0-007
+P0-009,0,Engineering Foundation,Pin the Python runtime version,backlog,P0-008
+P0-010,0,Engineering Foundation,Create the initial FastAPI service,backlog,P0-009
+P0-011,0,Engineering Foundation,Create the initial Next.js assistant application,backlog,P0-010
+P0-012,0,Engineering Foundation,Create the initial Next.js administration application,backlog,P0-011
+P0-013,0,Engineering Foundation,Create the widget-loader package,backlog,P0-012
+P0-014,0,Engineering Foundation,Create the browser-extension package,backlog,P0-013
+P0-015,0,Engineering Foundation,Configure Python formatting with Ruff,backlog,P0-014
+P0-016,0,Engineering Foundation,Configure Python linting with Ruff,backlog,P0-015
+P0-017,0,Engineering Foundation,Configure Python type checking with mypy,backlog,P0-016
+P0-018,0,Engineering Foundation,Configure TypeScript strict mode,backlog,P0-017
+P0-019,0,Engineering Foundation,Configure ESLint,backlog,P0-018
+P0-020,0,Engineering Foundation,Configure Prettier,backlog,P0-019
+P0-021,0,Engineering Foundation,"Configure Markdown, shell, Docker and YAML linting",backlog,P0-020
+P0-022,0,Engineering Foundation,Configure pytest,backlog,P0-021
+P0-023,0,Engineering Foundation,Configure Vitest and React Testing Library,backlog,P0-022
+P0-024,0,Engineering Foundation,Configure Playwright,backlog,P0-023
+P0-025,0,Engineering Foundation,Create root Makefile commands,backlog,P0-024
+P0-026,0,Engineering Foundation,Configure pre-commit hooks,backlog,P0-025
+P0-027,0,Engineering Foundation,Configure Gitleaks,backlog,P0-026
+P0-028,0,Engineering Foundation,Configure Dependabot,backlog,P0-027
+P0-029,0,Engineering Foundation,Configure GitHub Dependency Review,backlog,P0-028
+P0-030,0,Engineering Foundation,Configure CodeQL,backlog,P0-029
+P0-031,0,Engineering Foundation,Configure Trivy repository scanning,backlog,P0-030
+P0-032,0,Engineering Foundation,Create service Dockerfiles,backlog,P0-031
+P0-033,0,Engineering Foundation,Add container health checks,backlog,P0-032
+P0-034,0,Engineering Foundation,Create local Docker Compose configuration,backlog,P0-033
+P0-035,0,Engineering Foundation,Add local PostgreSQL,backlog,P0-034
+P0-036,0,Engineering Foundation,Add local object-storage emulator,backlog,P0-035
+P0-037,0,Engineering Foundation,Add local queue emulator or queue abstraction,backlog,P0-036
+P0-038,0,Engineering Foundation,Add environment configuration validation,backlog,P0-037
+P0-039,0,Engineering Foundation,Create .env.example,backlog,P0-038
+P0-040,0,Engineering Foundation,Add structured JSON logging,backlog,P0-039
+P0-041,0,Engineering Foundation,Add request-correlation middleware,backlog,P0-040
+P0-042,0,Engineering Foundation,Add OpenTelemetry bootstrap,backlog,P0-041
+P0-043,0,Engineering Foundation,Implement /health/live,backlog,P0-042
+P0-044,0,Engineering Foundation,Implement /health/ready,backlog,P0-043
+P0-045,0,Engineering Foundation,Implement RFC 9457 API error format,backlog,P0-044
+P0-046,0,Engineering Foundation,Create the base CI workflow,backlog,P0-045
+P0-047,0,Engineering Foundation,Add application-build jobs to CI,backlog,P0-046
+P0-048,0,Engineering Foundation,Add container-image scanning,backlog,P0-047
+P0-049,0,Engineering Foundation,Create the development deployment workflow,backlog,P0-048
+P0-050,0,Engineering Foundation,Configure deployment through OIDC,backlog,P0-049
+P0-051,0,Engineering Foundation,Add immutable image tagging,backlog,P0-050
+P0-052,0,Engineering Foundation,Create README.md,backlog,P0-051
+P0-053,0,Engineering Foundation,Create AGENTS.md,backlog,P0-052
+P0-054,0,Engineering Foundation,Create docs/ARCHITECTURE.md,backlog,P0-053
+P0-055,0,Engineering Foundation,Create docs/DECISIONS.md and initial ADRs,backlog,P0-054
+P0-056,0,Engineering Foundation,Create docs/PLAN.md,backlog,P0-055
+P0-057,0,Engineering Foundation,Create docs/OPERATIONS.md,backlog,P0-056
+P0-058,0,Engineering Foundation,Create SECURITY.md,backlog,P0-057
+P0-059,0,Engineering Foundation,Create CONTRIBUTING.md,backlog,P0-058
+P0-060,0,Engineering Foundation,Create docs/TESTING.md,backlog,P0-059
+P0-061,0,Engineering Foundation,Create prompt-library skeleton,backlog,P0-060
+P0-062,0,Engineering Foundation,Create evaluation-library skeleton,backlog,P0-061
+P0-063,0,Engineering Foundation,Implement the version endpoint demonstration,backlog,P0-062
+P0-064,0,Engineering Foundation,Deploy the version endpoint to development,backlog,P0-063
+P0-065,0,Engineering Foundation,Add post-deployment smoke test,backlog,P0-064
+P0-066,0,Engineering Foundation,Demonstrate rollback,backlog,P0-065
+P1-001,1,Identity and Tenant Foundation,Define the tenant domain model,backlog,PHASE-0-EXIT
+P1-002,1,Identity and Tenant Foundation,Define the user domain model,backlog,P1-001
+P1-003,1,Identity and Tenant Foundation,"Define roles, groups and memberships",backlog,P1-002
+P1-004,1,Identity and Tenant Foundation,Create tenant database tables,backlog,P1-003
+P1-005,1,Identity and Tenant Foundation,Create user database tables,backlog,P1-004
+P1-006,1,Identity and Tenant Foundation,Create role and group tables,backlog,P1-005
+P1-007,1,Identity and Tenant Foundation,Add typed tenant identifiers,backlog,P1-006
+P1-008,1,Identity and Tenant Foundation,Add typed user identifiers,backlog,P1-007
+P1-009,1,Identity and Tenant Foundation,Define identity-provider configuration schema,backlog,P1-008
+P1-010,1,Identity and Tenant Foundation,Implement OIDC discovery loading,backlog,P1-009
+P1-011,1,Identity and Tenant Foundation,Implement JWT signature validation,backlog,P1-010
+P1-012,1,Identity and Tenant Foundation,Implement issuer and audience validation,backlog,P1-011
+P1-013,1,Identity and Tenant Foundation,Implement token-expiry validation,backlog,P1-012
+P1-014,1,Identity and Tenant Foundation,Implement authenticated-request middleware,backlog,P1-013
+P1-015,1,Identity and Tenant Foundation,Map external subject to internal user,backlog,P1-014
+P1-016,1,Identity and Tenant Foundation,Implement just-in-time user provisioning,backlog,P1-015
+P1-017,1,Identity and Tenant Foundation,Implement disabled-user handling,backlog,P1-016
+P1-018,1,Identity and Tenant Foundation,Implement tenant resolution,backlog,P1-017
+P1-019,1,Identity and Tenant Foundation,Prevent request-supplied tenant override,backlog,P1-018
+P1-020,1,Identity and Tenant Foundation,Define authorization-policy interface,backlog,P1-019
+P1-021,1,Identity and Tenant Foundation,Implement role-based authorization checks,backlog,P1-020
+P1-022,1,Identity and Tenant Foundation,Implement group-based authorization context,backlog,P1-021
+P1-023,1,Identity and Tenant Foundation,Implement PostgreSQL tenant context,backlog,P1-022
+P1-024,1,Identity and Tenant Foundation,Create initial Row-Level Security policies,backlog,P1-023
+P1-025,1,Identity and Tenant Foundation,Add RLS negative tests,backlog,P1-024
+P1-026,1,Identity and Tenant Foundation,Define short-lived assistant session-token schema,backlog,P1-025
+P1-027,1,Identity and Tenant Foundation,Implement session-token issuance,backlog,P1-026
+P1-028,1,Identity and Tenant Foundation,Implement session-token validation,backlog,P1-027
+P1-029,1,Identity and Tenant Foundation,Add session revocation versioning,backlog,P1-028
+P1-030,1,Identity and Tenant Foundation,Define audit-event schema,backlog,P1-029
+P1-031,1,Identity and Tenant Foundation,Create audit-event storage,backlog,P1-030
+P1-032,1,Identity and Tenant Foundation,Record authentication events,backlog,P1-031
+P1-033,1,Identity and Tenant Foundation,Record authorization denials,backlog,P1-032
+P1-034,1,Identity and Tenant Foundation,Add tenant-management API contracts,backlog,P1-033
+P1-035,1,Identity and Tenant Foundation,Implement tenant creation,backlog,P1-034
+P1-036,1,Identity and Tenant Foundation,Implement tenant disablement,backlog,P1-035
+P1-037,1,Identity and Tenant Foundation,Implement user-status administration,backlog,P1-036
+P1-038,1,Identity and Tenant Foundation,Add tenant and user metrics,backlog,P1-037
+P1-039,1,Identity and Tenant Foundation,Document identity flow,backlog,P1-038
+P1-040,1,Identity and Tenant Foundation,Document tenant-isolation design,backlog,P1-039
+P1-041,1,Identity and Tenant Foundation,Create tenant-isolation test suite,backlog,P1-040
+P2-001,2,Document Ingestion,Define data-source domain model,backlog,PHASE-1-EXIT
+P2-002,2,Document Ingestion,Define document domain model,backlog,P2-001
+P2-003,2,Document Ingestion,Define document-version model,backlog,P2-002
+P2-004,2,Document Ingestion,Define ingestion-job model,backlog,P2-003
+P2-005,2,Document Ingestion,Create source database tables,backlog,P2-004
+P2-006,2,Document Ingestion,Create document database tables,backlog,P2-005
+P2-007,2,Document Ingestion,Create document-version tables,backlog,P2-006
+P2-008,2,Document Ingestion,Create ingestion-job tables,backlog,P2-007
+P2-009,2,Document Ingestion,Apply RLS to ingestion tables,backlog,P2-008
+P2-010,2,Document Ingestion,Define supported-file policy,backlog,P2-009
+P2-011,2,Document Ingestion,Implement upload-request API,backlog,P2-010
+P2-012,2,Document Ingestion,Implement presigned object upload,backlog,P2-011
+P2-013,2,Document Ingestion,Implement upload-completion callback,backlog,P2-012
+P2-014,2,Document Ingestion,Validate file size and declared type,backlog,P2-013
+P2-015,2,Document Ingestion,Detect actual file type,backlog,P2-014
+P2-016,2,Document Ingestion,Add malware-scanning adapter,backlog,P2-015
+P2-017,2,Document Ingestion,Quarantine failed or suspicious uploads,backlog,P2-016
+P2-018,2,Document Ingestion,Define queue-message schema,backlog,P2-017
+P2-019,2,Document Ingestion,Implement job publishing,backlog,P2-018
+P2-020,2,Document Ingestion,Implement worker message consumption,backlog,P2-019
+P2-021,2,Document Ingestion,Add ingestion idempotency key,backlog,P2-020
+P2-022,2,Document Ingestion,Add worker lease and visibility handling,backlog,P2-021
+P2-023,2,Document Ingestion,Define extraction-adapter interface,backlog,P2-022
+P2-024,2,Document Ingestion,Implement PDF extraction,backlog,P2-023
+P2-025,2,Document Ingestion,Implement DOCX extraction,backlog,P2-024
+P2-026,2,Document Ingestion,Implement text and Markdown extraction,backlog,P2-025
+P2-027,2,Document Ingestion,Implement unsupported-format failure,backlog,P2-026
+P2-028,2,Document Ingestion,Normalize extracted text,backlog,P2-027
+P2-029,2,Document Ingestion,Calculate source-content checksum,backlog,P2-028
+P2-030,2,Document Ingestion,Implement duplicate-content detection,backlog,P2-029
+P2-031,2,Document Ingestion,Define document metadata schema,backlog,P2-030
+P2-032,2,Document Ingestion,Validate metadata values,backlog,P2-031
+P2-033,2,Document Ingestion,Map source permissions to retrieval metadata,backlog,P2-032
+P2-034,2,Document Ingestion,Define OpenAI vector-store adapter,backlog,P2-033
+P2-035,2,Document Ingestion,Implement tenant vector-store creation,backlog,P2-034
+P2-036,2,Document Ingestion,Implement OpenAI file upload,backlog,P2-035
+P2-037,2,Document Ingestion,Apply retrieval metadata to indexed files,backlog,P2-036
+P2-038,2,Document Ingestion,Poll indexing completion,backlog,P2-037
+P2-039,2,Document Ingestion,Verify indexed-file association,backlog,P2-038
+P2-040,2,Document Ingestion,Persist provider file references,backlog,P2-039
+P2-041,2,Document Ingestion,Mark ingestion success,backlog,P2-040
+P2-042,2,Document Ingestion,Implement transient-error classification,backlog,P2-041
+P2-043,2,Document Ingestion,Implement bounded retries,backlog,P2-042
+P2-044,2,Document Ingestion,Implement dead-letter handling,backlog,P2-043
+P2-045,2,Document Ingestion,Add failed-job replay command,backlog,P2-044
+P2-046,2,Document Ingestion,Implement document deletion request,backlog,P2-045
+P2-047,2,Document Ingestion,Delete provider-indexed file,backlog,P2-046
+P2-048,2,Document Ingestion,Delete or retain canonical object by policy,backlog,P2-047
+P2-049,2,Document Ingestion,Invalidate document caches,backlog,P2-048
+P2-050,2,Document Ingestion,Verify deletion completion,backlog,P2-049
+P2-051,2,Document Ingestion,Implement reconciliation job,backlog,P2-050
+P2-052,2,Document Ingestion,Add ingestion metrics,backlog,P2-051
+P2-053,2,Document Ingestion,Add ingestion traces,backlog,P2-052
+P2-054,2,Document Ingestion,Add ingestion structured logs,backlog,P2-053
+P2-055,2,Document Ingestion,Add ingestion-status API,backlog,P2-054
+P2-056,2,Document Ingestion,Add document-list API,backlog,P2-055
+P2-057,2,Document Ingestion,Add document-version API,backlog,P2-056
+P2-058,2,Document Ingestion,Define Google Drive connector interface,backlog,P2-057
+P2-059,2,Document Ingestion,Implement Drive OAuth credential storage,backlog,P2-058
+P2-060,2,Document Ingestion,Implement Drive folder configuration,backlog,P2-059
+P2-061,2,Document Ingestion,Implement initial Drive discovery sync,backlog,P2-060
+P2-062,2,Document Ingestion,Implement incremental Drive sync,backlog,P2-061
+P2-063,2,Document Ingestion,Propagate Drive deletions,backlog,P2-062
+P2-064,2,Document Ingestion,Add connector health status,backlog,P2-063
+P2-065,2,Document Ingestion,Create synthetic ingestion fixtures,backlog,P2-064
+P2-066,2,Document Ingestion,Add ingestion integration tests,backlog,P2-065
+P2-067,2,Document Ingestion,Add ingestion recovery runbook,backlog,P2-066
+P3-001,3,Retrieval and Answer Generation,Define retrieval request contract,backlog,PHASE-2-EXIT
+P3-002,3,Retrieval and Answer Generation,Define retrieval result contract,backlog,P3-001
+P3-003,3,Retrieval and Answer Generation,Define retrieval-adapter interface,backlog,P3-002
+P3-004,3,Retrieval and Answer Generation,Implement File Search retrieval adapter,backlog,P3-003
+P3-005,3,Retrieval and Answer Generation,Implement mandatory tenant-store selection,backlog,P3-004
+P3-006,3,Retrieval and Answer Generation,Implement metadata-filter builder,backlog,P3-005
+P3-007,3,Retrieval and Answer Generation,Reject unsupported filter combinations,backlog,P3-006
+P3-008,3,Retrieval and Answer Generation,Add retrieval-filter unit tests,backlog,P3-007
+P3-009,3,Retrieval and Answer Generation,Add cross-tenant retrieval tests,backlog,P3-008
+P3-010,3,Retrieval and Answer Generation,Define conversation domain model,backlog,P3-009
+P3-011,3,Retrieval and Answer Generation,Create conversation database tables,backlog,P3-010
+P3-012,3,Retrieval and Answer Generation,Create message database tables,backlog,P3-011
+P3-013,3,Retrieval and Answer Generation,Apply RLS to conversation tables,backlog,P3-012
+P3-014,3,Retrieval and Answer Generation,Define query API contract,backlog,P3-013
+P3-015,3,Retrieval and Answer Generation,Implement conversation creation,backlog,P3-014
+P3-016,3,Retrieval and Answer Generation,Implement user-message validation,backlog,P3-015
+P3-017,3,Retrieval and Answer Generation,Implement conversation ownership check,backlog,P3-016
+P3-018,3,Retrieval and Answer Generation,Create base system prompt,backlog,P3-017
+P3-019,3,Retrieval and Answer Generation,Create citation-policy prompt fragment,backlog,P3-018
+P3-020,3,Retrieval and Answer Generation,Create insufficient-evidence prompt,backlog,P3-019
+P3-021,3,Retrieval and Answer Generation,Create retrieved-content delimiter,backlog,P3-020
+P3-022,3,Retrieval and Answer Generation,Add prompt manifest entries,backlog,P3-021
+P3-023,3,Retrieval and Answer Generation,Implement prompt-variable validation,backlog,P3-022
+P3-024,3,Retrieval and Answer Generation,Implement retrieval orchestration,backlog,P3-023
+P3-025,3,Retrieval and Answer Generation,Limit retrieval result count,backlog,P3-024
+P3-026,3,Retrieval and Answer Generation,Implement evidence normalization,backlog,P3-025
+P3-027,3,Retrieval and Answer Generation,Implement citation identifier mapping,backlog,P3-026
+P3-028,3,Retrieval and Answer Generation,Implement Responses API adapter,backlog,P3-027
+P3-029,3,Retrieval and Answer Generation,Build grounded-generation request,backlog,P3-028
+P3-030,3,Retrieval and Answer Generation,Implement server-sent event streaming,backlog,P3-029
+P3-031,3,Retrieval and Answer Generation,Implement streaming cancellation,backlog,P3-030
+P3-032,3,Retrieval and Answer Generation,Parse provider citations,backlog,P3-031
+P3-033,3,Retrieval and Answer Generation,Validate citation references,backlog,P3-032
+P3-034,3,Retrieval and Answer Generation,Persist completed assistant response,backlog,P3-033
+P3-035,3,Retrieval and Answer Generation,Persist failed-response state,backlog,P3-034
+P3-036,3,Retrieval and Answer Generation,Implement insufficient-evidence decision,backlog,P3-035
+P3-037,3,Retrieval and Answer Generation,Implement no-document-access response,backlog,P3-036
+P3-038,3,Retrieval and Answer Generation,Implement bounded conversation history,backlog,P3-037
+P3-039,3,Retrieval and Answer Generation,Implement token-budget calculation,backlog,P3-038
+P3-040,3,Retrieval and Answer Generation,Implement provider timeout handling,backlog,P3-039
+P3-041,3,Retrieval and Answer Generation,Implement provider rate-limit handling,backlog,P3-040
+P3-042,3,Retrieval and Answer Generation,Implement provider-unavailable circuit breaker,backlog,P3-041
+P3-043,3,Retrieval and Answer Generation,Add request and provider traces,backlog,P3-042
+P3-044,3,Retrieval and Answer Generation,Add retrieval metrics,backlog,P3-043
+P3-045,3,Retrieval and Answer Generation,Add generation metrics,backlog,P3-044
+P3-046,3,Retrieval and Answer Generation,Redact prompt and evidence content from default logs,backlog,P3-045
+P3-047,3,Retrieval and Answer Generation,Create answerable-question evaluation dataset,backlog,P3-046
+P3-048,3,Retrieval and Answer Generation,Create unanswerable-question dataset,backlog,P3-047
+P3-049,3,Retrieval and Answer Generation,Create citation-correctness dataset,backlog,P3-048
+P3-050,3,Retrieval and Answer Generation,Create conflicting-document dataset,backlog,P3-049
+P3-051,3,Retrieval and Answer Generation,Create superseded-document dataset,backlog,P3-050
+P3-052,3,Retrieval and Answer Generation,Create prompt-injection document dataset,backlog,P3-051
+P3-053,3,Retrieval and Answer Generation,Create tenant-isolation evaluation dataset,backlog,P3-052
+P3-054,3,Retrieval and Answer Generation,Implement offline evaluation runner,backlog,P3-053
+P3-055,3,Retrieval and Answer Generation,Define initial quality thresholds,backlog,P3-054
+P3-056,3,Retrieval and Answer Generation,Add evaluation checks to CI,backlog,P3-055
+P3-057,3,Retrieval and Answer Generation,Document query architecture,backlog,P3-056
+P3-058,3,Retrieval and Answer Generation,Document model and prompt rollback,backlog,P3-057
+P4-001,4,Embeddable Widget,Define public widget configuration schema,backlog,PHASE-3-EXIT
+P4-002,4,Embeddable Widget,Define widget versioning policy,backlog,P4-001
+P4-003,4,Embeddable Widget,Implement loader script entry point,backlog,P4-002
+P4-004,4,Embeddable Widget,Implement duplicate-loader protection,backlog,P4-003
+P4-005,4,Embeddable Widget,Implement launcher Web Component,backlog,P4-004
+P4-006,4,Embeddable Widget,Implement Shadow DOM styles,backlog,P4-005
+P4-007,4,Embeddable Widget,Implement iframe creation,backlog,P4-006
+P4-008,4,Embeddable Widget,Configure iframe sandbox attributes,backlog,P4-007
+P4-009,4,Embeddable Widget,Define host-to-iframe message schemas,backlog,P4-008
+P4-010,4,Embeddable Widget,Define iframe-to-host message schemas,backlog,P4-009
+P4-011,4,Embeddable Widget,Implement message origin validation,backlog,P4-010
+P4-012,4,Embeddable Widget,Implement message schema validation,backlog,P4-011
+P4-013,4,Embeddable Widget,Implement tenant embed-origin configuration,backlog,P4-012
+P4-014,4,Embeddable Widget,Enforce embed-origin allowlist,backlog,P4-013
+P4-015,4,Embeddable Widget,Implement host session-exchange client,backlog,P4-014
+P4-016,4,Embeddable Widget,Implement secure token handoff to iframe,backlog,P4-015
+P4-017,4,Embeddable Widget,Prevent token persistence in browser storage,backlog,P4-016
+P4-018,4,Embeddable Widget,Implement assistant iframe application shell,backlog,P4-017
+P4-019,4,Embeddable Widget,Implement authenticated API client,backlog,P4-018
+P4-020,4,Embeddable Widget,Implement conversation creation UI,backlog,P4-019
+P4-021,4,Embeddable Widget,Implement message composer,backlog,P4-020
+P4-022,4,Embeddable Widget,Implement streaming message renderer,backlog,P4-021
+P4-023,4,Embeddable Widget,Implement streaming cancellation UI,backlog,P4-022
+P4-024,4,Embeddable Widget,Implement citation presentation,backlog,P4-023
+P4-025,4,Embeddable Widget,Implement source-detail view,backlog,P4-024
+P4-026,4,Embeddable Widget,Implement insufficient-evidence state,backlog,P4-025
+P4-027,4,Embeddable Widget,Implement authentication-expired state,backlog,P4-026
+P4-028,4,Embeddable Widget,Implement service-unavailable state,backlog,P4-027
+P4-029,4,Embeddable Widget,Implement retry control,backlog,P4-028
+P4-030,4,Embeddable Widget,Implement widget open and close behavior,backlog,P4-029
+P4-031,4,Embeddable Widget,Implement responsive sizing,backlog,P4-030
+P4-032,4,Embeddable Widget,Implement configurable placement,backlog,P4-031
+P4-033,4,Embeddable Widget,Implement controlled theming,backlog,P4-032
+P4-034,4,Embeddable Widget,Implement focus management,backlog,P4-033
+P4-035,4,Embeddable Widget,Implement keyboard navigation,backlog,P4-034
+P4-036,4,Embeddable Widget,Add screen-reader labels and announcements,backlog,P4-035
+P4-037,4,Embeddable Widget,Add color-contrast checks,backlog,P4-036
+P4-038,4,Embeddable Widget,Configure CSP for assistant origin,backlog,P4-037
+P4-039,4,Embeddable Widget,Configure frame-ancestors policy,backlog,P4-038
+P4-040,4,Embeddable Widget,Add clickjacking and framing tests,backlog,P4-039
+P4-041,4,Embeddable Widget,Add postMessage security tests,backlog,P4-040
+P4-042,4,Embeddable Widget,Add widget unit tests,backlog,P4-041
+P4-043,4,Embeddable Widget,Add widget end-to-end test host,backlog,P4-042
+P4-044,4,Embeddable Widget,Test widget in Next.js host,backlog,P4-043
+P4-045,4,Embeddable Widget,Test widget in plain HTML host,backlog,P4-044
+P4-046,4,Embeddable Widget,Test widget in another SPA framework,backlog,P4-045
+P4-047,4,Embeddable Widget,Add widget bundle-size budget,backlog,P4-046
+P4-048,4,Embeddable Widget,Add widget release build,backlog,P4-047
+P4-049,4,Embeddable Widget,Publish widget assets to development CDN,backlog,P4-048
+P4-050,4,Embeddable Widget,Add asset-integrity metadata,backlog,P4-049
+P4-051,4,Embeddable Widget,Document embedding procedure,backlog,P4-050
+P4-052,4,Embeddable Widget,Document widget events API,backlog,P4-051
+P4-053,4,Embeddable Widget,Document CSP requirements,backlog,P4-052
+P5-001,5,Administration and Operations,Define administration-role matrix,backlog,PHASE-4-EXIT
+P5-002,5,Administration and Operations,Enforce administration-route authorization,backlog,P5-001
+P5-003,5,Administration and Operations,Implement administration application shell,backlog,P5-002
+P5-004,5,Administration and Operations,Implement tenant-settings read API,backlog,P5-003
+P5-005,5,Administration and Operations,Implement tenant-settings update API,backlog,P5-004
+P5-006,5,Administration and Operations,Build tenant-settings page,backlog,P5-005
+P5-007,5,Administration and Operations,Build allowed-origin management UI,backlog,P5-006
+P5-008,5,Administration and Operations,Add source-list API,backlog,P5-007
+P5-009,5,Administration and Operations,Build source-list page,backlog,P5-008
+P5-010,5,Administration and Operations,Build manual-upload interface,backlog,P5-009
+P5-011,5,Administration and Operations,Build Drive-connector setup flow,backlog,P5-010
+P5-012,5,Administration and Operations,Build connector-health display,backlog,P5-011
+P5-013,5,Administration and Operations,Implement manual synchronization action,backlog,P5-012
+P5-014,5,Administration and Operations,Implement source-disable action,backlog,P5-013
+P5-015,5,Administration and Operations,Build document-list page,backlog,P5-014
+P5-016,5,Administration and Operations,Add document search and filters,backlog,P5-015
+P5-017,5,Administration and Operations,Build document-detail page,backlog,P5-016
+P5-018,5,Administration and Operations,Implement document reindex action,backlog,P5-017
+P5-019,5,Administration and Operations,Implement document-delete action,backlog,P5-018
+P5-020,5,Administration and Operations,Require destructive-action confirmation,backlog,P5-019
+P5-021,5,Administration and Operations,Build ingestion-job list,backlog,P5-020
+P5-022,5,Administration and Operations,Build ingestion-job detail view,backlog,P5-021
+P5-023,5,Administration and Operations,Implement failed-job replay action,backlog,P5-022
+P5-024,5,Administration and Operations,Implement dead-letter queue summary,backlog,P5-023
+P5-025,5,Administration and Operations,Implement audit-event query API,backlog,P5-024
+P5-026,5,Administration and Operations,Build audit-log viewer,backlog,P5-025
+P5-027,5,Administration and Operations,Protect audit events from modification,backlog,P5-026
+P5-028,5,Administration and Operations,Define usage-event aggregation,backlog,P5-027
+P5-029,5,Administration and Operations,Implement tenant-usage API,backlog,P5-028
+P5-030,5,Administration and Operations,Build usage dashboard,backlog,P5-029
+P5-031,5,Administration and Operations,Add tenant quota configuration,backlog,P5-030
+P5-032,5,Administration and Operations,Enforce request quotas,backlog,P5-031
+P5-033,5,Administration and Operations,Define user-feedback schema,backlog,P5-032
+P5-034,5,Administration and Operations,Implement feedback submission API,backlog,P5-033
+P5-035,5,Administration and Operations,Add widget feedback controls,backlog,P5-034
+P5-036,5,Administration and Operations,Build feedback review page,backlog,P5-035
+P5-037,5,Administration and Operations,Link feedback to traces and prompt versions,backlog,P5-036
+P5-038,5,Administration and Operations,Implement evaluation-report storage,backlog,P5-037
+P5-039,5,Administration and Operations,Build evaluation-results page,backlog,P5-038
+P5-040,5,Administration and Operations,Implement prompt-version read API,backlog,P5-039
+P5-041,5,Administration and Operations,Build prompt-version display,backlog,P5-040
+P5-042,5,Administration and Operations,Add system-status page,backlog,P5-041
+P5-043,5,Administration and Operations,Define alert thresholds,backlog,P5-042
+P5-044,5,Administration and Operations,Configure ingestion-failure alerts,backlog,P5-043
+P5-045,5,Administration and Operations,Configure query-error alerts,backlog,P5-044
+P5-046,5,Administration and Operations,Configure authorization-denial anomaly alerts,backlog,P5-045
+P5-047,5,Administration and Operations,Configure queue-backlog alerts,backlog,P5-046
+P5-048,5,Administration and Operations,Create deployment runbook,backlog,P5-047
+P5-049,5,Administration and Operations,Create rollback runbook,backlog,P5-048
+P5-050,5,Administration and Operations,Create OpenAI outage runbook,backlog,P5-049
+P5-051,5,Administration and Operations,Create failed-ingestion runbook,backlog,P5-050
+P5-052,5,Administration and Operations,Create tenant-offboarding runbook,backlog,P5-051
+P5-053,5,Administration and Operations,Create secret-rotation runbook,backlog,P5-052
+P5-054,5,Administration and Operations,Create prompt-rollback runbook,backlog,P5-053
+P5-055,5,Administration and Operations,Add administrative end-to-end tests,backlog,P5-054
+P5-056,5,Administration and Operations,Add administration audit tests,backlog,P5-055
+P6-001,6,Browser Extension,Define supported browser versions,backlog,PHASE-5-EXIT
+P6-002,6,Browser Extension,Define extension use cases,backlog,P6-001
+P6-003,6,Browser Extension,Define minimum permission set,backlog,P6-002
+P6-004,6,Browser Extension,Create Manifest V3 configuration,backlog,P6-003
+P6-005,6,Browser Extension,Implement extension service worker,backlog,P6-004
+P6-006,6,Browser Extension,Implement side-panel shell,backlog,P6-005
+P6-007,6,Browser Extension,Reuse assistant design-system components,backlog,P6-006
+P6-008,6,Browser Extension,Implement extension authentication entry point,backlog,P6-007
+P6-009,6,Browser Extension,Implement extension session-token exchange,backlog,P6-008
+P6-010,6,Browser Extension,Prevent permanent token storage,backlog,P6-009
+P6-011,6,Browser Extension,Implement conversation creation,backlog,P6-010
+P6-012,6,Browser Extension,Implement streaming chat,backlog,P6-011
+P6-013,6,Browser Extension,Implement citations in extension UI,backlog,P6-012
+P6-014,6,Browser Extension,Define page-context request schema,backlog,P6-013
+P6-015,6,Browser Extension,Implement explicit share-selection action,backlog,P6-014
+P6-016,6,Browser Extension,Implement selected-text extraction,backlog,P6-015
+P6-017,6,Browser Extension,Implement context preview,backlog,P6-016
+P6-018,6,Browser Extension,Implement context confirmation,backlog,P6-017
+P6-019,6,Browser Extension,Add context-size limit,backlog,P6-018
+P6-020,6,Browser Extension,Add sensitive-field warning,backlog,P6-019
+P6-021,6,Browser Extension,Implement active-tab access,backlog,P6-020
+P6-022,6,Browser Extension,Avoid broad host permissions,backlog,P6-021
+P6-023,6,Browser Extension,Implement tenant domain allowlist,backlog,P6-022
+P6-024,6,Browser Extension,Enforce domain allowlist,backlog,P6-023
+P6-025,6,Browser Extension,Implement content-script messaging,backlog,P6-024
+P6-026,6,Browser Extension,Validate extension message senders,backlog,P6-025
+P6-027,6,Browser Extension,Implement extension error states,backlog,P6-026
+P6-028,6,Browser Extension,Implement session-expiry recovery,backlog,P6-027
+P6-029,6,Browser Extension,Add extension event telemetry,backlog,P6-028
+P6-030,6,Browser Extension,Add extension unit tests,backlog,P6-029
+P6-031,6,Browser Extension,Add extension integration tests,backlog,P6-030
+P6-032,6,Browser Extension,Add page-context security tests,backlog,P6-031
+P6-033,6,Browser Extension,Add domain-restriction tests,backlog,P6-032
+P6-034,6,Browser Extension,Add extension build signing process,backlog,P6-033
+P6-035,6,Browser Extension,Generate internal release package,backlog,P6-034
+P6-036,6,Browser Extension,Document enterprise deployment options,backlog,P6-035
+P6-037,6,Browser Extension,Document extension permissions,backlog,P6-036
+P6-038,6,Browser Extension,Document user privacy behavior,backlog,P6-037
+P6-039,6,Browser Extension,Pilot extension with internal test group,backlog,P6-038
+P6-040,6,Browser Extension,Resolve pilot defects,backlog,P6-039
+P7-001,7,Production Hardening,Finalize system data-flow diagram,backlog,PHASE-6-EXIT
+P7-002,7,Production Hardening,Classify stored and transmitted data,backlog,P7-001
+P7-003,7,Production Hardening,Finalize trust-boundary diagram,backlog,P7-002
+P7-004,7,Production Hardening,Complete threat model,backlog,P7-003
+P7-005,7,Production Hardening,Review tenant-isolation controls,backlog,P7-004
+P7-006,7,Production Hardening,Review least-privilege IAM policies,backlog,P7-005
+P7-007,7,Production Hardening,Review secret inventory,backlog,P7-006
+P7-008,7,Production Hardening,Test secret rotation,backlog,P7-007
+P7-009,7,Production Hardening,Define retention policy by data type,backlog,P7-008
+P7-010,7,Production Hardening,Implement conversation-retention jobs,backlog,P7-009
+P7-011,7,Production Hardening,Implement audit-retention behavior,backlog,P7-010
+P7-012,7,Production Hardening,Configure vector-store expiration policy where appropriate,backlog,P7-011
+P7-013,7,Production Hardening,Test document-deletion completeness,backlog,P7-012
+P7-014,7,Production Hardening,Test tenant-offboarding,backlog,P7-013
+P7-015,7,Production Hardening,Define service-level indicators,backlog,P7-014
+P7-016,7,Production Hardening,Define service-level objectives,backlog,P7-015
+P7-017,7,Production Hardening,Configure SLO dashboards,backlog,P7-016
+P7-018,7,Production Hardening,Configure SLO alerts,backlog,P7-017
+P7-019,7,Production Hardening,Create representative load model,backlog,P7-018
+P7-020,7,Production Hardening,Implement API load test,backlog,P7-019
+P7-021,7,Production Hardening,Implement widget load test,backlog,P7-020
+P7-022,7,Production Hardening,Implement ingestion throughput test,backlog,P7-021
+P7-023,7,Production Hardening,Establish performance baseline,backlog,P7-022
+P7-024,7,Production Hardening,Tune API worker configuration,backlog,P7-023
+P7-025,7,Production Hardening,Tune database connection pools,backlog,P7-024
+P7-026,7,Production Hardening,Tune ingestion concurrency,backlog,P7-025
+P7-027,7,Production Hardening,Set retrieval result limits,backlog,P7-026
+P7-028,7,Production Hardening,Set tenant request-rate limits,backlog,P7-027
+P7-029,7,Production Hardening,Set tenant usage quotas,backlog,P7-028
+P7-030,7,Production Hardening,Configure edge rate limiting,backlog,P7-029
+P7-031,7,Production Hardening,Configure CDN and WAF policies,backlog,P7-030
+P7-032,7,Production Hardening,Test OpenAI timeout behavior,backlog,P7-031
+P7-033,7,Production Hardening,Test OpenAI rate-limit behavior,backlog,P7-032
+P7-034,7,Production Hardening,Test OpenAI outage behavior,backlog,P7-033
+P7-035,7,Production Hardening,Test database unavailability,backlog,P7-034
+P7-036,7,Production Hardening,Test queue unavailability,backlog,P7-035
+P7-037,7,Production Hardening,Test object-storage unavailability,backlog,P7-036
+P7-038,7,Production Hardening,Test worker termination during processing,backlog,P7-037
+P7-039,7,Production Hardening,Test network interruption during streaming,backlog,P7-038
+P7-040,7,Production Hardening,Verify circuit-breaker recovery,backlog,P7-039
+P7-041,7,Production Hardening,Define backup scope and schedule,backlog,P7-040
+P7-042,7,Production Hardening,Configure database backups,backlog,P7-041
+P7-043,7,Production Hardening,Configure infrastructure-state backups,backlog,P7-042
+P7-044,7,Production Hardening,Execute database restore test,backlog,P7-043
+P7-045,7,Production Hardening,Execute configuration restore test,backlog,P7-044
+P7-046,7,Production Hardening,Define recovery-time objective,backlog,P7-045
+P7-047,7,Production Hardening,Define recovery-point objective,backlog,P7-046
+P7-048,7,Production Hardening,Create disaster-recovery runbook,backlog,P7-047
+P7-049,7,Production Hardening,Execute disaster-recovery exercise,backlog,P7-048
+P7-050,7,Production Hardening,Expand prompt-injection test suite,backlog,P7-049
+P7-051,7,Production Hardening,Add RAG-poisoning scenarios,backlog,P7-050
+P7-052,7,Production Hardening,Add data-exfiltration scenarios,backlog,P7-051
+P7-053,7,Production Hardening,Add conflicting-policy scenarios,backlog,P7-052
+P7-054,7,Production Hardening,Add authorization-boundary fuzz tests,backlog,P7-053
+P7-055,7,Production Hardening,Freeze production evaluation dataset version,backlog,P7-054
+P7-056,7,Production Hardening,Run candidate model evaluation,backlog,P7-055
+P7-057,7,Production Hardening,Run candidate prompt evaluation,backlog,P7-056
+P7-058,7,Production Hardening,Approve production model and prompt configuration,backlog,P7-057
+P7-059,7,Production Hardening,Conduct accessibility audit,backlog,P7-058
+P7-060,7,Production Hardening,Conduct browser compatibility test,backlog,P7-059
+P7-061,7,Production Hardening,Conduct external or independent penetration test,backlog,P7-060
+P7-062,7,Production Hardening,Remediate critical penetration-test findings,backlog,P7-061
+P7-063,7,Production Hardening,Remediate required high-severity findings,backlog,P7-062
+P7-064,7,Production Hardening,Review software licenses,backlog,P7-063
+P7-065,7,Production Hardening,Generate production SBOM,backlog,P7-064
+P7-066,7,Production Hardening,Verify artifact provenance,backlog,P7-065
+P7-067,7,Production Hardening,Finalize incident-response plan,backlog,P7-066
+P7-068,7,Production Hardening,Run incident-response tabletop exercise,backlog,P7-067
+P7-069,7,Production Hardening,Define support escalation path,backlog,P7-068
+P7-070,7,Production Hardening,Define pilot tenant criteria,backlog,P7-069
+P7-071,7,Production Hardening,Provision pilot tenant,backlog,P7-070
+P7-072,7,Production Hardening,Ingest pilot synthetic or approved documents,backlog,P7-071
+P7-073,7,Production Hardening,Execute pilot acceptance tests,backlog,P7-072
+P7-074,7,Production Hardening,Monitor pilot quality and operations,backlog,P7-073
+P7-075,7,Production Hardening,Resolve pilot release blockers,backlog,P7-074
+P7-076,7,Production Hardening,Conduct production-readiness review,backlog,P7-075
+P7-077,7,Production Hardening,Record go-live decision,backlog,P7-076
+P7-078,7,Production Hardening,Deploy approved production release,backlog,P7-077
+P7-079,7,Production Hardening,Execute production smoke tests,backlog,P7-078
+P7-080,7,Production Hardening,Verify production alerts and dashboards,backlog,P7-079
+P7-081,7,Production Hardening,Verify production rollback readiness,backlog,P7-080
+P7-082,7,Production Hardening,Conduct post-release review,backlog,P7-081

@@ -1,0 +1,7 @@
+* @repository-owners
+/docs/ @architecture-owners
+/infra/ @platform-owners
+/prompts/ @rag-owners @security-owners
+/evals/ @rag-owners
+/services/*/src/*/security/ @security-owners
+/.github/workflows/ @platform-owners @security-owners

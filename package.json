@@ -1,0 +1,12 @@
+{
+  "name": "knowledge-assistant",
+  "private": true,
+  "version": "0.0.0",
+  "packageManager": "pnpm@TO_BE_PINNED_IN_P0_007",
+  "scripts": {
+    "build": "echo 'Implement in Phase 0'",
+    "lint": "echo 'Implement in Phase 0'",
+    "typecheck": "echo 'Implement in Phase 0'",
+    "test": "echo 'Implement in Phase 0'"
+  }
+}

@@ -1,0 +1,97 @@
+# Phase 7 — Production Hardening
+
+Validate security, resilience, performance, recovery, compliance, and operational readiness.
+
+## Tasks
+
+- [ ] `P7-001` — Finalize system data-flow diagram
+- [ ] `P7-002` — Classify stored and transmitted data
+- [ ] `P7-003` — Finalize trust-boundary diagram
+- [ ] `P7-004` — Complete threat model
+- [ ] `P7-005` — Review tenant-isolation controls
+- [ ] `P7-006` — Review least-privilege IAM policies
+- [ ] `P7-007` — Review secret inventory
+- [ ] `P7-008` — Test secret rotation
+- [ ] `P7-009` — Define retention policy by data type
+- [ ] `P7-010` — Implement conversation-retention jobs
+- [ ] `P7-011` — Implement audit-retention behavior
+- [ ] `P7-012` — Configure vector-store expiration policy where appropriate
+- [ ] `P7-013` — Test document-deletion completeness
+- [ ] `P7-014` — Test tenant-offboarding
+- [ ] `P7-015` — Define service-level indicators
+- [ ] `P7-016` — Define service-level objectives
+- [ ] `P7-017` — Configure SLO dashboards
+- [ ] `P7-018` — Configure SLO alerts
+- [ ] `P7-019` — Create representative load model
+- [ ] `P7-020` — Implement API load test
+- [ ] `P7-021` — Implement widget load test
+- [ ] `P7-022` — Implement ingestion throughput test
+- [ ] `P7-023` — Establish performance baseline
+- [ ] `P7-024` — Tune API worker configuration
+- [ ] `P7-025` — Tune database connection pools
+- [ ] `P7-026` — Tune ingestion concurrency
+- [ ] `P7-027` — Set retrieval result limits
+- [ ] `P7-028` — Set tenant request-rate limits
+- [ ] `P7-029` — Set tenant usage quotas
+- [ ] `P7-030` — Configure edge rate limiting
+- [ ] `P7-031` — Configure CDN and WAF policies
+- [ ] `P7-032` — Test OpenAI timeout behavior
+- [ ] `P7-033` — Test OpenAI rate-limit behavior
+- [ ] `P7-034` — Test OpenAI outage behavior
+- [ ] `P7-035` — Test database unavailability
+- [ ] `P7-036` — Test queue unavailability
+- [ ] `P7-037` — Test object-storage unavailability
+- [ ] `P7-038` — Test worker termination during processing
+- [ ] `P7-039` — Test network interruption during streaming
+- [ ] `P7-040` — Verify circuit-breaker recovery
+- [ ] `P7-041` — Define backup scope and schedule
+- [ ] `P7-042` — Configure database backups
+- [ ] `P7-043` — Configure infrastructure-state backups
+- [ ] `P7-044` — Execute database restore test
+- [ ] `P7-045` — Execute configuration restore test
+- [ ] `P7-046` — Define recovery-time objective
+- [ ] `P7-047` — Define recovery-point objective
+- [ ] `P7-048` — Create disaster-recovery runbook
+- [ ] `P7-049` — Execute disaster-recovery exercise
+- [ ] `P7-050` — Expand prompt-injection test suite
+- [ ] `P7-051` — Add RAG-poisoning scenarios
+- [ ] `P7-052` — Add data-exfiltration scenarios
+- [ ] `P7-053` — Add conflicting-policy scenarios
+- [ ] `P7-054` — Add authorization-boundary fuzz tests
+- [ ] `P7-055` — Freeze production evaluation dataset version
+- [ ] `P7-056` — Run candidate model evaluation
+- [ ] `P7-057` — Run candidate prompt evaluation
+- [ ] `P7-058` — Approve production model and prompt configuration
+- [ ] `P7-059` — Conduct accessibility audit
+- [ ] `P7-060` — Conduct browser compatibility test
+- [ ] `P7-061` — Conduct external or independent penetration test
+- [ ] `P7-062` — Remediate critical penetration-test findings
+- [ ] `P7-063` — Remediate required high-severity findings
+- [ ] `P7-064` — Review software licenses
+- [ ] `P7-065` — Generate production SBOM
+- [ ] `P7-066` — Verify artifact provenance
+- [ ] `P7-067` — Finalize incident-response plan
+- [ ] `P7-068` — Run incident-response tabletop exercise
+- [ ] `P7-069` — Define support escalation path
+- [ ] `P7-070` — Define pilot tenant criteria
+- [ ] `P7-071` — Provision pilot tenant
+- [ ] `P7-072` — Ingest pilot synthetic or approved documents
+- [ ] `P7-073` — Execute pilot acceptance tests
+- [ ] `P7-074` — Monitor pilot quality and operations
+- [ ] `P7-075` — Resolve pilot release blockers
+- [ ] `P7-076` — Conduct production-readiness review
+- [ ] `P7-077` — Record go-live decision
+- [ ] `P7-078` — Deploy approved production release
+- [ ] `P7-079` — Execute production smoke tests
+- [ ] `P7-080` — Verify production alerts and dashboards
+- [ ] `P7-081` — Verify production rollback readiness
+- [ ] `P7-082` — Conduct post-release review
+
+## Exit gate
+
+- [ ] Threat modeling and penetration testing are complete.
+- [ ] No unapproved critical security findings remain.
+- [ ] Performance and resilience targets are met.
+- [ ] Retention, deletion, backup, restore, and disaster recovery are verified.
+- [ ] Frozen evaluations approve production model and prompt versions.
+- [ ] Pilot and production-readiness gates are approved.

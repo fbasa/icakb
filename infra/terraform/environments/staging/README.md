@@ -1,0 +1,3 @@
+# infra/terraform/environments/staging
+
+Placeholder created by the approved repository plan. Implement only through the corresponding atomic tasks.

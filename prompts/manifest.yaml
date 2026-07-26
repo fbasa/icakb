@@ -1,0 +1,23 @@
+schema_version: 1
+prompts:
+  - id: assistant-system
+    version: 0.1.0-draft
+    file: system/assistant.md
+    purpose: Grounded internal knowledge assistant system instructions
+    owner: unassigned
+    variables: []
+    evaluation_sets: []
+  - id: citation-policy
+    version: 0.1.0-draft
+    file: system/citation-policy.md
+    purpose: Citation and evidence requirements
+    owner: unassigned
+    variables: []
+    evaluation_sets: []
+  - id: insufficient-evidence
+    version: 0.1.0-draft
+    file: retrieval/insufficient-evidence.md
+    purpose: Safe abstention behavior
+    owner: unassigned
+    variables: []
+    evaluation_sets: []

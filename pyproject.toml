@@ -1,0 +1,14 @@
+[project]
+name = "knowledge-assistant-workspace"
+version = "0.0.0"
+requires-python = ">=3.12"
+dependencies = []
+
+[tool.uv.workspace]
+members = ["services/*", "python-packages/*"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.mypy]
+strict = true
