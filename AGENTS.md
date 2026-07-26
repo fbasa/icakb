@@ -47,8 +47,10 @@ Before changing files, read:
 - Do not log raw prompts, complete user messages, retrieved passages, uploaded document bodies, cookies, or tokens by default.
 - Authentication, authorization, tenancy, and permission changes require negative tests and audit-event verification.
 - Prompt or retrieval changes require evaluation results and an identified rollback version.
+- Do not claim success when a check was skipped or failed. Report the exact incomplete item.
+- Do not push changes automatically.
 
-## Required checks
+## Required checks  
 
 Run the narrowest relevant checks during development. Before completion, run:
 
