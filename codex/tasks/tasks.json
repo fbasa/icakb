@@ -1,10 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_from": [
-    "docs/ARCHITECTURE.md",
-    "docs/ENGINEERING_FOUNDATION.md",
-    "docs/PLAN.md"
-  ],
+  "generated_from": ["docs/ARCHITECTURE.md", "docs/ENGINEERING_FOUNDATION.md", "docs/PLAN.md"],
   "task_count": 463,
   "tasks": [
     {
@@ -12,7 +8,7 @@
       "phase": 0,
       "phase_name": "Engineering Foundation",
       "title": "Create the Git repository",
-      "status": "in_review",
+      "status": "done",
       "depends_on": [],
       "objective": "Create the Git repository.",
       "acceptance_criteria": [
@@ -35,10 +31,8 @@
       "phase": 0,
       "phase_name": "Engineering Foundation",
       "title": "Configure branch protection for main",
-      "status": "backlog",
-      "depends_on": [
-        "P0-001"
-      ],
+      "status": "done",
+      "depends_on": ["P0-001"],
       "objective": "Configure branch protection for main.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -60,10 +54,8 @@
       "phase": 0,
       "phase_name": "Engineering Foundation",
       "title": "Add root .gitignore and .gitattributes",
-      "status": "backlog",
-      "depends_on": [
-        "P0-002"
-      ],
+      "status": "done",
+      "depends_on": ["P0-002"],
       "objective": "Add root .gitignore and .gitattributes.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -85,10 +77,8 @@
       "phase": 0,
       "phase_name": "Engineering Foundation",
       "title": "Add .editorconfig",
-      "status": "backlog",
-      "depends_on": [
-        "P0-003"
-      ],
+      "status": "done",
+      "depends_on": ["P0-003"],
       "objective": "Add .editorconfig.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -110,10 +100,8 @@
       "phase": 0,
       "phase_name": "Engineering Foundation",
       "title": "Create the monorepo directory structure",
-      "status": "backlog",
-      "depends_on": [
-        "P0-004"
-      ],
+      "status": "done",
+      "depends_on": ["P0-004"],
       "objective": "Create the monorepo directory structure.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -135,10 +123,8 @@
       "phase": 0,
       "phase_name": "Engineering Foundation",
       "title": "Initialize the pnpm workspace",
-      "status": "backlog",
-      "depends_on": [
-        "P0-005"
-      ],
+      "status": "done",
+      "depends_on": ["P0-005"],
       "objective": "Initialize the pnpm workspace.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -160,10 +146,8 @@
       "phase": 0,
       "phase_name": "Engineering Foundation",
       "title": "Pin Node.js and pnpm versions",
-      "status": "backlog",
-      "depends_on": [
-        "P0-006"
-      ],
+      "status": "done",
+      "depends_on": ["P0-006"],
       "objective": "Pin Node.js and pnpm versions.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -185,10 +169,8 @@
       "phase": 0,
       "phase_name": "Engineering Foundation",
       "title": "Initialize the Python uv workspace",
-      "status": "backlog",
-      "depends_on": [
-        "P0-007"
-      ],
+      "status": "done",
+      "depends_on": ["P0-007"],
       "objective": "Initialize the Python uv workspace.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -210,10 +192,8 @@
       "phase": 0,
       "phase_name": "Engineering Foundation",
       "title": "Pin the Python runtime version",
-      "status": "backlog",
-      "depends_on": [
-        "P0-008"
-      ],
+      "status": "done",
+      "depends_on": ["P0-008"],
       "objective": "Pin the Python runtime version.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -235,10 +215,8 @@
       "phase": 0,
       "phase_name": "Engineering Foundation",
       "title": "Create the initial FastAPI service",
-      "status": "backlog",
-      "depends_on": [
-        "P0-009"
-      ],
+      "status": "done",
+      "depends_on": ["P0-009"],
       "objective": "Create the initial FastAPI service.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -260,10 +238,8 @@
       "phase": 0,
       "phase_name": "Engineering Foundation",
       "title": "Create the initial Next.js assistant application",
-      "status": "backlog",
-      "depends_on": [
-        "P0-010"
-      ],
+      "status": "done",
+      "depends_on": ["P0-010"],
       "objective": "Create the initial Next.js assistant application.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -285,10 +261,8 @@
       "phase": 0,
       "phase_name": "Engineering Foundation",
       "title": "Create the initial Next.js administration application",
-      "status": "backlog",
-      "depends_on": [
-        "P0-011"
-      ],
+      "status": "done",
+      "depends_on": ["P0-011"],
       "objective": "Create the initial Next.js administration application.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -310,10 +284,8 @@
       "phase": 0,
       "phase_name": "Engineering Foundation",
       "title": "Create the widget-loader package",
-      "status": "backlog",
-      "depends_on": [
-        "P0-012"
-      ],
+      "status": "done",
+      "depends_on": ["P0-012"],
       "objective": "Create the widget-loader package.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -335,10 +307,8 @@
       "phase": 0,
       "phase_name": "Engineering Foundation",
       "title": "Create the browser-extension package",
-      "status": "backlog",
-      "depends_on": [
-        "P0-013"
-      ],
+      "status": "done",
+      "depends_on": ["P0-013"],
       "objective": "Create the browser-extension package.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -360,10 +330,8 @@
       "phase": 0,
       "phase_name": "Engineering Foundation",
       "title": "Configure Python formatting with Ruff",
-      "status": "backlog",
-      "depends_on": [
-        "P0-014"
-      ],
+      "status": "done",
+      "depends_on": ["P0-014"],
       "objective": "Configure Python formatting with Ruff.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -385,10 +353,8 @@
       "phase": 0,
       "phase_name": "Engineering Foundation",
       "title": "Configure Python linting with Ruff",
-      "status": "backlog",
-      "depends_on": [
-        "P0-015"
-      ],
+      "status": "done",
+      "depends_on": ["P0-015"],
       "objective": "Configure Python linting with Ruff.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -410,10 +376,8 @@
       "phase": 0,
       "phase_name": "Engineering Foundation",
       "title": "Configure Python type checking with mypy",
-      "status": "backlog",
-      "depends_on": [
-        "P0-016"
-      ],
+      "status": "done",
+      "depends_on": ["P0-016"],
       "objective": "Configure Python type checking with mypy.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -435,10 +399,8 @@
       "phase": 0,
       "phase_name": "Engineering Foundation",
       "title": "Configure TypeScript strict mode",
-      "status": "backlog",
-      "depends_on": [
-        "P0-017"
-      ],
+      "status": "done",
+      "depends_on": ["P0-017"],
       "objective": "Configure TypeScript strict mode.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -460,10 +422,8 @@
       "phase": 0,
       "phase_name": "Engineering Foundation",
       "title": "Configure ESLint",
-      "status": "backlog",
-      "depends_on": [
-        "P0-018"
-      ],
+      "status": "done",
+      "depends_on": ["P0-018"],
       "objective": "Configure ESLint.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -485,10 +445,8 @@
       "phase": 0,
       "phase_name": "Engineering Foundation",
       "title": "Configure Prettier",
-      "status": "backlog",
-      "depends_on": [
-        "P0-019"
-      ],
+      "status": "done",
+      "depends_on": ["P0-019"],
       "objective": "Configure Prettier.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -510,10 +468,8 @@
       "phase": 0,
       "phase_name": "Engineering Foundation",
       "title": "Configure Markdown, shell, Docker and YAML linting",
-      "status": "backlog",
-      "depends_on": [
-        "P0-020"
-      ],
+      "status": "done",
+      "depends_on": ["P0-020"],
       "objective": "Configure Markdown, shell, Docker and YAML linting.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -535,10 +491,8 @@
       "phase": 0,
       "phase_name": "Engineering Foundation",
       "title": "Configure pytest",
-      "status": "backlog",
-      "depends_on": [
-        "P0-021"
-      ],
+      "status": "done",
+      "depends_on": ["P0-021"],
       "objective": "Configure pytest.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -560,10 +514,8 @@
       "phase": 0,
       "phase_name": "Engineering Foundation",
       "title": "Configure Vitest and React Testing Library",
-      "status": "backlog",
-      "depends_on": [
-        "P0-022"
-      ],
+      "status": "done",
+      "depends_on": ["P0-022"],
       "objective": "Configure Vitest and React Testing Library.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -585,10 +537,8 @@
       "phase": 0,
       "phase_name": "Engineering Foundation",
       "title": "Configure Playwright",
-      "status": "backlog",
-      "depends_on": [
-        "P0-023"
-      ],
+      "status": "done",
+      "depends_on": ["P0-023"],
       "objective": "Configure Playwright.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -610,10 +560,8 @@
       "phase": 0,
       "phase_name": "Engineering Foundation",
       "title": "Create root Makefile commands",
-      "status": "backlog",
-      "depends_on": [
-        "P0-024"
-      ],
+      "status": "done",
+      "depends_on": ["P0-024"],
       "objective": "Create root Makefile commands.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -635,10 +583,8 @@
       "phase": 0,
       "phase_name": "Engineering Foundation",
       "title": "Configure pre-commit hooks",
-      "status": "backlog",
-      "depends_on": [
-        "P0-025"
-      ],
+      "status": "done",
+      "depends_on": ["P0-025"],
       "objective": "Configure pre-commit hooks.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -660,10 +606,8 @@
       "phase": 0,
       "phase_name": "Engineering Foundation",
       "title": "Configure Gitleaks",
-      "status": "backlog",
-      "depends_on": [
-        "P0-026"
-      ],
+      "status": "done",
+      "depends_on": ["P0-026"],
       "objective": "Configure Gitleaks.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -685,10 +629,8 @@
       "phase": 0,
       "phase_name": "Engineering Foundation",
       "title": "Configure Dependabot",
-      "status": "backlog",
-      "depends_on": [
-        "P0-027"
-      ],
+      "status": "done",
+      "depends_on": ["P0-027"],
       "objective": "Configure Dependabot.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -710,10 +652,8 @@
       "phase": 0,
       "phase_name": "Engineering Foundation",
       "title": "Configure GitHub Dependency Review",
-      "status": "backlog",
-      "depends_on": [
-        "P0-028"
-      ],
+      "status": "done",
+      "depends_on": ["P0-028"],
       "objective": "Configure GitHub Dependency Review.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -735,10 +675,8 @@
       "phase": 0,
       "phase_name": "Engineering Foundation",
       "title": "Configure CodeQL",
-      "status": "backlog",
-      "depends_on": [
-        "P0-029"
-      ],
+      "status": "done",
+      "depends_on": ["P0-029"],
       "objective": "Configure CodeQL.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -760,10 +698,8 @@
       "phase": 0,
       "phase_name": "Engineering Foundation",
       "title": "Configure Trivy repository scanning",
-      "status": "backlog",
-      "depends_on": [
-        "P0-030"
-      ],
+      "status": "done",
+      "depends_on": ["P0-030"],
       "objective": "Configure Trivy repository scanning.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -785,10 +721,8 @@
       "phase": 0,
       "phase_name": "Engineering Foundation",
       "title": "Create service Dockerfiles",
-      "status": "backlog",
-      "depends_on": [
-        "P0-031"
-      ],
+      "status": "done",
+      "depends_on": ["P0-031"],
       "objective": "Create service Dockerfiles.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -810,10 +744,8 @@
       "phase": 0,
       "phase_name": "Engineering Foundation",
       "title": "Add container health checks",
-      "status": "backlog",
-      "depends_on": [
-        "P0-032"
-      ],
+      "status": "done",
+      "depends_on": ["P0-032"],
       "objective": "Add container health checks.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -835,10 +767,8 @@
       "phase": 0,
       "phase_name": "Engineering Foundation",
       "title": "Create local Docker Compose configuration",
-      "status": "backlog",
-      "depends_on": [
-        "P0-033"
-      ],
+      "status": "done",
+      "depends_on": ["P0-033"],
       "objective": "Create local Docker Compose configuration.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -860,10 +790,8 @@
       "phase": 0,
       "phase_name": "Engineering Foundation",
       "title": "Add local PostgreSQL",
-      "status": "backlog",
-      "depends_on": [
-        "P0-034"
-      ],
+      "status": "done",
+      "depends_on": ["P0-034"],
       "objective": "Add local PostgreSQL.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -885,10 +813,8 @@
       "phase": 0,
       "phase_name": "Engineering Foundation",
       "title": "Add local object-storage emulator",
-      "status": "backlog",
-      "depends_on": [
-        "P0-035"
-      ],
+      "status": "done",
+      "depends_on": ["P0-035"],
       "objective": "Add local object-storage emulator.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -910,10 +836,8 @@
       "phase": 0,
       "phase_name": "Engineering Foundation",
       "title": "Add local queue emulator or queue abstraction",
-      "status": "backlog",
-      "depends_on": [
-        "P0-036"
-      ],
+      "status": "done",
+      "depends_on": ["P0-036"],
       "objective": "Add local queue emulator or queue abstraction.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -935,10 +859,8 @@
       "phase": 0,
       "phase_name": "Engineering Foundation",
       "title": "Add environment configuration validation",
-      "status": "backlog",
-      "depends_on": [
-        "P0-037"
-      ],
+      "status": "done",
+      "depends_on": ["P0-037"],
       "objective": "Add environment configuration validation.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -960,10 +882,8 @@
       "phase": 0,
       "phase_name": "Engineering Foundation",
       "title": "Create .env.example",
-      "status": "backlog",
-      "depends_on": [
-        "P0-038"
-      ],
+      "status": "done",
+      "depends_on": ["P0-038"],
       "objective": "Create .env.example.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -985,10 +905,8 @@
       "phase": 0,
       "phase_name": "Engineering Foundation",
       "title": "Add structured JSON logging",
-      "status": "backlog",
-      "depends_on": [
-        "P0-039"
-      ],
+      "status": "done",
+      "depends_on": ["P0-039"],
       "objective": "Add structured JSON logging.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -1010,10 +928,8 @@
       "phase": 0,
       "phase_name": "Engineering Foundation",
       "title": "Add request-correlation middleware",
-      "status": "backlog",
-      "depends_on": [
-        "P0-040"
-      ],
+      "status": "done",
+      "depends_on": ["P0-040"],
       "objective": "Add request-correlation middleware.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -1035,10 +951,8 @@
       "phase": 0,
       "phase_name": "Engineering Foundation",
       "title": "Add OpenTelemetry bootstrap",
-      "status": "backlog",
-      "depends_on": [
-        "P0-041"
-      ],
+      "status": "done",
+      "depends_on": ["P0-041"],
       "objective": "Add OpenTelemetry bootstrap.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -1060,10 +974,8 @@
       "phase": 0,
       "phase_name": "Engineering Foundation",
       "title": "Implement /health/live",
-      "status": "backlog",
-      "depends_on": [
-        "P0-042"
-      ],
+      "status": "done",
+      "depends_on": ["P0-042"],
       "objective": "Implement /health/live.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -1085,10 +997,8 @@
       "phase": 0,
       "phase_name": "Engineering Foundation",
       "title": "Implement /health/ready",
-      "status": "backlog",
-      "depends_on": [
-        "P0-043"
-      ],
+      "status": "done",
+      "depends_on": ["P0-043"],
       "objective": "Implement /health/ready.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -1110,10 +1020,8 @@
       "phase": 0,
       "phase_name": "Engineering Foundation",
       "title": "Implement RFC 9457 API error format",
-      "status": "backlog",
-      "depends_on": [
-        "P0-044"
-      ],
+      "status": "done",
+      "depends_on": ["P0-044"],
       "objective": "Implement RFC 9457 API error format.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -1135,10 +1043,8 @@
       "phase": 0,
       "phase_name": "Engineering Foundation",
       "title": "Create the base CI workflow",
-      "status": "backlog",
-      "depends_on": [
-        "P0-045"
-      ],
+      "status": "done",
+      "depends_on": ["P0-045"],
       "objective": "Create the base CI workflow.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -1160,10 +1066,8 @@
       "phase": 0,
       "phase_name": "Engineering Foundation",
       "title": "Add application-build jobs to CI",
-      "status": "backlog",
-      "depends_on": [
-        "P0-046"
-      ],
+      "status": "done",
+      "depends_on": ["P0-046"],
       "objective": "Add application-build jobs to CI.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -1185,10 +1089,8 @@
       "phase": 0,
       "phase_name": "Engineering Foundation",
       "title": "Add container-image scanning",
-      "status": "backlog",
-      "depends_on": [
-        "P0-047"
-      ],
+      "status": "done",
+      "depends_on": ["P0-047"],
       "objective": "Add container-image scanning.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -1210,10 +1112,8 @@
       "phase": 0,
       "phase_name": "Engineering Foundation",
       "title": "Create the development deployment workflow",
-      "status": "backlog",
-      "depends_on": [
-        "P0-048"
-      ],
+      "status": "done",
+      "depends_on": ["P0-048"],
       "objective": "Create the development deployment workflow.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -1235,10 +1135,8 @@
       "phase": 0,
       "phase_name": "Engineering Foundation",
       "title": "Configure deployment through OIDC",
-      "status": "backlog",
-      "depends_on": [
-        "P0-049"
-      ],
+      "status": "done",
+      "depends_on": ["P0-049"],
       "objective": "Configure deployment through OIDC.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -1260,10 +1158,8 @@
       "phase": 0,
       "phase_name": "Engineering Foundation",
       "title": "Add immutable image tagging",
-      "status": "backlog",
-      "depends_on": [
-        "P0-050"
-      ],
+      "status": "done",
+      "depends_on": ["P0-050"],
       "objective": "Add immutable image tagging.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -1285,10 +1181,8 @@
       "phase": 0,
       "phase_name": "Engineering Foundation",
       "title": "Create README.md",
-      "status": "backlog",
-      "depends_on": [
-        "P0-051"
-      ],
+      "status": "done",
+      "depends_on": ["P0-051"],
       "objective": "Create README.md.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -1310,10 +1204,8 @@
       "phase": 0,
       "phase_name": "Engineering Foundation",
       "title": "Create AGENTS.md",
-      "status": "backlog",
-      "depends_on": [
-        "P0-052"
-      ],
+      "status": "done",
+      "depends_on": ["P0-052"],
       "objective": "Create AGENTS.md.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -1335,10 +1227,8 @@
       "phase": 0,
       "phase_name": "Engineering Foundation",
       "title": "Create docs/ARCHITECTURE.md",
-      "status": "backlog",
-      "depends_on": [
-        "P0-053"
-      ],
+      "status": "done",
+      "depends_on": ["P0-053"],
       "objective": "Create docs/ARCHITECTURE.md.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -1360,10 +1250,8 @@
       "phase": 0,
       "phase_name": "Engineering Foundation",
       "title": "Create docs/DECISIONS.md and initial ADRs",
-      "status": "backlog",
-      "depends_on": [
-        "P0-054"
-      ],
+      "status": "done",
+      "depends_on": ["P0-054"],
       "objective": "Create docs/DECISIONS.md and initial ADRs.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -1385,10 +1273,8 @@
       "phase": 0,
       "phase_name": "Engineering Foundation",
       "title": "Create docs/PLAN.md",
-      "status": "backlog",
-      "depends_on": [
-        "P0-055"
-      ],
+      "status": "done",
+      "depends_on": ["P0-055"],
       "objective": "Create docs/PLAN.md.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -1410,10 +1296,8 @@
       "phase": 0,
       "phase_name": "Engineering Foundation",
       "title": "Create docs/OPERATIONS.md",
-      "status": "backlog",
-      "depends_on": [
-        "P0-056"
-      ],
+      "status": "done",
+      "depends_on": ["P0-056"],
       "objective": "Create docs/OPERATIONS.md.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -1435,10 +1319,8 @@
       "phase": 0,
       "phase_name": "Engineering Foundation",
       "title": "Create SECURITY.md",
-      "status": "backlog",
-      "depends_on": [
-        "P0-057"
-      ],
+      "status": "done",
+      "depends_on": ["P0-057"],
       "objective": "Create SECURITY.md.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -1460,10 +1342,8 @@
       "phase": 0,
       "phase_name": "Engineering Foundation",
       "title": "Create CONTRIBUTING.md",
-      "status": "backlog",
-      "depends_on": [
-        "P0-058"
-      ],
+      "status": "done",
+      "depends_on": ["P0-058"],
       "objective": "Create CONTRIBUTING.md.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -1485,10 +1365,8 @@
       "phase": 0,
       "phase_name": "Engineering Foundation",
       "title": "Create docs/TESTING.md",
-      "status": "backlog",
-      "depends_on": [
-        "P0-059"
-      ],
+      "status": "done",
+      "depends_on": ["P0-059"],
       "objective": "Create docs/TESTING.md.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -1510,10 +1388,8 @@
       "phase": 0,
       "phase_name": "Engineering Foundation",
       "title": "Create prompt-library skeleton",
-      "status": "backlog",
-      "depends_on": [
-        "P0-060"
-      ],
+      "status": "done",
+      "depends_on": ["P0-060"],
       "objective": "Create prompt-library skeleton.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -1535,10 +1411,8 @@
       "phase": 0,
       "phase_name": "Engineering Foundation",
       "title": "Create evaluation-library skeleton",
-      "status": "backlog",
-      "depends_on": [
-        "P0-061"
-      ],
+      "status": "done",
+      "depends_on": ["P0-061"],
       "objective": "Create evaluation-library skeleton.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -1560,10 +1434,8 @@
       "phase": 0,
       "phase_name": "Engineering Foundation",
       "title": "Implement the version endpoint demonstration",
-      "status": "backlog",
-      "depends_on": [
-        "P0-062"
-      ],
+      "status": "done",
+      "depends_on": ["P0-062"],
       "objective": "Implement the version endpoint demonstration.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -1585,10 +1457,8 @@
       "phase": 0,
       "phase_name": "Engineering Foundation",
       "title": "Deploy the version endpoint to development",
-      "status": "backlog",
-      "depends_on": [
-        "P0-063"
-      ],
+      "status": "done",
+      "depends_on": ["P0-063"],
       "objective": "Deploy the version endpoint to development.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -1610,10 +1480,8 @@
       "phase": 0,
       "phase_name": "Engineering Foundation",
       "title": "Add post-deployment smoke test",
-      "status": "backlog",
-      "depends_on": [
-        "P0-064"
-      ],
+      "status": "done",
+      "depends_on": ["P0-064"],
       "objective": "Add post-deployment smoke test.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -1635,10 +1503,8 @@
       "phase": 0,
       "phase_name": "Engineering Foundation",
       "title": "Demonstrate rollback",
-      "status": "backlog",
-      "depends_on": [
-        "P0-065"
-      ],
+      "status": "done",
+      "depends_on": ["P0-065"],
       "objective": "Demonstrate rollback.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -1661,9 +1527,7 @@
       "phase_name": "Identity and Tenant Foundation",
       "title": "Define the tenant domain model",
       "status": "backlog",
-      "depends_on": [
-        "PHASE-0-EXIT"
-      ],
+      "depends_on": ["PHASE-0-EXIT"],
       "objective": "Define the tenant domain model.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -1686,9 +1550,7 @@
       "phase_name": "Identity and Tenant Foundation",
       "title": "Define the user domain model",
       "status": "backlog",
-      "depends_on": [
-        "P1-001"
-      ],
+      "depends_on": ["P1-001"],
       "objective": "Define the user domain model.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -1711,9 +1573,7 @@
       "phase_name": "Identity and Tenant Foundation",
       "title": "Define roles, groups and memberships",
       "status": "backlog",
-      "depends_on": [
-        "P1-002"
-      ],
+      "depends_on": ["P1-002"],
       "objective": "Define roles, groups and memberships.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -1736,9 +1596,7 @@
       "phase_name": "Identity and Tenant Foundation",
       "title": "Create tenant database tables",
       "status": "backlog",
-      "depends_on": [
-        "P1-003"
-      ],
+      "depends_on": ["P1-003"],
       "objective": "Create tenant database tables.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -1761,9 +1619,7 @@
       "phase_name": "Identity and Tenant Foundation",
       "title": "Create user database tables",
       "status": "backlog",
-      "depends_on": [
-        "P1-004"
-      ],
+      "depends_on": ["P1-004"],
       "objective": "Create user database tables.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -1786,9 +1642,7 @@
       "phase_name": "Identity and Tenant Foundation",
       "title": "Create role and group tables",
       "status": "backlog",
-      "depends_on": [
-        "P1-005"
-      ],
+      "depends_on": ["P1-005"],
       "objective": "Create role and group tables.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -1811,9 +1665,7 @@
       "phase_name": "Identity and Tenant Foundation",
       "title": "Add typed tenant identifiers",
       "status": "backlog",
-      "depends_on": [
-        "P1-006"
-      ],
+      "depends_on": ["P1-006"],
       "objective": "Add typed tenant identifiers.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -1836,9 +1688,7 @@
       "phase_name": "Identity and Tenant Foundation",
       "title": "Add typed user identifiers",
       "status": "backlog",
-      "depends_on": [
-        "P1-007"
-      ],
+      "depends_on": ["P1-007"],
       "objective": "Add typed user identifiers.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -1861,9 +1711,7 @@
       "phase_name": "Identity and Tenant Foundation",
       "title": "Define identity-provider configuration schema",
       "status": "backlog",
-      "depends_on": [
-        "P1-008"
-      ],
+      "depends_on": ["P1-008"],
       "objective": "Define identity-provider configuration schema.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -1886,9 +1734,7 @@
       "phase_name": "Identity and Tenant Foundation",
       "title": "Implement OIDC discovery loading",
       "status": "backlog",
-      "depends_on": [
-        "P1-009"
-      ],
+      "depends_on": ["P1-009"],
       "objective": "Implement OIDC discovery loading.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -1911,9 +1757,7 @@
       "phase_name": "Identity and Tenant Foundation",
       "title": "Implement JWT signature validation",
       "status": "backlog",
-      "depends_on": [
-        "P1-010"
-      ],
+      "depends_on": ["P1-010"],
       "objective": "Implement JWT signature validation.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -1936,9 +1780,7 @@
       "phase_name": "Identity and Tenant Foundation",
       "title": "Implement issuer and audience validation",
       "status": "backlog",
-      "depends_on": [
-        "P1-011"
-      ],
+      "depends_on": ["P1-011"],
       "objective": "Implement issuer and audience validation.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -1961,9 +1803,7 @@
       "phase_name": "Identity and Tenant Foundation",
       "title": "Implement token-expiry validation",
       "status": "backlog",
-      "depends_on": [
-        "P1-012"
-      ],
+      "depends_on": ["P1-012"],
       "objective": "Implement token-expiry validation.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -1986,9 +1826,7 @@
       "phase_name": "Identity and Tenant Foundation",
       "title": "Implement authenticated-request middleware",
       "status": "backlog",
-      "depends_on": [
-        "P1-013"
-      ],
+      "depends_on": ["P1-013"],
       "objective": "Implement authenticated-request middleware.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -2011,9 +1849,7 @@
       "phase_name": "Identity and Tenant Foundation",
       "title": "Map external subject to internal user",
       "status": "backlog",
-      "depends_on": [
-        "P1-014"
-      ],
+      "depends_on": ["P1-014"],
       "objective": "Map external subject to internal user.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -2036,9 +1872,7 @@
       "phase_name": "Identity and Tenant Foundation",
       "title": "Implement just-in-time user provisioning",
       "status": "backlog",
-      "depends_on": [
-        "P1-015"
-      ],
+      "depends_on": ["P1-015"],
       "objective": "Implement just-in-time user provisioning.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -2061,9 +1895,7 @@
       "phase_name": "Identity and Tenant Foundation",
       "title": "Implement disabled-user handling",
       "status": "backlog",
-      "depends_on": [
-        "P1-016"
-      ],
+      "depends_on": ["P1-016"],
       "objective": "Implement disabled-user handling.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -2086,9 +1918,7 @@
       "phase_name": "Identity and Tenant Foundation",
       "title": "Implement tenant resolution",
       "status": "backlog",
-      "depends_on": [
-        "P1-017"
-      ],
+      "depends_on": ["P1-017"],
       "objective": "Implement tenant resolution.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -2111,9 +1941,7 @@
       "phase_name": "Identity and Tenant Foundation",
       "title": "Prevent request-supplied tenant override",
       "status": "backlog",
-      "depends_on": [
-        "P1-018"
-      ],
+      "depends_on": ["P1-018"],
       "objective": "Prevent request-supplied tenant override.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -2136,9 +1964,7 @@
       "phase_name": "Identity and Tenant Foundation",
       "title": "Define authorization-policy interface",
       "status": "backlog",
-      "depends_on": [
-        "P1-019"
-      ],
+      "depends_on": ["P1-019"],
       "objective": "Define authorization-policy interface.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -2161,9 +1987,7 @@
       "phase_name": "Identity and Tenant Foundation",
       "title": "Implement role-based authorization checks",
       "status": "backlog",
-      "depends_on": [
-        "P1-020"
-      ],
+      "depends_on": ["P1-020"],
       "objective": "Implement role-based authorization checks.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -2186,9 +2010,7 @@
       "phase_name": "Identity and Tenant Foundation",
       "title": "Implement group-based authorization context",
       "status": "backlog",
-      "depends_on": [
-        "P1-021"
-      ],
+      "depends_on": ["P1-021"],
       "objective": "Implement group-based authorization context.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -2211,9 +2033,7 @@
       "phase_name": "Identity and Tenant Foundation",
       "title": "Implement PostgreSQL tenant context",
       "status": "backlog",
-      "depends_on": [
-        "P1-022"
-      ],
+      "depends_on": ["P1-022"],
       "objective": "Implement PostgreSQL tenant context.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -2236,9 +2056,7 @@
       "phase_name": "Identity and Tenant Foundation",
       "title": "Create initial Row-Level Security policies",
       "status": "backlog",
-      "depends_on": [
-        "P1-023"
-      ],
+      "depends_on": ["P1-023"],
       "objective": "Create initial Row-Level Security policies.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -2261,9 +2079,7 @@
       "phase_name": "Identity and Tenant Foundation",
       "title": "Add RLS negative tests",
       "status": "backlog",
-      "depends_on": [
-        "P1-024"
-      ],
+      "depends_on": ["P1-024"],
       "objective": "Add RLS negative tests.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -2286,9 +2102,7 @@
       "phase_name": "Identity and Tenant Foundation",
       "title": "Define short-lived assistant session-token schema",
       "status": "backlog",
-      "depends_on": [
-        "P1-025"
-      ],
+      "depends_on": ["P1-025"],
       "objective": "Define short-lived assistant session-token schema.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -2311,9 +2125,7 @@
       "phase_name": "Identity and Tenant Foundation",
       "title": "Implement session-token issuance",
       "status": "backlog",
-      "depends_on": [
-        "P1-026"
-      ],
+      "depends_on": ["P1-026"],
       "objective": "Implement session-token issuance.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -2336,9 +2148,7 @@
       "phase_name": "Identity and Tenant Foundation",
       "title": "Implement session-token validation",
       "status": "backlog",
-      "depends_on": [
-        "P1-027"
-      ],
+      "depends_on": ["P1-027"],
       "objective": "Implement session-token validation.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -2361,9 +2171,7 @@
       "phase_name": "Identity and Tenant Foundation",
       "title": "Add session revocation versioning",
       "status": "backlog",
-      "depends_on": [
-        "P1-028"
-      ],
+      "depends_on": ["P1-028"],
       "objective": "Add session revocation versioning.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -2386,9 +2194,7 @@
       "phase_name": "Identity and Tenant Foundation",
       "title": "Define audit-event schema",
       "status": "backlog",
-      "depends_on": [
-        "P1-029"
-      ],
+      "depends_on": ["P1-029"],
       "objective": "Define audit-event schema.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -2411,9 +2217,7 @@
       "phase_name": "Identity and Tenant Foundation",
       "title": "Create audit-event storage",
       "status": "backlog",
-      "depends_on": [
-        "P1-030"
-      ],
+      "depends_on": ["P1-030"],
       "objective": "Create audit-event storage.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -2436,9 +2240,7 @@
       "phase_name": "Identity and Tenant Foundation",
       "title": "Record authentication events",
       "status": "backlog",
-      "depends_on": [
-        "P1-031"
-      ],
+      "depends_on": ["P1-031"],
       "objective": "Record authentication events.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -2461,9 +2263,7 @@
       "phase_name": "Identity and Tenant Foundation",
       "title": "Record authorization denials",
       "status": "backlog",
-      "depends_on": [
-        "P1-032"
-      ],
+      "depends_on": ["P1-032"],
       "objective": "Record authorization denials.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -2486,9 +2286,7 @@
       "phase_name": "Identity and Tenant Foundation",
       "title": "Add tenant-management API contracts",
       "status": "backlog",
-      "depends_on": [
-        "P1-033"
-      ],
+      "depends_on": ["P1-033"],
       "objective": "Add tenant-management API contracts.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -2511,9 +2309,7 @@
       "phase_name": "Identity and Tenant Foundation",
       "title": "Implement tenant creation",
       "status": "backlog",
-      "depends_on": [
-        "P1-034"
-      ],
+      "depends_on": ["P1-034"],
       "objective": "Implement tenant creation.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -2536,9 +2332,7 @@
       "phase_name": "Identity and Tenant Foundation",
       "title": "Implement tenant disablement",
       "status": "backlog",
-      "depends_on": [
-        "P1-035"
-      ],
+      "depends_on": ["P1-035"],
       "objective": "Implement tenant disablement.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -2561,9 +2355,7 @@
       "phase_name": "Identity and Tenant Foundation",
       "title": "Implement user-status administration",
       "status": "backlog",
-      "depends_on": [
-        "P1-036"
-      ],
+      "depends_on": ["P1-036"],
       "objective": "Implement user-status administration.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -2586,9 +2378,7 @@
       "phase_name": "Identity and Tenant Foundation",
       "title": "Add tenant and user metrics",
       "status": "backlog",
-      "depends_on": [
-        "P1-037"
-      ],
+      "depends_on": ["P1-037"],
       "objective": "Add tenant and user metrics.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -2611,9 +2401,7 @@
       "phase_name": "Identity and Tenant Foundation",
       "title": "Document identity flow",
       "status": "backlog",
-      "depends_on": [
-        "P1-038"
-      ],
+      "depends_on": ["P1-038"],
       "objective": "Document identity flow.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -2636,9 +2424,7 @@
       "phase_name": "Identity and Tenant Foundation",
       "title": "Document tenant-isolation design",
       "status": "backlog",
-      "depends_on": [
-        "P1-039"
-      ],
+      "depends_on": ["P1-039"],
       "objective": "Document tenant-isolation design.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -2661,9 +2447,7 @@
       "phase_name": "Identity and Tenant Foundation",
       "title": "Create tenant-isolation test suite",
       "status": "backlog",
-      "depends_on": [
-        "P1-040"
-      ],
+      "depends_on": ["P1-040"],
       "objective": "Create tenant-isolation test suite.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -2686,9 +2470,7 @@
       "phase_name": "Document Ingestion",
       "title": "Define data-source domain model",
       "status": "backlog",
-      "depends_on": [
-        "PHASE-1-EXIT"
-      ],
+      "depends_on": ["PHASE-1-EXIT"],
       "objective": "Define data-source domain model.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -2711,9 +2493,7 @@
       "phase_name": "Document Ingestion",
       "title": "Define document domain model",
       "status": "backlog",
-      "depends_on": [
-        "P2-001"
-      ],
+      "depends_on": ["P2-001"],
       "objective": "Define document domain model.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -2736,9 +2516,7 @@
       "phase_name": "Document Ingestion",
       "title": "Define document-version model",
       "status": "backlog",
-      "depends_on": [
-        "P2-002"
-      ],
+      "depends_on": ["P2-002"],
       "objective": "Define document-version model.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -2761,9 +2539,7 @@
       "phase_name": "Document Ingestion",
       "title": "Define ingestion-job model",
       "status": "backlog",
-      "depends_on": [
-        "P2-003"
-      ],
+      "depends_on": ["P2-003"],
       "objective": "Define ingestion-job model.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -2786,9 +2562,7 @@
       "phase_name": "Document Ingestion",
       "title": "Create source database tables",
       "status": "backlog",
-      "depends_on": [
-        "P2-004"
-      ],
+      "depends_on": ["P2-004"],
       "objective": "Create source database tables.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -2811,9 +2585,7 @@
       "phase_name": "Document Ingestion",
       "title": "Create document database tables",
       "status": "backlog",
-      "depends_on": [
-        "P2-005"
-      ],
+      "depends_on": ["P2-005"],
       "objective": "Create document database tables.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -2836,9 +2608,7 @@
       "phase_name": "Document Ingestion",
       "title": "Create document-version tables",
       "status": "backlog",
-      "depends_on": [
-        "P2-006"
-      ],
+      "depends_on": ["P2-006"],
       "objective": "Create document-version tables.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -2861,9 +2631,7 @@
       "phase_name": "Document Ingestion",
       "title": "Create ingestion-job tables",
       "status": "backlog",
-      "depends_on": [
-        "P2-007"
-      ],
+      "depends_on": ["P2-007"],
       "objective": "Create ingestion-job tables.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -2886,9 +2654,7 @@
       "phase_name": "Document Ingestion",
       "title": "Apply RLS to ingestion tables",
       "status": "backlog",
-      "depends_on": [
-        "P2-008"
-      ],
+      "depends_on": ["P2-008"],
       "objective": "Apply RLS to ingestion tables.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -2911,9 +2677,7 @@
       "phase_name": "Document Ingestion",
       "title": "Define supported-file policy",
       "status": "backlog",
-      "depends_on": [
-        "P2-009"
-      ],
+      "depends_on": ["P2-009"],
       "objective": "Define supported-file policy.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -2936,9 +2700,7 @@
       "phase_name": "Document Ingestion",
       "title": "Implement upload-request API",
       "status": "backlog",
-      "depends_on": [
-        "P2-010"
-      ],
+      "depends_on": ["P2-010"],
       "objective": "Implement upload-request API.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -2961,9 +2723,7 @@
       "phase_name": "Document Ingestion",
       "title": "Implement presigned object upload",
       "status": "backlog",
-      "depends_on": [
-        "P2-011"
-      ],
+      "depends_on": ["P2-011"],
       "objective": "Implement presigned object upload.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -2986,9 +2746,7 @@
       "phase_name": "Document Ingestion",
       "title": "Implement upload-completion callback",
       "status": "backlog",
-      "depends_on": [
-        "P2-012"
-      ],
+      "depends_on": ["P2-012"],
       "objective": "Implement upload-completion callback.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -3011,9 +2769,7 @@
       "phase_name": "Document Ingestion",
       "title": "Validate file size and declared type",
       "status": "backlog",
-      "depends_on": [
-        "P2-013"
-      ],
+      "depends_on": ["P2-013"],
       "objective": "Validate file size and declared type.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -3036,9 +2792,7 @@
       "phase_name": "Document Ingestion",
       "title": "Detect actual file type",
       "status": "backlog",
-      "depends_on": [
-        "P2-014"
-      ],
+      "depends_on": ["P2-014"],
       "objective": "Detect actual file type.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -3061,9 +2815,7 @@
       "phase_name": "Document Ingestion",
       "title": "Add malware-scanning adapter",
       "status": "backlog",
-      "depends_on": [
-        "P2-015"
-      ],
+      "depends_on": ["P2-015"],
       "objective": "Add malware-scanning adapter.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -3086,9 +2838,7 @@
       "phase_name": "Document Ingestion",
       "title": "Quarantine failed or suspicious uploads",
       "status": "backlog",
-      "depends_on": [
-        "P2-016"
-      ],
+      "depends_on": ["P2-016"],
       "objective": "Quarantine failed or suspicious uploads.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -3111,9 +2861,7 @@
       "phase_name": "Document Ingestion",
       "title": "Define queue-message schema",
       "status": "backlog",
-      "depends_on": [
-        "P2-017"
-      ],
+      "depends_on": ["P2-017"],
       "objective": "Define queue-message schema.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -3136,9 +2884,7 @@
       "phase_name": "Document Ingestion",
       "title": "Implement job publishing",
       "status": "backlog",
-      "depends_on": [
-        "P2-018"
-      ],
+      "depends_on": ["P2-018"],
       "objective": "Implement job publishing.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -3161,9 +2907,7 @@
       "phase_name": "Document Ingestion",
       "title": "Implement worker message consumption",
       "status": "backlog",
-      "depends_on": [
-        "P2-019"
-      ],
+      "depends_on": ["P2-019"],
       "objective": "Implement worker message consumption.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -3186,9 +2930,7 @@
       "phase_name": "Document Ingestion",
       "title": "Add ingestion idempotency key",
       "status": "backlog",
-      "depends_on": [
-        "P2-020"
-      ],
+      "depends_on": ["P2-020"],
       "objective": "Add ingestion idempotency key.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -3211,9 +2953,7 @@
       "phase_name": "Document Ingestion",
       "title": "Add worker lease and visibility handling",
       "status": "backlog",
-      "depends_on": [
-        "P2-021"
-      ],
+      "depends_on": ["P2-021"],
       "objective": "Add worker lease and visibility handling.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -3236,9 +2976,7 @@
       "phase_name": "Document Ingestion",
       "title": "Define extraction-adapter interface",
       "status": "backlog",
-      "depends_on": [
-        "P2-022"
-      ],
+      "depends_on": ["P2-022"],
       "objective": "Define extraction-adapter interface.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -3261,9 +2999,7 @@
       "phase_name": "Document Ingestion",
       "title": "Implement PDF extraction",
       "status": "backlog",
-      "depends_on": [
-        "P2-023"
-      ],
+      "depends_on": ["P2-023"],
       "objective": "Implement PDF extraction.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -3286,9 +3022,7 @@
       "phase_name": "Document Ingestion",
       "title": "Implement DOCX extraction",
       "status": "backlog",
-      "depends_on": [
-        "P2-024"
-      ],
+      "depends_on": ["P2-024"],
       "objective": "Implement DOCX extraction.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -3311,9 +3045,7 @@
       "phase_name": "Document Ingestion",
       "title": "Implement text and Markdown extraction",
       "status": "backlog",
-      "depends_on": [
-        "P2-025"
-      ],
+      "depends_on": ["P2-025"],
       "objective": "Implement text and Markdown extraction.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -3336,9 +3068,7 @@
       "phase_name": "Document Ingestion",
       "title": "Implement unsupported-format failure",
       "status": "backlog",
-      "depends_on": [
-        "P2-026"
-      ],
+      "depends_on": ["P2-026"],
       "objective": "Implement unsupported-format failure.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -3361,9 +3091,7 @@
       "phase_name": "Document Ingestion",
       "title": "Normalize extracted text",
       "status": "backlog",
-      "depends_on": [
-        "P2-027"
-      ],
+      "depends_on": ["P2-027"],
       "objective": "Normalize extracted text.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -3386,9 +3114,7 @@
       "phase_name": "Document Ingestion",
       "title": "Calculate source-content checksum",
       "status": "backlog",
-      "depends_on": [
-        "P2-028"
-      ],
+      "depends_on": ["P2-028"],
       "objective": "Calculate source-content checksum.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -3411,9 +3137,7 @@
       "phase_name": "Document Ingestion",
       "title": "Implement duplicate-content detection",
       "status": "backlog",
-      "depends_on": [
-        "P2-029"
-      ],
+      "depends_on": ["P2-029"],
       "objective": "Implement duplicate-content detection.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -3436,9 +3160,7 @@
       "phase_name": "Document Ingestion",
       "title": "Define document metadata schema",
       "status": "backlog",
-      "depends_on": [
-        "P2-030"
-      ],
+      "depends_on": ["P2-030"],
       "objective": "Define document metadata schema.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -3461,9 +3183,7 @@
       "phase_name": "Document Ingestion",
       "title": "Validate metadata values",
       "status": "backlog",
-      "depends_on": [
-        "P2-031"
-      ],
+      "depends_on": ["P2-031"],
       "objective": "Validate metadata values.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -3486,9 +3206,7 @@
       "phase_name": "Document Ingestion",
       "title": "Map source permissions to retrieval metadata",
       "status": "backlog",
-      "depends_on": [
-        "P2-032"
-      ],
+      "depends_on": ["P2-032"],
       "objective": "Map source permissions to retrieval metadata.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -3511,9 +3229,7 @@
       "phase_name": "Document Ingestion",
       "title": "Define OpenAI vector-store adapter",
       "status": "backlog",
-      "depends_on": [
-        "P2-033"
-      ],
+      "depends_on": ["P2-033"],
       "objective": "Define OpenAI vector-store adapter.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -3536,9 +3252,7 @@
       "phase_name": "Document Ingestion",
       "title": "Implement tenant vector-store creation",
       "status": "backlog",
-      "depends_on": [
-        "P2-034"
-      ],
+      "depends_on": ["P2-034"],
       "objective": "Implement tenant vector-store creation.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -3561,9 +3275,7 @@
       "phase_name": "Document Ingestion",
       "title": "Implement OpenAI file upload",
       "status": "backlog",
-      "depends_on": [
-        "P2-035"
-      ],
+      "depends_on": ["P2-035"],
       "objective": "Implement OpenAI file upload.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -3586,9 +3298,7 @@
       "phase_name": "Document Ingestion",
       "title": "Apply retrieval metadata to indexed files",
       "status": "backlog",
-      "depends_on": [
-        "P2-036"
-      ],
+      "depends_on": ["P2-036"],
       "objective": "Apply retrieval metadata to indexed files.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -3611,9 +3321,7 @@
       "phase_name": "Document Ingestion",
       "title": "Poll indexing completion",
       "status": "backlog",
-      "depends_on": [
-        "P2-037"
-      ],
+      "depends_on": ["P2-037"],
       "objective": "Poll indexing completion.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -3636,9 +3344,7 @@
       "phase_name": "Document Ingestion",
       "title": "Verify indexed-file association",
       "status": "backlog",
-      "depends_on": [
-        "P2-038"
-      ],
+      "depends_on": ["P2-038"],
       "objective": "Verify indexed-file association.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -3661,9 +3367,7 @@
       "phase_name": "Document Ingestion",
       "title": "Persist provider file references",
       "status": "backlog",
-      "depends_on": [
-        "P2-039"
-      ],
+      "depends_on": ["P2-039"],
       "objective": "Persist provider file references.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -3686,9 +3390,7 @@
       "phase_name": "Document Ingestion",
       "title": "Mark ingestion success",
       "status": "backlog",
-      "depends_on": [
-        "P2-040"
-      ],
+      "depends_on": ["P2-040"],
       "objective": "Mark ingestion success.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -3711,9 +3413,7 @@
       "phase_name": "Document Ingestion",
       "title": "Implement transient-error classification",
       "status": "backlog",
-      "depends_on": [
-        "P2-041"
-      ],
+      "depends_on": ["P2-041"],
       "objective": "Implement transient-error classification.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -3736,9 +3436,7 @@
       "phase_name": "Document Ingestion",
       "title": "Implement bounded retries",
       "status": "backlog",
-      "depends_on": [
-        "P2-042"
-      ],
+      "depends_on": ["P2-042"],
       "objective": "Implement bounded retries.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -3761,9 +3459,7 @@
       "phase_name": "Document Ingestion",
       "title": "Implement dead-letter handling",
       "status": "backlog",
-      "depends_on": [
-        "P2-043"
-      ],
+      "depends_on": ["P2-043"],
       "objective": "Implement dead-letter handling.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -3786,9 +3482,7 @@
       "phase_name": "Document Ingestion",
       "title": "Add failed-job replay command",
       "status": "backlog",
-      "depends_on": [
-        "P2-044"
-      ],
+      "depends_on": ["P2-044"],
       "objective": "Add failed-job replay command.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -3811,9 +3505,7 @@
       "phase_name": "Document Ingestion",
       "title": "Implement document deletion request",
       "status": "backlog",
-      "depends_on": [
-        "P2-045"
-      ],
+      "depends_on": ["P2-045"],
       "objective": "Implement document deletion request.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -3836,9 +3528,7 @@
       "phase_name": "Document Ingestion",
       "title": "Delete provider-indexed file",
       "status": "backlog",
-      "depends_on": [
-        "P2-046"
-      ],
+      "depends_on": ["P2-046"],
       "objective": "Delete provider-indexed file.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -3861,9 +3551,7 @@
       "phase_name": "Document Ingestion",
       "title": "Delete or retain canonical object by policy",
       "status": "backlog",
-      "depends_on": [
-        "P2-047"
-      ],
+      "depends_on": ["P2-047"],
       "objective": "Delete or retain canonical object by policy.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -3886,9 +3574,7 @@
       "phase_name": "Document Ingestion",
       "title": "Invalidate document caches",
       "status": "backlog",
-      "depends_on": [
-        "P2-048"
-      ],
+      "depends_on": ["P2-048"],
       "objective": "Invalidate document caches.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -3911,9 +3597,7 @@
       "phase_name": "Document Ingestion",
       "title": "Verify deletion completion",
       "status": "backlog",
-      "depends_on": [
-        "P2-049"
-      ],
+      "depends_on": ["P2-049"],
       "objective": "Verify deletion completion.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -3936,9 +3620,7 @@
       "phase_name": "Document Ingestion",
       "title": "Implement reconciliation job",
       "status": "backlog",
-      "depends_on": [
-        "P2-050"
-      ],
+      "depends_on": ["P2-050"],
       "objective": "Implement reconciliation job.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -3961,9 +3643,7 @@
       "phase_name": "Document Ingestion",
       "title": "Add ingestion metrics",
       "status": "backlog",
-      "depends_on": [
-        "P2-051"
-      ],
+      "depends_on": ["P2-051"],
       "objective": "Add ingestion metrics.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -3986,9 +3666,7 @@
       "phase_name": "Document Ingestion",
       "title": "Add ingestion traces",
       "status": "backlog",
-      "depends_on": [
-        "P2-052"
-      ],
+      "depends_on": ["P2-052"],
       "objective": "Add ingestion traces.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -4011,9 +3689,7 @@
       "phase_name": "Document Ingestion",
       "title": "Add ingestion structured logs",
       "status": "backlog",
-      "depends_on": [
-        "P2-053"
-      ],
+      "depends_on": ["P2-053"],
       "objective": "Add ingestion structured logs.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -4036,9 +3712,7 @@
       "phase_name": "Document Ingestion",
       "title": "Add ingestion-status API",
       "status": "backlog",
-      "depends_on": [
-        "P2-054"
-      ],
+      "depends_on": ["P2-054"],
       "objective": "Add ingestion-status API.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -4061,9 +3735,7 @@
       "phase_name": "Document Ingestion",
       "title": "Add document-list API",
       "status": "backlog",
-      "depends_on": [
-        "P2-055"
-      ],
+      "depends_on": ["P2-055"],
       "objective": "Add document-list API.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -4086,9 +3758,7 @@
       "phase_name": "Document Ingestion",
       "title": "Add document-version API",
       "status": "backlog",
-      "depends_on": [
-        "P2-056"
-      ],
+      "depends_on": ["P2-056"],
       "objective": "Add document-version API.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -4111,9 +3781,7 @@
       "phase_name": "Document Ingestion",
       "title": "Define Google Drive connector interface",
       "status": "backlog",
-      "depends_on": [
-        "P2-057"
-      ],
+      "depends_on": ["P2-057"],
       "objective": "Define Google Drive connector interface.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -4136,9 +3804,7 @@
       "phase_name": "Document Ingestion",
       "title": "Implement Drive OAuth credential storage",
       "status": "backlog",
-      "depends_on": [
-        "P2-058"
-      ],
+      "depends_on": ["P2-058"],
       "objective": "Implement Drive OAuth credential storage.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -4161,9 +3827,7 @@
       "phase_name": "Document Ingestion",
       "title": "Implement Drive folder configuration",
       "status": "backlog",
-      "depends_on": [
-        "P2-059"
-      ],
+      "depends_on": ["P2-059"],
       "objective": "Implement Drive folder configuration.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -4186,9 +3850,7 @@
       "phase_name": "Document Ingestion",
       "title": "Implement initial Drive discovery sync",
       "status": "backlog",
-      "depends_on": [
-        "P2-060"
-      ],
+      "depends_on": ["P2-060"],
       "objective": "Implement initial Drive discovery sync.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -4211,9 +3873,7 @@
       "phase_name": "Document Ingestion",
       "title": "Implement incremental Drive sync",
       "status": "backlog",
-      "depends_on": [
-        "P2-061"
-      ],
+      "depends_on": ["P2-061"],
       "objective": "Implement incremental Drive sync.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -4236,9 +3896,7 @@
       "phase_name": "Document Ingestion",
       "title": "Propagate Drive deletions",
       "status": "backlog",
-      "depends_on": [
-        "P2-062"
-      ],
+      "depends_on": ["P2-062"],
       "objective": "Propagate Drive deletions.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -4261,9 +3919,7 @@
       "phase_name": "Document Ingestion",
       "title": "Add connector health status",
       "status": "backlog",
-      "depends_on": [
-        "P2-063"
-      ],
+      "depends_on": ["P2-063"],
       "objective": "Add connector health status.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -4286,9 +3942,7 @@
       "phase_name": "Document Ingestion",
       "title": "Create synthetic ingestion fixtures",
       "status": "backlog",
-      "depends_on": [
-        "P2-064"
-      ],
+      "depends_on": ["P2-064"],
       "objective": "Create synthetic ingestion fixtures.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -4311,9 +3965,7 @@
       "phase_name": "Document Ingestion",
       "title": "Add ingestion integration tests",
       "status": "backlog",
-      "depends_on": [
-        "P2-065"
-      ],
+      "depends_on": ["P2-065"],
       "objective": "Add ingestion integration tests.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -4336,9 +3988,7 @@
       "phase_name": "Document Ingestion",
       "title": "Add ingestion recovery runbook",
       "status": "backlog",
-      "depends_on": [
-        "P2-066"
-      ],
+      "depends_on": ["P2-066"],
       "objective": "Add ingestion recovery runbook.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -4361,9 +4011,7 @@
       "phase_name": "Retrieval and Answer Generation",
       "title": "Define retrieval request contract",
       "status": "backlog",
-      "depends_on": [
-        "PHASE-2-EXIT"
-      ],
+      "depends_on": ["PHASE-2-EXIT"],
       "objective": "Define retrieval request contract.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -4386,9 +4034,7 @@
       "phase_name": "Retrieval and Answer Generation",
       "title": "Define retrieval result contract",
       "status": "backlog",
-      "depends_on": [
-        "P3-001"
-      ],
+      "depends_on": ["P3-001"],
       "objective": "Define retrieval result contract.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -4411,9 +4057,7 @@
       "phase_name": "Retrieval and Answer Generation",
       "title": "Define retrieval-adapter interface",
       "status": "backlog",
-      "depends_on": [
-        "P3-002"
-      ],
+      "depends_on": ["P3-002"],
       "objective": "Define retrieval-adapter interface.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -4436,9 +4080,7 @@
       "phase_name": "Retrieval and Answer Generation",
       "title": "Implement File Search retrieval adapter",
       "status": "backlog",
-      "depends_on": [
-        "P3-003"
-      ],
+      "depends_on": ["P3-003"],
       "objective": "Implement File Search retrieval adapter.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -4461,9 +4103,7 @@
       "phase_name": "Retrieval and Answer Generation",
       "title": "Implement mandatory tenant-store selection",
       "status": "backlog",
-      "depends_on": [
-        "P3-004"
-      ],
+      "depends_on": ["P3-004"],
       "objective": "Implement mandatory tenant-store selection.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -4486,9 +4126,7 @@
       "phase_name": "Retrieval and Answer Generation",
       "title": "Implement metadata-filter builder",
       "status": "backlog",
-      "depends_on": [
-        "P3-005"
-      ],
+      "depends_on": ["P3-005"],
       "objective": "Implement metadata-filter builder.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -4511,9 +4149,7 @@
       "phase_name": "Retrieval and Answer Generation",
       "title": "Reject unsupported filter combinations",
       "status": "backlog",
-      "depends_on": [
-        "P3-006"
-      ],
+      "depends_on": ["P3-006"],
       "objective": "Reject unsupported filter combinations.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -4536,9 +4172,7 @@
       "phase_name": "Retrieval and Answer Generation",
       "title": "Add retrieval-filter unit tests",
       "status": "backlog",
-      "depends_on": [
-        "P3-007"
-      ],
+      "depends_on": ["P3-007"],
       "objective": "Add retrieval-filter unit tests.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -4561,9 +4195,7 @@
       "phase_name": "Retrieval and Answer Generation",
       "title": "Add cross-tenant retrieval tests",
       "status": "backlog",
-      "depends_on": [
-        "P3-008"
-      ],
+      "depends_on": ["P3-008"],
       "objective": "Add cross-tenant retrieval tests.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -4586,9 +4218,7 @@
       "phase_name": "Retrieval and Answer Generation",
       "title": "Define conversation domain model",
       "status": "backlog",
-      "depends_on": [
-        "P3-009"
-      ],
+      "depends_on": ["P3-009"],
       "objective": "Define conversation domain model.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -4611,9 +4241,7 @@
       "phase_name": "Retrieval and Answer Generation",
       "title": "Create conversation database tables",
       "status": "backlog",
-      "depends_on": [
-        "P3-010"
-      ],
+      "depends_on": ["P3-010"],
       "objective": "Create conversation database tables.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -4636,9 +4264,7 @@
       "phase_name": "Retrieval and Answer Generation",
       "title": "Create message database tables",
       "status": "backlog",
-      "depends_on": [
-        "P3-011"
-      ],
+      "depends_on": ["P3-011"],
       "objective": "Create message database tables.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -4661,9 +4287,7 @@
       "phase_name": "Retrieval and Answer Generation",
       "title": "Apply RLS to conversation tables",
       "status": "backlog",
-      "depends_on": [
-        "P3-012"
-      ],
+      "depends_on": ["P3-012"],
       "objective": "Apply RLS to conversation tables.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -4686,9 +4310,7 @@
       "phase_name": "Retrieval and Answer Generation",
       "title": "Define query API contract",
       "status": "backlog",
-      "depends_on": [
-        "P3-013"
-      ],
+      "depends_on": ["P3-013"],
       "objective": "Define query API contract.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -4711,9 +4333,7 @@
       "phase_name": "Retrieval and Answer Generation",
       "title": "Implement conversation creation",
       "status": "backlog",
-      "depends_on": [
-        "P3-014"
-      ],
+      "depends_on": ["P3-014"],
       "objective": "Implement conversation creation.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -4736,9 +4356,7 @@
       "phase_name": "Retrieval and Answer Generation",
       "title": "Implement user-message validation",
       "status": "backlog",
-      "depends_on": [
-        "P3-015"
-      ],
+      "depends_on": ["P3-015"],
       "objective": "Implement user-message validation.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -4761,9 +4379,7 @@
       "phase_name": "Retrieval and Answer Generation",
       "title": "Implement conversation ownership check",
       "status": "backlog",
-      "depends_on": [
-        "P3-016"
-      ],
+      "depends_on": ["P3-016"],
       "objective": "Implement conversation ownership check.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -4786,9 +4402,7 @@
       "phase_name": "Retrieval and Answer Generation",
       "title": "Create base system prompt",
       "status": "backlog",
-      "depends_on": [
-        "P3-017"
-      ],
+      "depends_on": ["P3-017"],
       "objective": "Create base system prompt.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -4811,9 +4425,7 @@
       "phase_name": "Retrieval and Answer Generation",
       "title": "Create citation-policy prompt fragment",
       "status": "backlog",
-      "depends_on": [
-        "P3-018"
-      ],
+      "depends_on": ["P3-018"],
       "objective": "Create citation-policy prompt fragment.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -4836,9 +4448,7 @@
       "phase_name": "Retrieval and Answer Generation",
       "title": "Create insufficient-evidence prompt",
       "status": "backlog",
-      "depends_on": [
-        "P3-019"
-      ],
+      "depends_on": ["P3-019"],
       "objective": "Create insufficient-evidence prompt.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -4861,9 +4471,7 @@
       "phase_name": "Retrieval and Answer Generation",
       "title": "Create retrieved-content delimiter",
       "status": "backlog",
-      "depends_on": [
-        "P3-020"
-      ],
+      "depends_on": ["P3-020"],
       "objective": "Create retrieved-content delimiter.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -4886,9 +4494,7 @@
       "phase_name": "Retrieval and Answer Generation",
       "title": "Add prompt manifest entries",
       "status": "backlog",
-      "depends_on": [
-        "P3-021"
-      ],
+      "depends_on": ["P3-021"],
       "objective": "Add prompt manifest entries.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -4911,9 +4517,7 @@
       "phase_name": "Retrieval and Answer Generation",
       "title": "Implement prompt-variable validation",
       "status": "backlog",
-      "depends_on": [
-        "P3-022"
-      ],
+      "depends_on": ["P3-022"],
       "objective": "Implement prompt-variable validation.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -4936,9 +4540,7 @@
       "phase_name": "Retrieval and Answer Generation",
       "title": "Implement retrieval orchestration",
       "status": "backlog",
-      "depends_on": [
-        "P3-023"
-      ],
+      "depends_on": ["P3-023"],
       "objective": "Implement retrieval orchestration.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -4961,9 +4563,7 @@
       "phase_name": "Retrieval and Answer Generation",
       "title": "Limit retrieval result count",
       "status": "backlog",
-      "depends_on": [
-        "P3-024"
-      ],
+      "depends_on": ["P3-024"],
       "objective": "Limit retrieval result count.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -4986,9 +4586,7 @@
       "phase_name": "Retrieval and Answer Generation",
       "title": "Implement evidence normalization",
       "status": "backlog",
-      "depends_on": [
-        "P3-025"
-      ],
+      "depends_on": ["P3-025"],
       "objective": "Implement evidence normalization.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -5011,9 +4609,7 @@
       "phase_name": "Retrieval and Answer Generation",
       "title": "Implement citation identifier mapping",
       "status": "backlog",
-      "depends_on": [
-        "P3-026"
-      ],
+      "depends_on": ["P3-026"],
       "objective": "Implement citation identifier mapping.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -5036,9 +4632,7 @@
       "phase_name": "Retrieval and Answer Generation",
       "title": "Implement Responses API adapter",
       "status": "backlog",
-      "depends_on": [
-        "P3-027"
-      ],
+      "depends_on": ["P3-027"],
       "objective": "Implement Responses API adapter.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -5061,9 +4655,7 @@
       "phase_name": "Retrieval and Answer Generation",
       "title": "Build grounded-generation request",
       "status": "backlog",
-      "depends_on": [
-        "P3-028"
-      ],
+      "depends_on": ["P3-028"],
       "objective": "Build grounded-generation request.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -5086,9 +4678,7 @@
       "phase_name": "Retrieval and Answer Generation",
       "title": "Implement server-sent event streaming",
       "status": "backlog",
-      "depends_on": [
-        "P3-029"
-      ],
+      "depends_on": ["P3-029"],
       "objective": "Implement server-sent event streaming.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -5111,9 +4701,7 @@
       "phase_name": "Retrieval and Answer Generation",
       "title": "Implement streaming cancellation",
       "status": "backlog",
-      "depends_on": [
-        "P3-030"
-      ],
+      "depends_on": ["P3-030"],
       "objective": "Implement streaming cancellation.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -5136,9 +4724,7 @@
       "phase_name": "Retrieval and Answer Generation",
       "title": "Parse provider citations",
       "status": "backlog",
-      "depends_on": [
-        "P3-031"
-      ],
+      "depends_on": ["P3-031"],
       "objective": "Parse provider citations.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -5161,9 +4747,7 @@
       "phase_name": "Retrieval and Answer Generation",
       "title": "Validate citation references",
       "status": "backlog",
-      "depends_on": [
-        "P3-032"
-      ],
+      "depends_on": ["P3-032"],
       "objective": "Validate citation references.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -5186,9 +4770,7 @@
       "phase_name": "Retrieval and Answer Generation",
       "title": "Persist completed assistant response",
       "status": "backlog",
-      "depends_on": [
-        "P3-033"
-      ],
+      "depends_on": ["P3-033"],
       "objective": "Persist completed assistant response.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -5211,9 +4793,7 @@
       "phase_name": "Retrieval and Answer Generation",
       "title": "Persist failed-response state",
       "status": "backlog",
-      "depends_on": [
-        "P3-034"
-      ],
+      "depends_on": ["P3-034"],
       "objective": "Persist failed-response state.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -5236,9 +4816,7 @@
       "phase_name": "Retrieval and Answer Generation",
       "title": "Implement insufficient-evidence decision",
       "status": "backlog",
-      "depends_on": [
-        "P3-035"
-      ],
+      "depends_on": ["P3-035"],
       "objective": "Implement insufficient-evidence decision.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -5261,9 +4839,7 @@
       "phase_name": "Retrieval and Answer Generation",
       "title": "Implement no-document-access response",
       "status": "backlog",
-      "depends_on": [
-        "P3-036"
-      ],
+      "depends_on": ["P3-036"],
       "objective": "Implement no-document-access response.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -5286,9 +4862,7 @@
       "phase_name": "Retrieval and Answer Generation",
       "title": "Implement bounded conversation history",
       "status": "backlog",
-      "depends_on": [
-        "P3-037"
-      ],
+      "depends_on": ["P3-037"],
       "objective": "Implement bounded conversation history.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -5311,9 +4885,7 @@
       "phase_name": "Retrieval and Answer Generation",
       "title": "Implement token-budget calculation",
       "status": "backlog",
-      "depends_on": [
-        "P3-038"
-      ],
+      "depends_on": ["P3-038"],
       "objective": "Implement token-budget calculation.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -5336,9 +4908,7 @@
       "phase_name": "Retrieval and Answer Generation",
       "title": "Implement provider timeout handling",
       "status": "backlog",
-      "depends_on": [
-        "P3-039"
-      ],
+      "depends_on": ["P3-039"],
       "objective": "Implement provider timeout handling.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -5361,9 +4931,7 @@
       "phase_name": "Retrieval and Answer Generation",
       "title": "Implement provider rate-limit handling",
       "status": "backlog",
-      "depends_on": [
-        "P3-040"
-      ],
+      "depends_on": ["P3-040"],
       "objective": "Implement provider rate-limit handling.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -5386,9 +4954,7 @@
       "phase_name": "Retrieval and Answer Generation",
       "title": "Implement provider-unavailable circuit breaker",
       "status": "backlog",
-      "depends_on": [
-        "P3-041"
-      ],
+      "depends_on": ["P3-041"],
       "objective": "Implement provider-unavailable circuit breaker.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -5411,9 +4977,7 @@
       "phase_name": "Retrieval and Answer Generation",
       "title": "Add request and provider traces",
       "status": "backlog",
-      "depends_on": [
-        "P3-042"
-      ],
+      "depends_on": ["P3-042"],
       "objective": "Add request and provider traces.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -5436,9 +5000,7 @@
       "phase_name": "Retrieval and Answer Generation",
       "title": "Add retrieval metrics",
       "status": "backlog",
-      "depends_on": [
-        "P3-043"
-      ],
+      "depends_on": ["P3-043"],
       "objective": "Add retrieval metrics.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -5461,9 +5023,7 @@
       "phase_name": "Retrieval and Answer Generation",
       "title": "Add generation metrics",
       "status": "backlog",
-      "depends_on": [
-        "P3-044"
-      ],
+      "depends_on": ["P3-044"],
       "objective": "Add generation metrics.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -5486,9 +5046,7 @@
       "phase_name": "Retrieval and Answer Generation",
       "title": "Redact prompt and evidence content from default logs",
       "status": "backlog",
-      "depends_on": [
-        "P3-045"
-      ],
+      "depends_on": ["P3-045"],
       "objective": "Redact prompt and evidence content from default logs.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -5511,9 +5069,7 @@
       "phase_name": "Retrieval and Answer Generation",
       "title": "Create answerable-question evaluation dataset",
       "status": "backlog",
-      "depends_on": [
-        "P3-046"
-      ],
+      "depends_on": ["P3-046"],
       "objective": "Create answerable-question evaluation dataset.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -5536,9 +5092,7 @@
       "phase_name": "Retrieval and Answer Generation",
       "title": "Create unanswerable-question dataset",
       "status": "backlog",
-      "depends_on": [
-        "P3-047"
-      ],
+      "depends_on": ["P3-047"],
       "objective": "Create unanswerable-question dataset.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -5561,9 +5115,7 @@
       "phase_name": "Retrieval and Answer Generation",
       "title": "Create citation-correctness dataset",
       "status": "backlog",
-      "depends_on": [
-        "P3-048"
-      ],
+      "depends_on": ["P3-048"],
       "objective": "Create citation-correctness dataset.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -5586,9 +5138,7 @@
       "phase_name": "Retrieval and Answer Generation",
       "title": "Create conflicting-document dataset",
       "status": "backlog",
-      "depends_on": [
-        "P3-049"
-      ],
+      "depends_on": ["P3-049"],
       "objective": "Create conflicting-document dataset.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -5611,9 +5161,7 @@
       "phase_name": "Retrieval and Answer Generation",
       "title": "Create superseded-document dataset",
       "status": "backlog",
-      "depends_on": [
-        "P3-050"
-      ],
+      "depends_on": ["P3-050"],
       "objective": "Create superseded-document dataset.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -5636,9 +5184,7 @@
       "phase_name": "Retrieval and Answer Generation",
       "title": "Create prompt-injection document dataset",
       "status": "backlog",
-      "depends_on": [
-        "P3-051"
-      ],
+      "depends_on": ["P3-051"],
       "objective": "Create prompt-injection document dataset.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -5661,9 +5207,7 @@
       "phase_name": "Retrieval and Answer Generation",
       "title": "Create tenant-isolation evaluation dataset",
       "status": "backlog",
-      "depends_on": [
-        "P3-052"
-      ],
+      "depends_on": ["P3-052"],
       "objective": "Create tenant-isolation evaluation dataset.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -5686,9 +5230,7 @@
       "phase_name": "Retrieval and Answer Generation",
       "title": "Implement offline evaluation runner",
       "status": "backlog",
-      "depends_on": [
-        "P3-053"
-      ],
+      "depends_on": ["P3-053"],
       "objective": "Implement offline evaluation runner.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -5711,9 +5253,7 @@
       "phase_name": "Retrieval and Answer Generation",
       "title": "Define initial quality thresholds",
       "status": "backlog",
-      "depends_on": [
-        "P3-054"
-      ],
+      "depends_on": ["P3-054"],
       "objective": "Define initial quality thresholds.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -5736,9 +5276,7 @@
       "phase_name": "Retrieval and Answer Generation",
       "title": "Add evaluation checks to CI",
       "status": "backlog",
-      "depends_on": [
-        "P3-055"
-      ],
+      "depends_on": ["P3-055"],
       "objective": "Add evaluation checks to CI.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -5761,9 +5299,7 @@
       "phase_name": "Retrieval and Answer Generation",
       "title": "Document query architecture",
       "status": "backlog",
-      "depends_on": [
-        "P3-056"
-      ],
+      "depends_on": ["P3-056"],
       "objective": "Document query architecture.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -5786,9 +5322,7 @@
       "phase_name": "Retrieval and Answer Generation",
       "title": "Document model and prompt rollback",
       "status": "backlog",
-      "depends_on": [
-        "P3-057"
-      ],
+      "depends_on": ["P3-057"],
       "objective": "Document model and prompt rollback.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -5811,9 +5345,7 @@
       "phase_name": "Embeddable Widget",
       "title": "Define public widget configuration schema",
       "status": "backlog",
-      "depends_on": [
-        "PHASE-3-EXIT"
-      ],
+      "depends_on": ["PHASE-3-EXIT"],
       "objective": "Define public widget configuration schema.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -5836,9 +5368,7 @@
       "phase_name": "Embeddable Widget",
       "title": "Define widget versioning policy",
       "status": "backlog",
-      "depends_on": [
-        "P4-001"
-      ],
+      "depends_on": ["P4-001"],
       "objective": "Define widget versioning policy.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -5861,9 +5391,7 @@
       "phase_name": "Embeddable Widget",
       "title": "Implement loader script entry point",
       "status": "backlog",
-      "depends_on": [
-        "P4-002"
-      ],
+      "depends_on": ["P4-002"],
       "objective": "Implement loader script entry point.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -5886,9 +5414,7 @@
       "phase_name": "Embeddable Widget",
       "title": "Implement duplicate-loader protection",
       "status": "backlog",
-      "depends_on": [
-        "P4-003"
-      ],
+      "depends_on": ["P4-003"],
       "objective": "Implement duplicate-loader protection.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -5911,9 +5437,7 @@
       "phase_name": "Embeddable Widget",
       "title": "Implement launcher Web Component",
       "status": "backlog",
-      "depends_on": [
-        "P4-004"
-      ],
+      "depends_on": ["P4-004"],
       "objective": "Implement launcher Web Component.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -5936,9 +5460,7 @@
       "phase_name": "Embeddable Widget",
       "title": "Implement Shadow DOM styles",
       "status": "backlog",
-      "depends_on": [
-        "P4-005"
-      ],
+      "depends_on": ["P4-005"],
       "objective": "Implement Shadow DOM styles.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -5961,9 +5483,7 @@
       "phase_name": "Embeddable Widget",
       "title": "Implement iframe creation",
       "status": "backlog",
-      "depends_on": [
-        "P4-006"
-      ],
+      "depends_on": ["P4-006"],
       "objective": "Implement iframe creation.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -5986,9 +5506,7 @@
       "phase_name": "Embeddable Widget",
       "title": "Configure iframe sandbox attributes",
       "status": "backlog",
-      "depends_on": [
-        "P4-007"
-      ],
+      "depends_on": ["P4-007"],
       "objective": "Configure iframe sandbox attributes.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -6011,9 +5529,7 @@
       "phase_name": "Embeddable Widget",
       "title": "Define host-to-iframe message schemas",
       "status": "backlog",
-      "depends_on": [
-        "P4-008"
-      ],
+      "depends_on": ["P4-008"],
       "objective": "Define host-to-iframe message schemas.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -6036,9 +5552,7 @@
       "phase_name": "Embeddable Widget",
       "title": "Define iframe-to-host message schemas",
       "status": "backlog",
-      "depends_on": [
-        "P4-009"
-      ],
+      "depends_on": ["P4-009"],
       "objective": "Define iframe-to-host message schemas.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -6061,9 +5575,7 @@
       "phase_name": "Embeddable Widget",
       "title": "Implement message origin validation",
       "status": "backlog",
-      "depends_on": [
-        "P4-010"
-      ],
+      "depends_on": ["P4-010"],
       "objective": "Implement message origin validation.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -6086,9 +5598,7 @@
       "phase_name": "Embeddable Widget",
       "title": "Implement message schema validation",
       "status": "backlog",
-      "depends_on": [
-        "P4-011"
-      ],
+      "depends_on": ["P4-011"],
       "objective": "Implement message schema validation.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -6111,9 +5621,7 @@
       "phase_name": "Embeddable Widget",
       "title": "Implement tenant embed-origin configuration",
       "status": "backlog",
-      "depends_on": [
-        "P4-012"
-      ],
+      "depends_on": ["P4-012"],
       "objective": "Implement tenant embed-origin configuration.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -6136,9 +5644,7 @@
       "phase_name": "Embeddable Widget",
       "title": "Enforce embed-origin allowlist",
       "status": "backlog",
-      "depends_on": [
-        "P4-013"
-      ],
+      "depends_on": ["P4-013"],
       "objective": "Enforce embed-origin allowlist.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -6161,9 +5667,7 @@
       "phase_name": "Embeddable Widget",
       "title": "Implement host session-exchange client",
       "status": "backlog",
-      "depends_on": [
-        "P4-014"
-      ],
+      "depends_on": ["P4-014"],
       "objective": "Implement host session-exchange client.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -6186,9 +5690,7 @@
       "phase_name": "Embeddable Widget",
       "title": "Implement secure token handoff to iframe",
       "status": "backlog",
-      "depends_on": [
-        "P4-015"
-      ],
+      "depends_on": ["P4-015"],
       "objective": "Implement secure token handoff to iframe.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -6211,9 +5713,7 @@
       "phase_name": "Embeddable Widget",
       "title": "Prevent token persistence in browser storage",
       "status": "backlog",
-      "depends_on": [
-        "P4-016"
-      ],
+      "depends_on": ["P4-016"],
       "objective": "Prevent token persistence in browser storage.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -6236,9 +5736,7 @@
       "phase_name": "Embeddable Widget",
       "title": "Implement assistant iframe application shell",
       "status": "backlog",
-      "depends_on": [
-        "P4-017"
-      ],
+      "depends_on": ["P4-017"],
       "objective": "Implement assistant iframe application shell.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -6261,9 +5759,7 @@
       "phase_name": "Embeddable Widget",
       "title": "Implement authenticated API client",
       "status": "backlog",
-      "depends_on": [
-        "P4-018"
-      ],
+      "depends_on": ["P4-018"],
       "objective": "Implement authenticated API client.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -6286,9 +5782,7 @@
       "phase_name": "Embeddable Widget",
       "title": "Implement conversation creation UI",
       "status": "backlog",
-      "depends_on": [
-        "P4-019"
-      ],
+      "depends_on": ["P4-019"],
       "objective": "Implement conversation creation UI.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -6311,9 +5805,7 @@
       "phase_name": "Embeddable Widget",
       "title": "Implement message composer",
       "status": "backlog",
-      "depends_on": [
-        "P4-020"
-      ],
+      "depends_on": ["P4-020"],
       "objective": "Implement message composer.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -6336,9 +5828,7 @@
       "phase_name": "Embeddable Widget",
       "title": "Implement streaming message renderer",
       "status": "backlog",
-      "depends_on": [
-        "P4-021"
-      ],
+      "depends_on": ["P4-021"],
       "objective": "Implement streaming message renderer.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -6361,9 +5851,7 @@
       "phase_name": "Embeddable Widget",
       "title": "Implement streaming cancellation UI",
       "status": "backlog",
-      "depends_on": [
-        "P4-022"
-      ],
+      "depends_on": ["P4-022"],
       "objective": "Implement streaming cancellation UI.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -6386,9 +5874,7 @@
       "phase_name": "Embeddable Widget",
       "title": "Implement citation presentation",
       "status": "backlog",
-      "depends_on": [
-        "P4-023"
-      ],
+      "depends_on": ["P4-023"],
       "objective": "Implement citation presentation.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -6411,9 +5897,7 @@
       "phase_name": "Embeddable Widget",
       "title": "Implement source-detail view",
       "status": "backlog",
-      "depends_on": [
-        "P4-024"
-      ],
+      "depends_on": ["P4-024"],
       "objective": "Implement source-detail view.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -6436,9 +5920,7 @@
       "phase_name": "Embeddable Widget",
       "title": "Implement insufficient-evidence state",
       "status": "backlog",
-      "depends_on": [
-        "P4-025"
-      ],
+      "depends_on": ["P4-025"],
       "objective": "Implement insufficient-evidence state.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -6461,9 +5943,7 @@
       "phase_name": "Embeddable Widget",
       "title": "Implement authentication-expired state",
       "status": "backlog",
-      "depends_on": [
-        "P4-026"
-      ],
+      "depends_on": ["P4-026"],
       "objective": "Implement authentication-expired state.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -6486,9 +5966,7 @@
       "phase_name": "Embeddable Widget",
       "title": "Implement service-unavailable state",
       "status": "backlog",
-      "depends_on": [
-        "P4-027"
-      ],
+      "depends_on": ["P4-027"],
       "objective": "Implement service-unavailable state.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -6511,9 +5989,7 @@
       "phase_name": "Embeddable Widget",
       "title": "Implement retry control",
       "status": "backlog",
-      "depends_on": [
-        "P4-028"
-      ],
+      "depends_on": ["P4-028"],
       "objective": "Implement retry control.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -6536,9 +6012,7 @@
       "phase_name": "Embeddable Widget",
       "title": "Implement widget open and close behavior",
       "status": "backlog",
-      "depends_on": [
-        "P4-029"
-      ],
+      "depends_on": ["P4-029"],
       "objective": "Implement widget open and close behavior.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -6561,9 +6035,7 @@
       "phase_name": "Embeddable Widget",
       "title": "Implement responsive sizing",
       "status": "backlog",
-      "depends_on": [
-        "P4-030"
-      ],
+      "depends_on": ["P4-030"],
       "objective": "Implement responsive sizing.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -6586,9 +6058,7 @@
       "phase_name": "Embeddable Widget",
       "title": "Implement configurable placement",
       "status": "backlog",
-      "depends_on": [
-        "P4-031"
-      ],
+      "depends_on": ["P4-031"],
       "objective": "Implement configurable placement.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -6611,9 +6081,7 @@
       "phase_name": "Embeddable Widget",
       "title": "Implement controlled theming",
       "status": "backlog",
-      "depends_on": [
-        "P4-032"
-      ],
+      "depends_on": ["P4-032"],
       "objective": "Implement controlled theming.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -6636,9 +6104,7 @@
       "phase_name": "Embeddable Widget",
       "title": "Implement focus management",
       "status": "backlog",
-      "depends_on": [
-        "P4-033"
-      ],
+      "depends_on": ["P4-033"],
       "objective": "Implement focus management.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -6661,9 +6127,7 @@
       "phase_name": "Embeddable Widget",
       "title": "Implement keyboard navigation",
       "status": "backlog",
-      "depends_on": [
-        "P4-034"
-      ],
+      "depends_on": ["P4-034"],
       "objective": "Implement keyboard navigation.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -6686,9 +6150,7 @@
       "phase_name": "Embeddable Widget",
       "title": "Add screen-reader labels and announcements",
       "status": "backlog",
-      "depends_on": [
-        "P4-035"
-      ],
+      "depends_on": ["P4-035"],
       "objective": "Add screen-reader labels and announcements.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -6711,9 +6173,7 @@
       "phase_name": "Embeddable Widget",
       "title": "Add color-contrast checks",
       "status": "backlog",
-      "depends_on": [
-        "P4-036"
-      ],
+      "depends_on": ["P4-036"],
       "objective": "Add color-contrast checks.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -6736,9 +6196,7 @@
       "phase_name": "Embeddable Widget",
       "title": "Configure CSP for assistant origin",
       "status": "backlog",
-      "depends_on": [
-        "P4-037"
-      ],
+      "depends_on": ["P4-037"],
       "objective": "Configure CSP for assistant origin.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -6761,9 +6219,7 @@
       "phase_name": "Embeddable Widget",
       "title": "Configure frame-ancestors policy",
       "status": "backlog",
-      "depends_on": [
-        "P4-038"
-      ],
+      "depends_on": ["P4-038"],
       "objective": "Configure frame-ancestors policy.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -6786,9 +6242,7 @@
       "phase_name": "Embeddable Widget",
       "title": "Add clickjacking and framing tests",
       "status": "backlog",
-      "depends_on": [
-        "P4-039"
-      ],
+      "depends_on": ["P4-039"],
       "objective": "Add clickjacking and framing tests.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -6811,9 +6265,7 @@
       "phase_name": "Embeddable Widget",
       "title": "Add postMessage security tests",
       "status": "backlog",
-      "depends_on": [
-        "P4-040"
-      ],
+      "depends_on": ["P4-040"],
       "objective": "Add postMessage security tests.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -6836,9 +6288,7 @@
       "phase_name": "Embeddable Widget",
       "title": "Add widget unit tests",
       "status": "backlog",
-      "depends_on": [
-        "P4-041"
-      ],
+      "depends_on": ["P4-041"],
       "objective": "Add widget unit tests.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -6861,9 +6311,7 @@
       "phase_name": "Embeddable Widget",
       "title": "Add widget end-to-end test host",
       "status": "backlog",
-      "depends_on": [
-        "P4-042"
-      ],
+      "depends_on": ["P4-042"],
       "objective": "Add widget end-to-end test host.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -6886,9 +6334,7 @@
       "phase_name": "Embeddable Widget",
       "title": "Test widget in Next.js host",
       "status": "backlog",
-      "depends_on": [
-        "P4-043"
-      ],
+      "depends_on": ["P4-043"],
       "objective": "Test widget in Next.js host.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -6911,9 +6357,7 @@
       "phase_name": "Embeddable Widget",
       "title": "Test widget in plain HTML host",
       "status": "backlog",
-      "depends_on": [
-        "P4-044"
-      ],
+      "depends_on": ["P4-044"],
       "objective": "Test widget in plain HTML host.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -6936,9 +6380,7 @@
       "phase_name": "Embeddable Widget",
       "title": "Test widget in another SPA framework",
       "status": "backlog",
-      "depends_on": [
-        "P4-045"
-      ],
+      "depends_on": ["P4-045"],
       "objective": "Test widget in another SPA framework.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -6961,9 +6403,7 @@
       "phase_name": "Embeddable Widget",
       "title": "Add widget bundle-size budget",
       "status": "backlog",
-      "depends_on": [
-        "P4-046"
-      ],
+      "depends_on": ["P4-046"],
       "objective": "Add widget bundle-size budget.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -6986,9 +6426,7 @@
       "phase_name": "Embeddable Widget",
       "title": "Add widget release build",
       "status": "backlog",
-      "depends_on": [
-        "P4-047"
-      ],
+      "depends_on": ["P4-047"],
       "objective": "Add widget release build.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -7011,9 +6449,7 @@
       "phase_name": "Embeddable Widget",
       "title": "Publish widget assets to development CDN",
       "status": "backlog",
-      "depends_on": [
-        "P4-048"
-      ],
+      "depends_on": ["P4-048"],
       "objective": "Publish widget assets to development CDN.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -7036,9 +6472,7 @@
       "phase_name": "Embeddable Widget",
       "title": "Add asset-integrity metadata",
       "status": "backlog",
-      "depends_on": [
-        "P4-049"
-      ],
+      "depends_on": ["P4-049"],
       "objective": "Add asset-integrity metadata.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -7061,9 +6495,7 @@
       "phase_name": "Embeddable Widget",
       "title": "Document embedding procedure",
       "status": "backlog",
-      "depends_on": [
-        "P4-050"
-      ],
+      "depends_on": ["P4-050"],
       "objective": "Document embedding procedure.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -7086,9 +6518,7 @@
       "phase_name": "Embeddable Widget",
       "title": "Document widget events API",
       "status": "backlog",
-      "depends_on": [
-        "P4-051"
-      ],
+      "depends_on": ["P4-051"],
       "objective": "Document widget events API.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -7111,9 +6541,7 @@
       "phase_name": "Embeddable Widget",
       "title": "Document CSP requirements",
       "status": "backlog",
-      "depends_on": [
-        "P4-052"
-      ],
+      "depends_on": ["P4-052"],
       "objective": "Document CSP requirements.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -7136,9 +6564,7 @@
       "phase_name": "Administration and Operations",
       "title": "Define administration-role matrix",
       "status": "backlog",
-      "depends_on": [
-        "PHASE-4-EXIT"
-      ],
+      "depends_on": ["PHASE-4-EXIT"],
       "objective": "Define administration-role matrix.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -7161,9 +6587,7 @@
       "phase_name": "Administration and Operations",
       "title": "Enforce administration-route authorization",
       "status": "backlog",
-      "depends_on": [
-        "P5-001"
-      ],
+      "depends_on": ["P5-001"],
       "objective": "Enforce administration-route authorization.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -7186,9 +6610,7 @@
       "phase_name": "Administration and Operations",
       "title": "Implement administration application shell",
       "status": "backlog",
-      "depends_on": [
-        "P5-002"
-      ],
+      "depends_on": ["P5-002"],
       "objective": "Implement administration application shell.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -7211,9 +6633,7 @@
       "phase_name": "Administration and Operations",
       "title": "Implement tenant-settings read API",
       "status": "backlog",
-      "depends_on": [
-        "P5-003"
-      ],
+      "depends_on": ["P5-003"],
       "objective": "Implement tenant-settings read API.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -7236,9 +6656,7 @@
       "phase_name": "Administration and Operations",
       "title": "Implement tenant-settings update API",
       "status": "backlog",
-      "depends_on": [
-        "P5-004"
-      ],
+      "depends_on": ["P5-004"],
       "objective": "Implement tenant-settings update API.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -7261,9 +6679,7 @@
       "phase_name": "Administration and Operations",
       "title": "Build tenant-settings page",
       "status": "backlog",
-      "depends_on": [
-        "P5-005"
-      ],
+      "depends_on": ["P5-005"],
       "objective": "Build tenant-settings page.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -7286,9 +6702,7 @@
       "phase_name": "Administration and Operations",
       "title": "Build allowed-origin management UI",
       "status": "backlog",
-      "depends_on": [
-        "P5-006"
-      ],
+      "depends_on": ["P5-006"],
       "objective": "Build allowed-origin management UI.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -7311,9 +6725,7 @@
       "phase_name": "Administration and Operations",
       "title": "Add source-list API",
       "status": "backlog",
-      "depends_on": [
-        "P5-007"
-      ],
+      "depends_on": ["P5-007"],
       "objective": "Add source-list API.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -7336,9 +6748,7 @@
       "phase_name": "Administration and Operations",
       "title": "Build source-list page",
       "status": "backlog",
-      "depends_on": [
-        "P5-008"
-      ],
+      "depends_on": ["P5-008"],
       "objective": "Build source-list page.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -7361,9 +6771,7 @@
       "phase_name": "Administration and Operations",
       "title": "Build manual-upload interface",
       "status": "backlog",
-      "depends_on": [
-        "P5-009"
-      ],
+      "depends_on": ["P5-009"],
       "objective": "Build manual-upload interface.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -7386,9 +6794,7 @@
       "phase_name": "Administration and Operations",
       "title": "Build Drive-connector setup flow",
       "status": "backlog",
-      "depends_on": [
-        "P5-010"
-      ],
+      "depends_on": ["P5-010"],
       "objective": "Build Drive-connector setup flow.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -7411,9 +6817,7 @@
       "phase_name": "Administration and Operations",
       "title": "Build connector-health display",
       "status": "backlog",
-      "depends_on": [
-        "P5-011"
-      ],
+      "depends_on": ["P5-011"],
       "objective": "Build connector-health display.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -7436,9 +6840,7 @@
       "phase_name": "Administration and Operations",
       "title": "Implement manual synchronization action",
       "status": "backlog",
-      "depends_on": [
-        "P5-012"
-      ],
+      "depends_on": ["P5-012"],
       "objective": "Implement manual synchronization action.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -7461,9 +6863,7 @@
       "phase_name": "Administration and Operations",
       "title": "Implement source-disable action",
       "status": "backlog",
-      "depends_on": [
-        "P5-013"
-      ],
+      "depends_on": ["P5-013"],
       "objective": "Implement source-disable action.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -7486,9 +6886,7 @@
       "phase_name": "Administration and Operations",
       "title": "Build document-list page",
       "status": "backlog",
-      "depends_on": [
-        "P5-014"
-      ],
+      "depends_on": ["P5-014"],
       "objective": "Build document-list page.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -7511,9 +6909,7 @@
       "phase_name": "Administration and Operations",
       "title": "Add document search and filters",
       "status": "backlog",
-      "depends_on": [
-        "P5-015"
-      ],
+      "depends_on": ["P5-015"],
       "objective": "Add document search and filters.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -7536,9 +6932,7 @@
       "phase_name": "Administration and Operations",
       "title": "Build document-detail page",
       "status": "backlog",
-      "depends_on": [
-        "P5-016"
-      ],
+      "depends_on": ["P5-016"],
       "objective": "Build document-detail page.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -7561,9 +6955,7 @@
       "phase_name": "Administration and Operations",
       "title": "Implement document reindex action",
       "status": "backlog",
-      "depends_on": [
-        "P5-017"
-      ],
+      "depends_on": ["P5-017"],
       "objective": "Implement document reindex action.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -7586,9 +6978,7 @@
       "phase_name": "Administration and Operations",
       "title": "Implement document-delete action",
       "status": "backlog",
-      "depends_on": [
-        "P5-018"
-      ],
+      "depends_on": ["P5-018"],
       "objective": "Implement document-delete action.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -7611,9 +7001,7 @@
       "phase_name": "Administration and Operations",
       "title": "Require destructive-action confirmation",
       "status": "backlog",
-      "depends_on": [
-        "P5-019"
-      ],
+      "depends_on": ["P5-019"],
       "objective": "Require destructive-action confirmation.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -7636,9 +7024,7 @@
       "phase_name": "Administration and Operations",
       "title": "Build ingestion-job list",
       "status": "backlog",
-      "depends_on": [
-        "P5-020"
-      ],
+      "depends_on": ["P5-020"],
       "objective": "Build ingestion-job list.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -7661,9 +7047,7 @@
       "phase_name": "Administration and Operations",
       "title": "Build ingestion-job detail view",
       "status": "backlog",
-      "depends_on": [
-        "P5-021"
-      ],
+      "depends_on": ["P5-021"],
       "objective": "Build ingestion-job detail view.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -7686,9 +7070,7 @@
       "phase_name": "Administration and Operations",
       "title": "Implement failed-job replay action",
       "status": "backlog",
-      "depends_on": [
-        "P5-022"
-      ],
+      "depends_on": ["P5-022"],
       "objective": "Implement failed-job replay action.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -7711,9 +7093,7 @@
       "phase_name": "Administration and Operations",
       "title": "Implement dead-letter queue summary",
       "status": "backlog",
-      "depends_on": [
-        "P5-023"
-      ],
+      "depends_on": ["P5-023"],
       "objective": "Implement dead-letter queue summary.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -7736,9 +7116,7 @@
       "phase_name": "Administration and Operations",
       "title": "Implement audit-event query API",
       "status": "backlog",
-      "depends_on": [
-        "P5-024"
-      ],
+      "depends_on": ["P5-024"],
       "objective": "Implement audit-event query API.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -7761,9 +7139,7 @@
       "phase_name": "Administration and Operations",
       "title": "Build audit-log viewer",
       "status": "backlog",
-      "depends_on": [
-        "P5-025"
-      ],
+      "depends_on": ["P5-025"],
       "objective": "Build audit-log viewer.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -7786,9 +7162,7 @@
       "phase_name": "Administration and Operations",
       "title": "Protect audit events from modification",
       "status": "backlog",
-      "depends_on": [
-        "P5-026"
-      ],
+      "depends_on": ["P5-026"],
       "objective": "Protect audit events from modification.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -7811,9 +7185,7 @@
       "phase_name": "Administration and Operations",
       "title": "Define usage-event aggregation",
       "status": "backlog",
-      "depends_on": [
-        "P5-027"
-      ],
+      "depends_on": ["P5-027"],
       "objective": "Define usage-event aggregation.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -7836,9 +7208,7 @@
       "phase_name": "Administration and Operations",
       "title": "Implement tenant-usage API",
       "status": "backlog",
-      "depends_on": [
-        "P5-028"
-      ],
+      "depends_on": ["P5-028"],
       "objective": "Implement tenant-usage API.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -7861,9 +7231,7 @@
       "phase_name": "Administration and Operations",
       "title": "Build usage dashboard",
       "status": "backlog",
-      "depends_on": [
-        "P5-029"
-      ],
+      "depends_on": ["P5-029"],
       "objective": "Build usage dashboard.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -7886,9 +7254,7 @@
       "phase_name": "Administration and Operations",
       "title": "Add tenant quota configuration",
       "status": "backlog",
-      "depends_on": [
-        "P5-030"
-      ],
+      "depends_on": ["P5-030"],
       "objective": "Add tenant quota configuration.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -7911,9 +7277,7 @@
       "phase_name": "Administration and Operations",
       "title": "Enforce request quotas",
       "status": "backlog",
-      "depends_on": [
-        "P5-031"
-      ],
+      "depends_on": ["P5-031"],
       "objective": "Enforce request quotas.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -7936,9 +7300,7 @@
       "phase_name": "Administration and Operations",
       "title": "Define user-feedback schema",
       "status": "backlog",
-      "depends_on": [
-        "P5-032"
-      ],
+      "depends_on": ["P5-032"],
       "objective": "Define user-feedback schema.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -7961,9 +7323,7 @@
       "phase_name": "Administration and Operations",
       "title": "Implement feedback submission API",
       "status": "backlog",
-      "depends_on": [
-        "P5-033"
-      ],
+      "depends_on": ["P5-033"],
       "objective": "Implement feedback submission API.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -7986,9 +7346,7 @@
       "phase_name": "Administration and Operations",
       "title": "Add widget feedback controls",
       "status": "backlog",
-      "depends_on": [
-        "P5-034"
-      ],
+      "depends_on": ["P5-034"],
       "objective": "Add widget feedback controls.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -8011,9 +7369,7 @@
       "phase_name": "Administration and Operations",
       "title": "Build feedback review page",
       "status": "backlog",
-      "depends_on": [
-        "P5-035"
-      ],
+      "depends_on": ["P5-035"],
       "objective": "Build feedback review page.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -8036,9 +7392,7 @@
       "phase_name": "Administration and Operations",
       "title": "Link feedback to traces and prompt versions",
       "status": "backlog",
-      "depends_on": [
-        "P5-036"
-      ],
+      "depends_on": ["P5-036"],
       "objective": "Link feedback to traces and prompt versions.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -8061,9 +7415,7 @@
       "phase_name": "Administration and Operations",
       "title": "Implement evaluation-report storage",
       "status": "backlog",
-      "depends_on": [
-        "P5-037"
-      ],
+      "depends_on": ["P5-037"],
       "objective": "Implement evaluation-report storage.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -8086,9 +7438,7 @@
       "phase_name": "Administration and Operations",
       "title": "Build evaluation-results page",
       "status": "backlog",
-      "depends_on": [
-        "P5-038"
-      ],
+      "depends_on": ["P5-038"],
       "objective": "Build evaluation-results page.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -8111,9 +7461,7 @@
       "phase_name": "Administration and Operations",
       "title": "Implement prompt-version read API",
       "status": "backlog",
-      "depends_on": [
-        "P5-039"
-      ],
+      "depends_on": ["P5-039"],
       "objective": "Implement prompt-version read API.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -8136,9 +7484,7 @@
       "phase_name": "Administration and Operations",
       "title": "Build prompt-version display",
       "status": "backlog",
-      "depends_on": [
-        "P5-040"
-      ],
+      "depends_on": ["P5-040"],
       "objective": "Build prompt-version display.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -8161,9 +7507,7 @@
       "phase_name": "Administration and Operations",
       "title": "Add system-status page",
       "status": "backlog",
-      "depends_on": [
-        "P5-041"
-      ],
+      "depends_on": ["P5-041"],
       "objective": "Add system-status page.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -8186,9 +7530,7 @@
       "phase_name": "Administration and Operations",
       "title": "Define alert thresholds",
       "status": "backlog",
-      "depends_on": [
-        "P5-042"
-      ],
+      "depends_on": ["P5-042"],
       "objective": "Define alert thresholds.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -8211,9 +7553,7 @@
       "phase_name": "Administration and Operations",
       "title": "Configure ingestion-failure alerts",
       "status": "backlog",
-      "depends_on": [
-        "P5-043"
-      ],
+      "depends_on": ["P5-043"],
       "objective": "Configure ingestion-failure alerts.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -8236,9 +7576,7 @@
       "phase_name": "Administration and Operations",
       "title": "Configure query-error alerts",
       "status": "backlog",
-      "depends_on": [
-        "P5-044"
-      ],
+      "depends_on": ["P5-044"],
       "objective": "Configure query-error alerts.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -8261,9 +7599,7 @@
       "phase_name": "Administration and Operations",
       "title": "Configure authorization-denial anomaly alerts",
       "status": "backlog",
-      "depends_on": [
-        "P5-045"
-      ],
+      "depends_on": ["P5-045"],
       "objective": "Configure authorization-denial anomaly alerts.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -8286,9 +7622,7 @@
       "phase_name": "Administration and Operations",
       "title": "Configure queue-backlog alerts",
       "status": "backlog",
-      "depends_on": [
-        "P5-046"
-      ],
+      "depends_on": ["P5-046"],
       "objective": "Configure queue-backlog alerts.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -8311,9 +7645,7 @@
       "phase_name": "Administration and Operations",
       "title": "Create deployment runbook",
       "status": "backlog",
-      "depends_on": [
-        "P5-047"
-      ],
+      "depends_on": ["P5-047"],
       "objective": "Create deployment runbook.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -8336,9 +7668,7 @@
       "phase_name": "Administration and Operations",
       "title": "Create rollback runbook",
       "status": "backlog",
-      "depends_on": [
-        "P5-048"
-      ],
+      "depends_on": ["P5-048"],
       "objective": "Create rollback runbook.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -8361,9 +7691,7 @@
       "phase_name": "Administration and Operations",
       "title": "Create OpenAI outage runbook",
       "status": "backlog",
-      "depends_on": [
-        "P5-049"
-      ],
+      "depends_on": ["P5-049"],
       "objective": "Create OpenAI outage runbook.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -8386,9 +7714,7 @@
       "phase_name": "Administration and Operations",
       "title": "Create failed-ingestion runbook",
       "status": "backlog",
-      "depends_on": [
-        "P5-050"
-      ],
+      "depends_on": ["P5-050"],
       "objective": "Create failed-ingestion runbook.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -8411,9 +7737,7 @@
       "phase_name": "Administration and Operations",
       "title": "Create tenant-offboarding runbook",
       "status": "backlog",
-      "depends_on": [
-        "P5-051"
-      ],
+      "depends_on": ["P5-051"],
       "objective": "Create tenant-offboarding runbook.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -8436,9 +7760,7 @@
       "phase_name": "Administration and Operations",
       "title": "Create secret-rotation runbook",
       "status": "backlog",
-      "depends_on": [
-        "P5-052"
-      ],
+      "depends_on": ["P5-052"],
       "objective": "Create secret-rotation runbook.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -8461,9 +7783,7 @@
       "phase_name": "Administration and Operations",
       "title": "Create prompt-rollback runbook",
       "status": "backlog",
-      "depends_on": [
-        "P5-053"
-      ],
+      "depends_on": ["P5-053"],
       "objective": "Create prompt-rollback runbook.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -8486,9 +7806,7 @@
       "phase_name": "Administration and Operations",
       "title": "Add administrative end-to-end tests",
       "status": "backlog",
-      "depends_on": [
-        "P5-054"
-      ],
+      "depends_on": ["P5-054"],
       "objective": "Add administrative end-to-end tests.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -8511,9 +7829,7 @@
       "phase_name": "Administration and Operations",
       "title": "Add administration audit tests",
       "status": "backlog",
-      "depends_on": [
-        "P5-055"
-      ],
+      "depends_on": ["P5-055"],
       "objective": "Add administration audit tests.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -8536,9 +7852,7 @@
       "phase_name": "Browser Extension",
       "title": "Define supported browser versions",
       "status": "backlog",
-      "depends_on": [
-        "PHASE-5-EXIT"
-      ],
+      "depends_on": ["PHASE-5-EXIT"],
       "objective": "Define supported browser versions.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -8561,9 +7875,7 @@
       "phase_name": "Browser Extension",
       "title": "Define extension use cases",
       "status": "backlog",
-      "depends_on": [
-        "P6-001"
-      ],
+      "depends_on": ["P6-001"],
       "objective": "Define extension use cases.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -8586,9 +7898,7 @@
       "phase_name": "Browser Extension",
       "title": "Define minimum permission set",
       "status": "backlog",
-      "depends_on": [
-        "P6-002"
-      ],
+      "depends_on": ["P6-002"],
       "objective": "Define minimum permission set.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -8611,9 +7921,7 @@
       "phase_name": "Browser Extension",
       "title": "Create Manifest V3 configuration",
       "status": "backlog",
-      "depends_on": [
-        "P6-003"
-      ],
+      "depends_on": ["P6-003"],
       "objective": "Create Manifest V3 configuration.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -8636,9 +7944,7 @@
       "phase_name": "Browser Extension",
       "title": "Implement extension service worker",
       "status": "backlog",
-      "depends_on": [
-        "P6-004"
-      ],
+      "depends_on": ["P6-004"],
       "objective": "Implement extension service worker.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -8661,9 +7967,7 @@
       "phase_name": "Browser Extension",
       "title": "Implement side-panel shell",
       "status": "backlog",
-      "depends_on": [
-        "P6-005"
-      ],
+      "depends_on": ["P6-005"],
       "objective": "Implement side-panel shell.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -8686,9 +7990,7 @@
       "phase_name": "Browser Extension",
       "title": "Reuse assistant design-system components",
       "status": "backlog",
-      "depends_on": [
-        "P6-006"
-      ],
+      "depends_on": ["P6-006"],
       "objective": "Reuse assistant design-system components.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -8711,9 +8013,7 @@
       "phase_name": "Browser Extension",
       "title": "Implement extension authentication entry point",
       "status": "backlog",
-      "depends_on": [
-        "P6-007"
-      ],
+      "depends_on": ["P6-007"],
       "objective": "Implement extension authentication entry point.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -8736,9 +8036,7 @@
       "phase_name": "Browser Extension",
       "title": "Implement extension session-token exchange",
       "status": "backlog",
-      "depends_on": [
-        "P6-008"
-      ],
+      "depends_on": ["P6-008"],
       "objective": "Implement extension session-token exchange.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -8761,9 +8059,7 @@
       "phase_name": "Browser Extension",
       "title": "Prevent permanent token storage",
       "status": "backlog",
-      "depends_on": [
-        "P6-009"
-      ],
+      "depends_on": ["P6-009"],
       "objective": "Prevent permanent token storage.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -8786,9 +8082,7 @@
       "phase_name": "Browser Extension",
       "title": "Implement conversation creation",
       "status": "backlog",
-      "depends_on": [
-        "P6-010"
-      ],
+      "depends_on": ["P6-010"],
       "objective": "Implement conversation creation.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -8811,9 +8105,7 @@
       "phase_name": "Browser Extension",
       "title": "Implement streaming chat",
       "status": "backlog",
-      "depends_on": [
-        "P6-011"
-      ],
+      "depends_on": ["P6-011"],
       "objective": "Implement streaming chat.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -8836,9 +8128,7 @@
       "phase_name": "Browser Extension",
       "title": "Implement citations in extension UI",
       "status": "backlog",
-      "depends_on": [
-        "P6-012"
-      ],
+      "depends_on": ["P6-012"],
       "objective": "Implement citations in extension UI.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -8861,9 +8151,7 @@
       "phase_name": "Browser Extension",
       "title": "Define page-context request schema",
       "status": "backlog",
-      "depends_on": [
-        "P6-013"
-      ],
+      "depends_on": ["P6-013"],
       "objective": "Define page-context request schema.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -8886,9 +8174,7 @@
       "phase_name": "Browser Extension",
       "title": "Implement explicit share-selection action",
       "status": "backlog",
-      "depends_on": [
-        "P6-014"
-      ],
+      "depends_on": ["P6-014"],
       "objective": "Implement explicit share-selection action.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -8911,9 +8197,7 @@
       "phase_name": "Browser Extension",
       "title": "Implement selected-text extraction",
       "status": "backlog",
-      "depends_on": [
-        "P6-015"
-      ],
+      "depends_on": ["P6-015"],
       "objective": "Implement selected-text extraction.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -8936,9 +8220,7 @@
       "phase_name": "Browser Extension",
       "title": "Implement context preview",
       "status": "backlog",
-      "depends_on": [
-        "P6-016"
-      ],
+      "depends_on": ["P6-016"],
       "objective": "Implement context preview.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -8961,9 +8243,7 @@
       "phase_name": "Browser Extension",
       "title": "Implement context confirmation",
       "status": "backlog",
-      "depends_on": [
-        "P6-017"
-      ],
+      "depends_on": ["P6-017"],
       "objective": "Implement context confirmation.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -8986,9 +8266,7 @@
       "phase_name": "Browser Extension",
       "title": "Add context-size limit",
       "status": "backlog",
-      "depends_on": [
-        "P6-018"
-      ],
+      "depends_on": ["P6-018"],
       "objective": "Add context-size limit.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -9011,9 +8289,7 @@
       "phase_name": "Browser Extension",
       "title": "Add sensitive-field warning",
       "status": "backlog",
-      "depends_on": [
-        "P6-019"
-      ],
+      "depends_on": ["P6-019"],
       "objective": "Add sensitive-field warning.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -9036,9 +8312,7 @@
       "phase_name": "Browser Extension",
       "title": "Implement active-tab access",
       "status": "backlog",
-      "depends_on": [
-        "P6-020"
-      ],
+      "depends_on": ["P6-020"],
       "objective": "Implement active-tab access.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -9061,9 +8335,7 @@
       "phase_name": "Browser Extension",
       "title": "Avoid broad host permissions",
       "status": "backlog",
-      "depends_on": [
-        "P6-021"
-      ],
+      "depends_on": ["P6-021"],
       "objective": "Avoid broad host permissions.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -9086,9 +8358,7 @@
       "phase_name": "Browser Extension",
       "title": "Implement tenant domain allowlist",
       "status": "backlog",
-      "depends_on": [
-        "P6-022"
-      ],
+      "depends_on": ["P6-022"],
       "objective": "Implement tenant domain allowlist.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -9111,9 +8381,7 @@
       "phase_name": "Browser Extension",
       "title": "Enforce domain allowlist",
       "status": "backlog",
-      "depends_on": [
-        "P6-023"
-      ],
+      "depends_on": ["P6-023"],
       "objective": "Enforce domain allowlist.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -9136,9 +8404,7 @@
       "phase_name": "Browser Extension",
       "title": "Implement content-script messaging",
       "status": "backlog",
-      "depends_on": [
-        "P6-024"
-      ],
+      "depends_on": ["P6-024"],
       "objective": "Implement content-script messaging.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -9161,9 +8427,7 @@
       "phase_name": "Browser Extension",
       "title": "Validate extension message senders",
       "status": "backlog",
-      "depends_on": [
-        "P6-025"
-      ],
+      "depends_on": ["P6-025"],
       "objective": "Validate extension message senders.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -9186,9 +8450,7 @@
       "phase_name": "Browser Extension",
       "title": "Implement extension error states",
       "status": "backlog",
-      "depends_on": [
-        "P6-026"
-      ],
+      "depends_on": ["P6-026"],
       "objective": "Implement extension error states.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -9211,9 +8473,7 @@
       "phase_name": "Browser Extension",
       "title": "Implement session-expiry recovery",
       "status": "backlog",
-      "depends_on": [
-        "P6-027"
-      ],
+      "depends_on": ["P6-027"],
       "objective": "Implement session-expiry recovery.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -9236,9 +8496,7 @@
       "phase_name": "Browser Extension",
       "title": "Add extension event telemetry",
       "status": "backlog",
-      "depends_on": [
-        "P6-028"
-      ],
+      "depends_on": ["P6-028"],
       "objective": "Add extension event telemetry.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -9261,9 +8519,7 @@
       "phase_name": "Browser Extension",
       "title": "Add extension unit tests",
       "status": "backlog",
-      "depends_on": [
-        "P6-029"
-      ],
+      "depends_on": ["P6-029"],
       "objective": "Add extension unit tests.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -9286,9 +8542,7 @@
       "phase_name": "Browser Extension",
       "title": "Add extension integration tests",
       "status": "backlog",
-      "depends_on": [
-        "P6-030"
-      ],
+      "depends_on": ["P6-030"],
       "objective": "Add extension integration tests.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -9311,9 +8565,7 @@
       "phase_name": "Browser Extension",
       "title": "Add page-context security tests",
       "status": "backlog",
-      "depends_on": [
-        "P6-031"
-      ],
+      "depends_on": ["P6-031"],
       "objective": "Add page-context security tests.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -9336,9 +8588,7 @@
       "phase_name": "Browser Extension",
       "title": "Add domain-restriction tests",
       "status": "backlog",
-      "depends_on": [
-        "P6-032"
-      ],
+      "depends_on": ["P6-032"],
       "objective": "Add domain-restriction tests.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -9361,9 +8611,7 @@
       "phase_name": "Browser Extension",
       "title": "Add extension build signing process",
       "status": "backlog",
-      "depends_on": [
-        "P6-033"
-      ],
+      "depends_on": ["P6-033"],
       "objective": "Add extension build signing process.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -9386,9 +8634,7 @@
       "phase_name": "Browser Extension",
       "title": "Generate internal release package",
       "status": "backlog",
-      "depends_on": [
-        "P6-034"
-      ],
+      "depends_on": ["P6-034"],
       "objective": "Generate internal release package.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -9411,9 +8657,7 @@
       "phase_name": "Browser Extension",
       "title": "Document enterprise deployment options",
       "status": "backlog",
-      "depends_on": [
-        "P6-035"
-      ],
+      "depends_on": ["P6-035"],
       "objective": "Document enterprise deployment options.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -9436,9 +8680,7 @@
       "phase_name": "Browser Extension",
       "title": "Document extension permissions",
       "status": "backlog",
-      "depends_on": [
-        "P6-036"
-      ],
+      "depends_on": ["P6-036"],
       "objective": "Document extension permissions.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -9461,9 +8703,7 @@
       "phase_name": "Browser Extension",
       "title": "Document user privacy behavior",
       "status": "backlog",
-      "depends_on": [
-        "P6-037"
-      ],
+      "depends_on": ["P6-037"],
       "objective": "Document user privacy behavior.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -9486,9 +8726,7 @@
       "phase_name": "Browser Extension",
       "title": "Pilot extension with internal test group",
       "status": "backlog",
-      "depends_on": [
-        "P6-038"
-      ],
+      "depends_on": ["P6-038"],
       "objective": "Pilot extension with internal test group.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -9511,9 +8749,7 @@
       "phase_name": "Browser Extension",
       "title": "Resolve pilot defects",
       "status": "backlog",
-      "depends_on": [
-        "P6-039"
-      ],
+      "depends_on": ["P6-039"],
       "objective": "Resolve pilot defects.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -9536,9 +8772,7 @@
       "phase_name": "Production Hardening",
       "title": "Finalize system data-flow diagram",
       "status": "backlog",
-      "depends_on": [
-        "PHASE-6-EXIT"
-      ],
+      "depends_on": ["PHASE-6-EXIT"],
       "objective": "Finalize system data-flow diagram.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -9561,9 +8795,7 @@
       "phase_name": "Production Hardening",
       "title": "Classify stored and transmitted data",
       "status": "backlog",
-      "depends_on": [
-        "P7-001"
-      ],
+      "depends_on": ["P7-001"],
       "objective": "Classify stored and transmitted data.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -9586,9 +8818,7 @@
       "phase_name": "Production Hardening",
       "title": "Finalize trust-boundary diagram",
       "status": "backlog",
-      "depends_on": [
-        "P7-002"
-      ],
+      "depends_on": ["P7-002"],
       "objective": "Finalize trust-boundary diagram.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -9611,9 +8841,7 @@
       "phase_name": "Production Hardening",
       "title": "Complete threat model",
       "status": "backlog",
-      "depends_on": [
-        "P7-003"
-      ],
+      "depends_on": ["P7-003"],
       "objective": "Complete threat model.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -9636,9 +8864,7 @@
       "phase_name": "Production Hardening",
       "title": "Review tenant-isolation controls",
       "status": "backlog",
-      "depends_on": [
-        "P7-004"
-      ],
+      "depends_on": ["P7-004"],
       "objective": "Review tenant-isolation controls.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -9661,9 +8887,7 @@
       "phase_name": "Production Hardening",
       "title": "Review least-privilege IAM policies",
       "status": "backlog",
-      "depends_on": [
-        "P7-005"
-      ],
+      "depends_on": ["P7-005"],
       "objective": "Review least-privilege IAM policies.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -9686,9 +8910,7 @@
       "phase_name": "Production Hardening",
       "title": "Review secret inventory",
       "status": "backlog",
-      "depends_on": [
-        "P7-006"
-      ],
+      "depends_on": ["P7-006"],
       "objective": "Review secret inventory.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -9711,9 +8933,7 @@
       "phase_name": "Production Hardening",
       "title": "Test secret rotation",
       "status": "backlog",
-      "depends_on": [
-        "P7-007"
-      ],
+      "depends_on": ["P7-007"],
       "objective": "Test secret rotation.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -9736,9 +8956,7 @@
       "phase_name": "Production Hardening",
       "title": "Define retention policy by data type",
       "status": "backlog",
-      "depends_on": [
-        "P7-008"
-      ],
+      "depends_on": ["P7-008"],
       "objective": "Define retention policy by data type.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -9761,9 +8979,7 @@
       "phase_name": "Production Hardening",
       "title": "Implement conversation-retention jobs",
       "status": "backlog",
-      "depends_on": [
-        "P7-009"
-      ],
+      "depends_on": ["P7-009"],
       "objective": "Implement conversation-retention jobs.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -9786,9 +9002,7 @@
       "phase_name": "Production Hardening",
       "title": "Implement audit-retention behavior",
       "status": "backlog",
-      "depends_on": [
-        "P7-010"
-      ],
+      "depends_on": ["P7-010"],
       "objective": "Implement audit-retention behavior.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -9811,9 +9025,7 @@
       "phase_name": "Production Hardening",
       "title": "Configure vector-store expiration policy where appropriate",
       "status": "backlog",
-      "depends_on": [
-        "P7-011"
-      ],
+      "depends_on": ["P7-011"],
       "objective": "Configure vector-store expiration policy where appropriate.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -9836,9 +9048,7 @@
       "phase_name": "Production Hardening",
       "title": "Test document-deletion completeness",
       "status": "backlog",
-      "depends_on": [
-        "P7-012"
-      ],
+      "depends_on": ["P7-012"],
       "objective": "Test document-deletion completeness.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -9861,9 +9071,7 @@
       "phase_name": "Production Hardening",
       "title": "Test tenant-offboarding",
       "status": "backlog",
-      "depends_on": [
-        "P7-013"
-      ],
+      "depends_on": ["P7-013"],
       "objective": "Test tenant-offboarding.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -9886,9 +9094,7 @@
       "phase_name": "Production Hardening",
       "title": "Define service-level indicators",
       "status": "backlog",
-      "depends_on": [
-        "P7-014"
-      ],
+      "depends_on": ["P7-014"],
       "objective": "Define service-level indicators.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -9911,9 +9117,7 @@
       "phase_name": "Production Hardening",
       "title": "Define service-level objectives",
       "status": "backlog",
-      "depends_on": [
-        "P7-015"
-      ],
+      "depends_on": ["P7-015"],
       "objective": "Define service-level objectives.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -9936,9 +9140,7 @@
       "phase_name": "Production Hardening",
       "title": "Configure SLO dashboards",
       "status": "backlog",
-      "depends_on": [
-        "P7-016"
-      ],
+      "depends_on": ["P7-016"],
       "objective": "Configure SLO dashboards.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -9961,9 +9163,7 @@
       "phase_name": "Production Hardening",
       "title": "Configure SLO alerts",
       "status": "backlog",
-      "depends_on": [
-        "P7-017"
-      ],
+      "depends_on": ["P7-017"],
       "objective": "Configure SLO alerts.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -9986,9 +9186,7 @@
       "phase_name": "Production Hardening",
       "title": "Create representative load model",
       "status": "backlog",
-      "depends_on": [
-        "P7-018"
-      ],
+      "depends_on": ["P7-018"],
       "objective": "Create representative load model.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -10011,9 +9209,7 @@
       "phase_name": "Production Hardening",
       "title": "Implement API load test",
       "status": "backlog",
-      "depends_on": [
-        "P7-019"
-      ],
+      "depends_on": ["P7-019"],
       "objective": "Implement API load test.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -10036,9 +9232,7 @@
       "phase_name": "Production Hardening",
       "title": "Implement widget load test",
       "status": "backlog",
-      "depends_on": [
-        "P7-020"
-      ],
+      "depends_on": ["P7-020"],
       "objective": "Implement widget load test.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -10061,9 +9255,7 @@
       "phase_name": "Production Hardening",
       "title": "Implement ingestion throughput test",
       "status": "backlog",
-      "depends_on": [
-        "P7-021"
-      ],
+      "depends_on": ["P7-021"],
       "objective": "Implement ingestion throughput test.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -10086,9 +9278,7 @@
       "phase_name": "Production Hardening",
       "title": "Establish performance baseline",
       "status": "backlog",
-      "depends_on": [
-        "P7-022"
-      ],
+      "depends_on": ["P7-022"],
       "objective": "Establish performance baseline.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -10111,9 +9301,7 @@
       "phase_name": "Production Hardening",
       "title": "Tune API worker configuration",
       "status": "backlog",
-      "depends_on": [
-        "P7-023"
-      ],
+      "depends_on": ["P7-023"],
       "objective": "Tune API worker configuration.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -10136,9 +9324,7 @@
       "phase_name": "Production Hardening",
       "title": "Tune database connection pools",
       "status": "backlog",
-      "depends_on": [
-        "P7-024"
-      ],
+      "depends_on": ["P7-024"],
       "objective": "Tune database connection pools.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -10161,9 +9347,7 @@
       "phase_name": "Production Hardening",
       "title": "Tune ingestion concurrency",
       "status": "backlog",
-      "depends_on": [
-        "P7-025"
-      ],
+      "depends_on": ["P7-025"],
       "objective": "Tune ingestion concurrency.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -10186,9 +9370,7 @@
       "phase_name": "Production Hardening",
       "title": "Set retrieval result limits",
       "status": "backlog",
-      "depends_on": [
-        "P7-026"
-      ],
+      "depends_on": ["P7-026"],
       "objective": "Set retrieval result limits.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -10211,9 +9393,7 @@
       "phase_name": "Production Hardening",
       "title": "Set tenant request-rate limits",
       "status": "backlog",
-      "depends_on": [
-        "P7-027"
-      ],
+      "depends_on": ["P7-027"],
       "objective": "Set tenant request-rate limits.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -10236,9 +9416,7 @@
       "phase_name": "Production Hardening",
       "title": "Set tenant usage quotas",
       "status": "backlog",
-      "depends_on": [
-        "P7-028"
-      ],
+      "depends_on": ["P7-028"],
       "objective": "Set tenant usage quotas.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -10261,9 +9439,7 @@
       "phase_name": "Production Hardening",
       "title": "Configure edge rate limiting",
       "status": "backlog",
-      "depends_on": [
-        "P7-029"
-      ],
+      "depends_on": ["P7-029"],
       "objective": "Configure edge rate limiting.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -10286,9 +9462,7 @@
       "phase_name": "Production Hardening",
       "title": "Configure CDN and WAF policies",
       "status": "backlog",
-      "depends_on": [
-        "P7-030"
-      ],
+      "depends_on": ["P7-030"],
       "objective": "Configure CDN and WAF policies.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -10311,9 +9485,7 @@
       "phase_name": "Production Hardening",
       "title": "Test OpenAI timeout behavior",
       "status": "backlog",
-      "depends_on": [
-        "P7-031"
-      ],
+      "depends_on": ["P7-031"],
       "objective": "Test OpenAI timeout behavior.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -10336,9 +9508,7 @@
       "phase_name": "Production Hardening",
       "title": "Test OpenAI rate-limit behavior",
       "status": "backlog",
-      "depends_on": [
-        "P7-032"
-      ],
+      "depends_on": ["P7-032"],
       "objective": "Test OpenAI rate-limit behavior.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -10361,9 +9531,7 @@
       "phase_name": "Production Hardening",
       "title": "Test OpenAI outage behavior",
       "status": "backlog",
-      "depends_on": [
-        "P7-033"
-      ],
+      "depends_on": ["P7-033"],
       "objective": "Test OpenAI outage behavior.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -10386,9 +9554,7 @@
       "phase_name": "Production Hardening",
       "title": "Test database unavailability",
       "status": "backlog",
-      "depends_on": [
-        "P7-034"
-      ],
+      "depends_on": ["P7-034"],
       "objective": "Test database unavailability.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -10411,9 +9577,7 @@
       "phase_name": "Production Hardening",
       "title": "Test queue unavailability",
       "status": "backlog",
-      "depends_on": [
-        "P7-035"
-      ],
+      "depends_on": ["P7-035"],
       "objective": "Test queue unavailability.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -10436,9 +9600,7 @@
       "phase_name": "Production Hardening",
       "title": "Test object-storage unavailability",
       "status": "backlog",
-      "depends_on": [
-        "P7-036"
-      ],
+      "depends_on": ["P7-036"],
       "objective": "Test object-storage unavailability.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -10461,9 +9623,7 @@
       "phase_name": "Production Hardening",
       "title": "Test worker termination during processing",
       "status": "backlog",
-      "depends_on": [
-        "P7-037"
-      ],
+      "depends_on": ["P7-037"],
       "objective": "Test worker termination during processing.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -10486,9 +9646,7 @@
       "phase_name": "Production Hardening",
       "title": "Test network interruption during streaming",
       "status": "backlog",
-      "depends_on": [
-        "P7-038"
-      ],
+      "depends_on": ["P7-038"],
       "objective": "Test network interruption during streaming.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -10511,9 +9669,7 @@
       "phase_name": "Production Hardening",
       "title": "Verify circuit-breaker recovery",
       "status": "backlog",
-      "depends_on": [
-        "P7-039"
-      ],
+      "depends_on": ["P7-039"],
       "objective": "Verify circuit-breaker recovery.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -10536,9 +9692,7 @@
       "phase_name": "Production Hardening",
       "title": "Define backup scope and schedule",
       "status": "backlog",
-      "depends_on": [
-        "P7-040"
-      ],
+      "depends_on": ["P7-040"],
       "objective": "Define backup scope and schedule.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -10561,9 +9715,7 @@
       "phase_name": "Production Hardening",
       "title": "Configure database backups",
       "status": "backlog",
-      "depends_on": [
-        "P7-041"
-      ],
+      "depends_on": ["P7-041"],
       "objective": "Configure database backups.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -10586,9 +9738,7 @@
       "phase_name": "Production Hardening",
       "title": "Configure infrastructure-state backups",
       "status": "backlog",
-      "depends_on": [
-        "P7-042"
-      ],
+      "depends_on": ["P7-042"],
       "objective": "Configure infrastructure-state backups.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -10611,9 +9761,7 @@
       "phase_name": "Production Hardening",
       "title": "Execute database restore test",
       "status": "backlog",
-      "depends_on": [
-        "P7-043"
-      ],
+      "depends_on": ["P7-043"],
       "objective": "Execute database restore test.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -10636,9 +9784,7 @@
       "phase_name": "Production Hardening",
       "title": "Execute configuration restore test",
       "status": "backlog",
-      "depends_on": [
-        "P7-044"
-      ],
+      "depends_on": ["P7-044"],
       "objective": "Execute configuration restore test.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -10661,9 +9807,7 @@
       "phase_name": "Production Hardening",
       "title": "Define recovery-time objective",
       "status": "backlog",
-      "depends_on": [
-        "P7-045"
-      ],
+      "depends_on": ["P7-045"],
       "objective": "Define recovery-time objective.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -10686,9 +9830,7 @@
       "phase_name": "Production Hardening",
       "title": "Define recovery-point objective",
       "status": "backlog",
-      "depends_on": [
-        "P7-046"
-      ],
+      "depends_on": ["P7-046"],
       "objective": "Define recovery-point objective.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -10711,9 +9853,7 @@
       "phase_name": "Production Hardening",
       "title": "Create disaster-recovery runbook",
       "status": "backlog",
-      "depends_on": [
-        "P7-047"
-      ],
+      "depends_on": ["P7-047"],
       "objective": "Create disaster-recovery runbook.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -10736,9 +9876,7 @@
       "phase_name": "Production Hardening",
       "title": "Execute disaster-recovery exercise",
       "status": "backlog",
-      "depends_on": [
-        "P7-048"
-      ],
+      "depends_on": ["P7-048"],
       "objective": "Execute disaster-recovery exercise.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -10761,9 +9899,7 @@
       "phase_name": "Production Hardening",
       "title": "Expand prompt-injection test suite",
       "status": "backlog",
-      "depends_on": [
-        "P7-049"
-      ],
+      "depends_on": ["P7-049"],
       "objective": "Expand prompt-injection test suite.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -10786,9 +9922,7 @@
       "phase_name": "Production Hardening",
       "title": "Add RAG-poisoning scenarios",
       "status": "backlog",
-      "depends_on": [
-        "P7-050"
-      ],
+      "depends_on": ["P7-050"],
       "objective": "Add RAG-poisoning scenarios.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -10811,9 +9945,7 @@
       "phase_name": "Production Hardening",
       "title": "Add data-exfiltration scenarios",
       "status": "backlog",
-      "depends_on": [
-        "P7-051"
-      ],
+      "depends_on": ["P7-051"],
       "objective": "Add data-exfiltration scenarios.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -10836,9 +9968,7 @@
       "phase_name": "Production Hardening",
       "title": "Add conflicting-policy scenarios",
       "status": "backlog",
-      "depends_on": [
-        "P7-052"
-      ],
+      "depends_on": ["P7-052"],
       "objective": "Add conflicting-policy scenarios.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -10861,9 +9991,7 @@
       "phase_name": "Production Hardening",
       "title": "Add authorization-boundary fuzz tests",
       "status": "backlog",
-      "depends_on": [
-        "P7-053"
-      ],
+      "depends_on": ["P7-053"],
       "objective": "Add authorization-boundary fuzz tests.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -10886,9 +10014,7 @@
       "phase_name": "Production Hardening",
       "title": "Freeze production evaluation dataset version",
       "status": "backlog",
-      "depends_on": [
-        "P7-054"
-      ],
+      "depends_on": ["P7-054"],
       "objective": "Freeze production evaluation dataset version.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -10911,9 +10037,7 @@
       "phase_name": "Production Hardening",
       "title": "Run candidate model evaluation",
       "status": "backlog",
-      "depends_on": [
-        "P7-055"
-      ],
+      "depends_on": ["P7-055"],
       "objective": "Run candidate model evaluation.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -10936,9 +10060,7 @@
       "phase_name": "Production Hardening",
       "title": "Run candidate prompt evaluation",
       "status": "backlog",
-      "depends_on": [
-        "P7-056"
-      ],
+      "depends_on": ["P7-056"],
       "objective": "Run candidate prompt evaluation.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -10961,9 +10083,7 @@
       "phase_name": "Production Hardening",
       "title": "Approve production model and prompt configuration",
       "status": "backlog",
-      "depends_on": [
-        "P7-057"
-      ],
+      "depends_on": ["P7-057"],
       "objective": "Approve production model and prompt configuration.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -10986,9 +10106,7 @@
       "phase_name": "Production Hardening",
       "title": "Conduct accessibility audit",
       "status": "backlog",
-      "depends_on": [
-        "P7-058"
-      ],
+      "depends_on": ["P7-058"],
       "objective": "Conduct accessibility audit.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -11011,9 +10129,7 @@
       "phase_name": "Production Hardening",
       "title": "Conduct browser compatibility test",
       "status": "backlog",
-      "depends_on": [
-        "P7-059"
-      ],
+      "depends_on": ["P7-059"],
       "objective": "Conduct browser compatibility test.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -11036,9 +10152,7 @@
       "phase_name": "Production Hardening",
       "title": "Conduct external or independent penetration test",
       "status": "backlog",
-      "depends_on": [
-        "P7-060"
-      ],
+      "depends_on": ["P7-060"],
       "objective": "Conduct external or independent penetration test.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -11061,9 +10175,7 @@
       "phase_name": "Production Hardening",
       "title": "Remediate critical penetration-test findings",
       "status": "backlog",
-      "depends_on": [
-        "P7-061"
-      ],
+      "depends_on": ["P7-061"],
       "objective": "Remediate critical penetration-test findings.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -11086,9 +10198,7 @@
       "phase_name": "Production Hardening",
       "title": "Remediate required high-severity findings",
       "status": "backlog",
-      "depends_on": [
-        "P7-062"
-      ],
+      "depends_on": ["P7-062"],
       "objective": "Remediate required high-severity findings.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -11111,9 +10221,7 @@
       "phase_name": "Production Hardening",
       "title": "Review software licenses",
       "status": "backlog",
-      "depends_on": [
-        "P7-063"
-      ],
+      "depends_on": ["P7-063"],
       "objective": "Review software licenses.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -11136,9 +10244,7 @@
       "phase_name": "Production Hardening",
       "title": "Generate production SBOM",
       "status": "backlog",
-      "depends_on": [
-        "P7-064"
-      ],
+      "depends_on": ["P7-064"],
       "objective": "Generate production SBOM.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -11161,9 +10267,7 @@
       "phase_name": "Production Hardening",
       "title": "Verify artifact provenance",
       "status": "backlog",
-      "depends_on": [
-        "P7-065"
-      ],
+      "depends_on": ["P7-065"],
       "objective": "Verify artifact provenance.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -11186,9 +10290,7 @@
       "phase_name": "Production Hardening",
       "title": "Finalize incident-response plan",
       "status": "backlog",
-      "depends_on": [
-        "P7-066"
-      ],
+      "depends_on": ["P7-066"],
       "objective": "Finalize incident-response plan.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -11211,9 +10313,7 @@
       "phase_name": "Production Hardening",
       "title": "Run incident-response tabletop exercise",
       "status": "backlog",
-      "depends_on": [
-        "P7-067"
-      ],
+      "depends_on": ["P7-067"],
       "objective": "Run incident-response tabletop exercise.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -11236,9 +10336,7 @@
       "phase_name": "Production Hardening",
       "title": "Define support escalation path",
       "status": "backlog",
-      "depends_on": [
-        "P7-068"
-      ],
+      "depends_on": ["P7-068"],
       "objective": "Define support escalation path.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -11261,9 +10359,7 @@
       "phase_name": "Production Hardening",
       "title": "Define pilot tenant criteria",
       "status": "backlog",
-      "depends_on": [
-        "P7-069"
-      ],
+      "depends_on": ["P7-069"],
       "objective": "Define pilot tenant criteria.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -11286,9 +10382,7 @@
       "phase_name": "Production Hardening",
       "title": "Provision pilot tenant",
       "status": "backlog",
-      "depends_on": [
-        "P7-070"
-      ],
+      "depends_on": ["P7-070"],
       "objective": "Provision pilot tenant.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -11311,9 +10405,7 @@
       "phase_name": "Production Hardening",
       "title": "Ingest pilot synthetic or approved documents",
       "status": "backlog",
-      "depends_on": [
-        "P7-071"
-      ],
+      "depends_on": ["P7-071"],
       "objective": "Ingest pilot synthetic or approved documents.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -11336,9 +10428,7 @@
       "phase_name": "Production Hardening",
       "title": "Execute pilot acceptance tests",
       "status": "backlog",
-      "depends_on": [
-        "P7-072"
-      ],
+      "depends_on": ["P7-072"],
       "objective": "Execute pilot acceptance tests.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -11361,9 +10451,7 @@
       "phase_name": "Production Hardening",
       "title": "Monitor pilot quality and operations",
       "status": "backlog",
-      "depends_on": [
-        "P7-073"
-      ],
+      "depends_on": ["P7-073"],
       "objective": "Monitor pilot quality and operations.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -11386,9 +10474,7 @@
       "phase_name": "Production Hardening",
       "title": "Resolve pilot release blockers",
       "status": "backlog",
-      "depends_on": [
-        "P7-074"
-      ],
+      "depends_on": ["P7-074"],
       "objective": "Resolve pilot release blockers.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -11411,9 +10497,7 @@
       "phase_name": "Production Hardening",
       "title": "Conduct production-readiness review",
       "status": "backlog",
-      "depends_on": [
-        "P7-075"
-      ],
+      "depends_on": ["P7-075"],
       "objective": "Conduct production-readiness review.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -11436,9 +10520,7 @@
       "phase_name": "Production Hardening",
       "title": "Record go-live decision",
       "status": "backlog",
-      "depends_on": [
-        "P7-076"
-      ],
+      "depends_on": ["P7-076"],
       "objective": "Record go-live decision.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -11461,9 +10543,7 @@
       "phase_name": "Production Hardening",
       "title": "Deploy approved production release",
       "status": "backlog",
-      "depends_on": [
-        "P7-077"
-      ],
+      "depends_on": ["P7-077"],
       "objective": "Deploy approved production release.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -11486,9 +10566,7 @@
       "phase_name": "Production Hardening",
       "title": "Execute production smoke tests",
       "status": "backlog",
-      "depends_on": [
-        "P7-078"
-      ],
+      "depends_on": ["P7-078"],
       "objective": "Execute production smoke tests.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -11511,9 +10589,7 @@
       "phase_name": "Production Hardening",
       "title": "Verify production alerts and dashboards",
       "status": "backlog",
-      "depends_on": [
-        "P7-079"
-      ],
+      "depends_on": ["P7-079"],
       "objective": "Verify production alerts and dashboards.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -11536,9 +10612,7 @@
       "phase_name": "Production Hardening",
       "title": "Verify production rollback readiness",
       "status": "backlog",
-      "depends_on": [
-        "P7-080"
-      ],
+      "depends_on": ["P7-080"],
       "objective": "Verify production rollback readiness.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",
@@ -11561,9 +10635,7 @@
       "phase_name": "Production Hardening",
       "title": "Conduct post-release review",
       "status": "backlog",
-      "depends_on": [
-        "P7-081"
-      ],
+      "depends_on": ["P7-081"],
       "objective": "Conduct post-release review.",
       "acceptance_criteria": [
         "The change is limited to the stated outcome.",

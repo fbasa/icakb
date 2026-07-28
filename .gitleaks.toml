@@ -1,0 +1,13 @@
+title = "ICAKB Gitleaks configuration"
+
+[extend]
+useDefault = true
+
+[allowlist]
+description = "Allow synthetic local credentials used by example environment files"
+regexes = [
+  '''DATABASE_URL=postgresql://app:app@localhost:5432/knowledge_assistant''',
+  '''POSTGRES_PASSWORD:\s*app''',
+  '''OPENAI_API_KEY=replace-with-sandbox-key-only''',
+  '''OPENAI_PROJECT_ID=replace-with-non-production-project''',
+]

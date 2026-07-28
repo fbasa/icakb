@@ -9,16 +9,21 @@ Before changing files, read:
 1. `docs/ARCHITECTURE.md`
 2. `docs/ENGINEERING_FOUNDATION.md`
 3. The relevant phase in `docs/PLAN.md`
-4. The selected task record in `codex/tasks/tasks.json`
-5. Any closer `AGENTS.md` file in the directory being modified
+4. The [Phase 0 audit](docs/PHASE_0_AUDIT.md) before selecting or starting any Phase 1 task
+5. The selected task record in `codex/tasks/tasks.json`
+6. Any closer `AGENTS.md` file in the directory being modified
 
 ## Task discipline
 
-- Work on exactly one atomic task unless the user explicitly groups tasks.
+- Work on one atomic task by default; when the user explicitly groups related work, you may work on a small dependency-ordered batch, but never start a task before its prerequisites are complete.
 - Do not begin a dependent task before its prerequisites are complete.
 - Keep pull requests focused and independently reviewable.
 - Do not silently expand scope. Record discovered follow-up work instead.
 - Do not start feature implementation before Phase 0 foundation requirements needed by that feature exist.
+- Do not start any Phase 1 task while the Phase 0 audit verdict is `FAIL`.
+- Treat the `PHASE-0-EXIT` dependency as incomplete until every requirement in the
+  revalidation gate in the [Phase 0 audit](docs/PHASE_0_AUDIT.md) has recorded evidence and every
+  Phase 0 exit-gate item in `docs/PLAN.md` is complete.
 
 ## Architecture constraints
 
@@ -50,7 +55,7 @@ Before changing files, read:
 - Do not claim success when a check was skipped or failed. Report the exact incomplete item.
 - Do not push changes automatically.
 
-## Required checks  
+## Required checks
 
 Run the narrowest relevant checks during development. Before completion, run:
 

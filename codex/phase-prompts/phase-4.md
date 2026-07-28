@@ -56,7 +56,6 @@ Stop and provide a precise blocker report when work requires:
 
 When an external setting cannot be changed from the repository, create the smallest reviewable configuration, script, documentation, or verification artifact possible, then clearly identify the remaining manual action.
 
-
 ## Phase mission
 
 Deliver a framework-independent, accessible, origin-restricted assistant widget using a small loader and a separately hosted sandboxed iframe.

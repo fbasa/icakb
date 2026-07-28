@@ -2,11 +2,36 @@
   "name": "knowledge-assistant",
   "private": true,
   "version": "0.0.0",
-  "packageManager": "pnpm@TO_BE_PINNED_IN_P0_007",
+  "packageManager": "pnpm@11.17.0",
+  "engines": {
+    "node": "24.18.0",
+    "pnpm": "11.17.0"
+  },
   "scripts": {
-    "build": "echo 'Implement in Phase 0'",
-    "lint": "echo 'Implement in Phase 0'",
-    "typecheck": "echo 'Implement in Phase 0'",
-    "test": "echo 'Implement in Phase 0'"
+    "build": "pnpm --dir apps/assistant-web build && pnpm --dir apps/admin-web build",
+    "format": "prettier . --write",
+    "format:check": "prettier . --check",
+    "clean:next-types": "node -e \"const fs = require('node:fs'); for (const path of ['apps/assistant-web/.next/dev', 'apps/admin-web/.next/dev']) fs.rmSync(path, { recursive: true, force: true });\"",
+    "lint:docker": "uv run pre-commit run hadolint --all-files",
+    "lint:markdown": "uv run pre-commit run markdownlint-cli2 --all-files",
+    "lint:shell": "uv run pre-commit run shellcheck --all-files",
+    "lint:yaml": "uv run pre-commit run yamllint --all-files",
+    "lint": "eslint .",
+    "typecheck": "pnpm clean:next-types && pnpm --dir apps/assistant-web typecheck && pnpm --dir apps/admin-web typecheck && pnpm --dir apps/widget-loader typecheck && pnpm --dir apps/browser-extension typecheck",
+    "test": "pnpm test:python && pnpm test:vitest && pnpm test:playwright",
+    "test:python": "uv run --all-packages pytest",
+    "test:playwright": "playwright test",
+    "test:vitest": "vitest run"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^7.0.0",
+    "@testing-library/react": "^16.3.2",
+    "@playwright/test": "^1.56.1",
+    "@vitejs/plugin-react": "^6.0.4",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^16.2.11",
+    "jsdom": "^29.1.1",
+    "prettier": "^3.9.6",
+    "vitest": "^4.1.10"
   }
 }

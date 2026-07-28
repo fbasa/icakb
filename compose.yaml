@@ -1,5 +1,35 @@
 name: knowledge-assistant
 services:
+  api:
+    build:
+      context: .
+      dockerfile: services/api/Dockerfile
+      args:
+        APP_VERSION: ${APP_VERSION:-0.0.0-dev}
+        APP_COMMIT_SHA: ${APP_COMMIT_SHA:-local}
+        APP_BUILD_TIME: ${APP_BUILD_TIME:-1970-01-01T00:00:00Z}
+        GITHUB_REPOSITORY: ${GITHUB_REPOSITORY:-local}
+    environment:
+      APP_ENV: development
+      APP_VERSION: ${APP_VERSION:-0.0.0-dev}
+      APP_COMMIT_SHA: ${APP_COMMIT_SHA:-local}
+      APP_BUILD_TIME: ${APP_BUILD_TIME:-1970-01-01T00:00:00Z}
+      DATABASE_URL: postgresql://app:app@postgres:5432/knowledge_assistant
+      OBJECT_STORAGE_ENDPOINT: http://object-storage:9090
+      OBJECT_STORAGE_BUCKET: knowledge-assistant-local
+      QUEUE_URL: http://localhost:4566/000000000000/ingestion
+      OPENAI_API_KEY: replace-with-sandbox-key-only
+      OPENAI_PROJECT_ID: replace-with-non-production-project
+      OIDC_ISSUER_URL: https://example.invalid
+      OIDC_AUDIENCE: knowledge-assistant
+      OPERATIONAL_DIAGNOSTICS_TOKEN: replace-with-local-diagnostics-token
+    env_file:
+      - .env.example
+    ports:
+      - "8000:8000"
+    depends_on:
+      - postgres
+      - object-storage
   postgres:
     image: postgres:16-alpine
     environment:
@@ -10,6 +40,18 @@ services:
       - "5432:5432"
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -U app -d knowledge_assistant"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+  object-storage:
+    image: adobe/s3mock:5.0.0
+    environment:
+      COM_ADOBE_TESTING_S3MOCK_STORE_INITIAL_BUCKETS: knowledge-assistant-local
+    ports:
+      - "9090:9090"
+      - "9191:9191"
+    healthcheck:
+      test: ["CMD", "wget", "--spider", "-q", "http://localhost:9090/favicon.ico"]
       interval: 5s
       timeout: 3s
       retries: 10

@@ -1,0 +1,57 @@
+name: Trivy
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  scan:
+    name: Trivy repository scan
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Scan repository for vulnerabilities and misconfigurations
+        uses: aquasecurity/trivy-action@v0.36.0
+        with:
+          scan-type: fs
+          scan-ref: .
+          scanners: "vuln,misconfig,secret"
+          ignore-unfixed: false
+          severity: HIGH,CRITICAL
+          format: table
+          exit-code: "1"
+
+  scan-api-image:
+    name: Trivy API image scan
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Build API container image
+        run: docker build --file services/api/Dockerfile --tag knowledge-assistant-api:${{ github.sha }} .
+
+      - name: Scan API container image for vulnerabilities and misconfigurations
+        uses: aquasecurity/trivy-action@v0.36.0
+        with:
+          scan-type: image
+          image-ref: knowledge-assistant-api:${{ github.sha }}
+          scanners: "vuln,misconfig,secret"
+          ignore-unfixed: false
+          severity: HIGH,CRITICAL
+          format: table
+          exit-code: "1"

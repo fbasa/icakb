@@ -56,7 +56,6 @@ Stop and provide a precise blocker report when work requires:
 
 When an external setting cannot be changed from the repository, create the smallest reviewable configuration, script, documentation, or verification artifact possible, then clearly identify the remaining manual action.
 
-
 ## Phase mission
 
 Deliver a stable API that retrieves only authorized evidence and generates grounded, cited, streaming answers with measurable abstention and safety behavior.

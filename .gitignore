@@ -1,26 +1,46 @@
 .env
 .env.*
 !.env.example
+
+# TypeScript and JavaScript
 node_modules/
 .pnpm-store/
 .next/
+out/
 dist/
 build/
 coverage/
+*.tsbuildinfo
+
+# Python
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
 .venv/
+venv/
 __pycache__/
-*.pyc
+*.py[cod]
+*.egg-info/
+.coverage
+coverage.xml
+htmlcov/
+
+# Editors and operating systems
 .DS_Store
 .idea/
 .vscode/
+
+# Terraform
 terraform.tfstate
 terraform.tfstate.*
 .terraform/
 *.tfplan
+crash.log
+crash.*.log
+
+# Test and build artifacts
 playwright-report/
 test-results/
 artifacts/
+*.log
 .env*
