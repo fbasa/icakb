@@ -90,9 +90,9 @@ Local evidence recorded on 2026-07-28:
   `continue-on-error` removed after dependency graph is enabled.
 - `codex/tasks/task-index.csv` was regenerated from the authoritative
   `codex/tasks/tasks.json`.
-- Pull request #1 has hosted PR checks passing on commit
-  `0670892dc2eee2af33b6d24546fd19dbe2fdfcd8`: CI, CodeQL, Dependency Review
-  with the temporary repository-settings exception, Gitleaks, and Trivy.
+- Pull request #1 has hosted PR checks passing on the current remediation
+  branch: CI, CodeQL, Dependency Review with the temporary repository-settings
+  exception, Gitleaks, and Trivy.
 
 Remaining external or environment-blocked evidence:
 
