@@ -84,6 +84,10 @@ Local evidence recorded on 2026-07-28:
 - Trivy scans include secrets and do not ignore unfixed high or critical
   findings; Dependabot covers npm, uv, GitHub Actions, Docker, and Terraform
   directories.
+- Dependency Review is wired with a temporary explicit exception because GitHub
+  reports dependency graph is not enabled or unsupported for this repository.
+  The workflow records this condition in the job summary and must have
+  `continue-on-error` removed after dependency graph is enabled.
 - `codex/tasks/task-index.csv` was regenerated from the authoritative
   `codex/tasks/tasks.json`.
 
@@ -92,6 +96,8 @@ Remaining external or environment-blocked evidence:
 - Rotate the previously exposed OpenAI credential outside this repository.
 - Apply and verify active remote branch protection or repository rulesets through
   the GitHub API.
+- Enable GitHub dependency graph for this repository and remove the temporary
+  Dependency Review workflow exception.
 - Run GitHub-hosted CI, CodeQL, Dependency Review, Gitleaks, Trivy, deployment,
   and rollback workflows successfully on a reviewable pull request.
 - Deploy the immutable digest to development and attach health, readiness,
