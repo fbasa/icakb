@@ -1,3 +1,3 @@
 # python-packages/telemetry-python
 
-Placeholder created by the approved repository plan. Implement only through the corresponding atomic tasks.
+Reusable Python telemetry helpers for structured JSON logging, redaction, and future trace correlation.

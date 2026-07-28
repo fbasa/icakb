@@ -1,70 +1,70 @@
 id,phase,phase_name,title,status,depends_on
-P0-001,0,Engineering Foundation,Create the Git repository,backlog,
-P0-002,0,Engineering Foundation,Configure branch protection for main,backlog,P0-001
-P0-003,0,Engineering Foundation,Add root .gitignore and .gitattributes,backlog,P0-002
-P0-004,0,Engineering Foundation,Add .editorconfig,backlog,P0-003
-P0-005,0,Engineering Foundation,Create the monorepo directory structure,backlog,P0-004
-P0-006,0,Engineering Foundation,Initialize the pnpm workspace,backlog,P0-005
-P0-007,0,Engineering Foundation,Pin Node.js and pnpm versions,backlog,P0-006
-P0-008,0,Engineering Foundation,Initialize the Python uv workspace,backlog,P0-007
-P0-009,0,Engineering Foundation,Pin the Python runtime version,backlog,P0-008
-P0-010,0,Engineering Foundation,Create the initial FastAPI service,backlog,P0-009
-P0-011,0,Engineering Foundation,Create the initial Next.js assistant application,backlog,P0-010
-P0-012,0,Engineering Foundation,Create the initial Next.js administration application,backlog,P0-011
-P0-013,0,Engineering Foundation,Create the widget-loader package,backlog,P0-012
-P0-014,0,Engineering Foundation,Create the browser-extension package,backlog,P0-013
-P0-015,0,Engineering Foundation,Configure Python formatting with Ruff,backlog,P0-014
-P0-016,0,Engineering Foundation,Configure Python linting with Ruff,backlog,P0-015
-P0-017,0,Engineering Foundation,Configure Python type checking with mypy,backlog,P0-016
-P0-018,0,Engineering Foundation,Configure TypeScript strict mode,backlog,P0-017
-P0-019,0,Engineering Foundation,Configure ESLint,backlog,P0-018
-P0-020,0,Engineering Foundation,Configure Prettier,backlog,P0-019
-P0-021,0,Engineering Foundation,"Configure Markdown, shell, Docker and YAML linting",backlog,P0-020
-P0-022,0,Engineering Foundation,Configure pytest,backlog,P0-021
-P0-023,0,Engineering Foundation,Configure Vitest and React Testing Library,backlog,P0-022
-P0-024,0,Engineering Foundation,Configure Playwright,backlog,P0-023
-P0-025,0,Engineering Foundation,Create root Makefile commands,backlog,P0-024
-P0-026,0,Engineering Foundation,Configure pre-commit hooks,backlog,P0-025
-P0-027,0,Engineering Foundation,Configure Gitleaks,backlog,P0-026
-P0-028,0,Engineering Foundation,Configure Dependabot,backlog,P0-027
-P0-029,0,Engineering Foundation,Configure GitHub Dependency Review,backlog,P0-028
-P0-030,0,Engineering Foundation,Configure CodeQL,backlog,P0-029
-P0-031,0,Engineering Foundation,Configure Trivy repository scanning,backlog,P0-030
-P0-032,0,Engineering Foundation,Create service Dockerfiles,backlog,P0-031
-P0-033,0,Engineering Foundation,Add container health checks,backlog,P0-032
-P0-034,0,Engineering Foundation,Create local Docker Compose configuration,backlog,P0-033
-P0-035,0,Engineering Foundation,Add local PostgreSQL,backlog,P0-034
-P0-036,0,Engineering Foundation,Add local object-storage emulator,backlog,P0-035
-P0-037,0,Engineering Foundation,Add local queue emulator or queue abstraction,backlog,P0-036
-P0-038,0,Engineering Foundation,Add environment configuration validation,backlog,P0-037
-P0-039,0,Engineering Foundation,Create .env.example,backlog,P0-038
-P0-040,0,Engineering Foundation,Add structured JSON logging,backlog,P0-039
-P0-041,0,Engineering Foundation,Add request-correlation middleware,backlog,P0-040
-P0-042,0,Engineering Foundation,Add OpenTelemetry bootstrap,backlog,P0-041
-P0-043,0,Engineering Foundation,Implement /health/live,backlog,P0-042
-P0-044,0,Engineering Foundation,Implement /health/ready,backlog,P0-043
-P0-045,0,Engineering Foundation,Implement RFC 9457 API error format,backlog,P0-044
-P0-046,0,Engineering Foundation,Create the base CI workflow,backlog,P0-045
-P0-047,0,Engineering Foundation,Add application-build jobs to CI,backlog,P0-046
-P0-048,0,Engineering Foundation,Add container-image scanning,backlog,P0-047
-P0-049,0,Engineering Foundation,Create the development deployment workflow,backlog,P0-048
-P0-050,0,Engineering Foundation,Configure deployment through OIDC,backlog,P0-049
-P0-051,0,Engineering Foundation,Add immutable image tagging,backlog,P0-050
-P0-052,0,Engineering Foundation,Create README.md,backlog,P0-051
-P0-053,0,Engineering Foundation,Create AGENTS.md,backlog,P0-052
-P0-054,0,Engineering Foundation,Create docs/ARCHITECTURE.md,backlog,P0-053
-P0-055,0,Engineering Foundation,Create docs/DECISIONS.md and initial ADRs,backlog,P0-054
-P0-056,0,Engineering Foundation,Create docs/PLAN.md,backlog,P0-055
-P0-057,0,Engineering Foundation,Create docs/OPERATIONS.md,backlog,P0-056
-P0-058,0,Engineering Foundation,Create SECURITY.md,backlog,P0-057
-P0-059,0,Engineering Foundation,Create CONTRIBUTING.md,backlog,P0-058
-P0-060,0,Engineering Foundation,Create docs/TESTING.md,backlog,P0-059
-P0-061,0,Engineering Foundation,Create prompt-library skeleton,backlog,P0-060
-P0-062,0,Engineering Foundation,Create evaluation-library skeleton,backlog,P0-061
-P0-063,0,Engineering Foundation,Implement the version endpoint demonstration,backlog,P0-062
-P0-064,0,Engineering Foundation,Deploy the version endpoint to development,backlog,P0-063
-P0-065,0,Engineering Foundation,Add post-deployment smoke test,backlog,P0-064
-P0-066,0,Engineering Foundation,Demonstrate rollback,backlog,P0-065
+P0-001,0,Engineering Foundation,Create the Git repository,done,
+P0-002,0,Engineering Foundation,Configure branch protection for main,done,P0-001
+P0-003,0,Engineering Foundation,Add root .gitignore and .gitattributes,done,P0-002
+P0-004,0,Engineering Foundation,Add .editorconfig,done,P0-003
+P0-005,0,Engineering Foundation,Create the monorepo directory structure,done,P0-004
+P0-006,0,Engineering Foundation,Initialize the pnpm workspace,done,P0-005
+P0-007,0,Engineering Foundation,Pin Node.js and pnpm versions,done,P0-006
+P0-008,0,Engineering Foundation,Initialize the Python uv workspace,done,P0-007
+P0-009,0,Engineering Foundation,Pin the Python runtime version,done,P0-008
+P0-010,0,Engineering Foundation,Create the initial FastAPI service,done,P0-009
+P0-011,0,Engineering Foundation,Create the initial Next.js assistant application,done,P0-010
+P0-012,0,Engineering Foundation,Create the initial Next.js administration application,done,P0-011
+P0-013,0,Engineering Foundation,Create the widget-loader package,done,P0-012
+P0-014,0,Engineering Foundation,Create the browser-extension package,done,P0-013
+P0-015,0,Engineering Foundation,Configure Python formatting with Ruff,done,P0-014
+P0-016,0,Engineering Foundation,Configure Python linting with Ruff,done,P0-015
+P0-017,0,Engineering Foundation,Configure Python type checking with mypy,done,P0-016
+P0-018,0,Engineering Foundation,Configure TypeScript strict mode,done,P0-017
+P0-019,0,Engineering Foundation,Configure ESLint,done,P0-018
+P0-020,0,Engineering Foundation,Configure Prettier,done,P0-019
+P0-021,0,Engineering Foundation,"Configure Markdown, shell, Docker and YAML linting",done,P0-020
+P0-022,0,Engineering Foundation,Configure pytest,done,P0-021
+P0-023,0,Engineering Foundation,Configure Vitest and React Testing Library,done,P0-022
+P0-024,0,Engineering Foundation,Configure Playwright,done,P0-023
+P0-025,0,Engineering Foundation,Create root Makefile commands,done,P0-024
+P0-026,0,Engineering Foundation,Configure pre-commit hooks,done,P0-025
+P0-027,0,Engineering Foundation,Configure Gitleaks,done,P0-026
+P0-028,0,Engineering Foundation,Configure Dependabot,done,P0-027
+P0-029,0,Engineering Foundation,Configure GitHub Dependency Review,done,P0-028
+P0-030,0,Engineering Foundation,Configure CodeQL,done,P0-029
+P0-031,0,Engineering Foundation,Configure Trivy repository scanning,done,P0-030
+P0-032,0,Engineering Foundation,Create service Dockerfiles,done,P0-031
+P0-033,0,Engineering Foundation,Add container health checks,done,P0-032
+P0-034,0,Engineering Foundation,Create local Docker Compose configuration,done,P0-033
+P0-035,0,Engineering Foundation,Add local PostgreSQL,done,P0-034
+P0-036,0,Engineering Foundation,Add local object-storage emulator,done,P0-035
+P0-037,0,Engineering Foundation,Add local queue emulator or queue abstraction,done,P0-036
+P0-038,0,Engineering Foundation,Add environment configuration validation,done,P0-037
+P0-039,0,Engineering Foundation,Create .env.example,done,P0-038
+P0-040,0,Engineering Foundation,Add structured JSON logging,done,P0-039
+P0-041,0,Engineering Foundation,Add request-correlation middleware,done,P0-040
+P0-042,0,Engineering Foundation,Add OpenTelemetry bootstrap,done,P0-041
+P0-043,0,Engineering Foundation,Implement /health/live,done,P0-042
+P0-044,0,Engineering Foundation,Implement /health/ready,done,P0-043
+P0-045,0,Engineering Foundation,Implement RFC 9457 API error format,done,P0-044
+P0-046,0,Engineering Foundation,Create the base CI workflow,done,P0-045
+P0-047,0,Engineering Foundation,Add application-build jobs to CI,done,P0-046
+P0-048,0,Engineering Foundation,Add container-image scanning,done,P0-047
+P0-049,0,Engineering Foundation,Create the development deployment workflow,done,P0-048
+P0-050,0,Engineering Foundation,Configure deployment through OIDC,done,P0-049
+P0-051,0,Engineering Foundation,Add immutable image tagging,done,P0-050
+P0-052,0,Engineering Foundation,Create README.md,done,P0-051
+P0-053,0,Engineering Foundation,Create AGENTS.md,done,P0-052
+P0-054,0,Engineering Foundation,Create docs/ARCHITECTURE.md,done,P0-053
+P0-055,0,Engineering Foundation,Create docs/DECISIONS.md and initial ADRs,done,P0-054
+P0-056,0,Engineering Foundation,Create docs/PLAN.md,done,P0-055
+P0-057,0,Engineering Foundation,Create docs/OPERATIONS.md,done,P0-056
+P0-058,0,Engineering Foundation,Create SECURITY.md,done,P0-057
+P0-059,0,Engineering Foundation,Create CONTRIBUTING.md,done,P0-058
+P0-060,0,Engineering Foundation,Create docs/TESTING.md,done,P0-059
+P0-061,0,Engineering Foundation,Create prompt-library skeleton,done,P0-060
+P0-062,0,Engineering Foundation,Create evaluation-library skeleton,done,P0-061
+P0-063,0,Engineering Foundation,Implement the version endpoint demonstration,done,P0-062
+P0-064,0,Engineering Foundation,Deploy the version endpoint to development,done,P0-063
+P0-065,0,Engineering Foundation,Add post-deployment smoke test,done,P0-064
+P0-066,0,Engineering Foundation,Demonstrate rollback,done,P0-065
 P1-001,1,Identity and Tenant Foundation,Define the tenant domain model,backlog,PHASE-0-EXIT
 P1-002,1,Identity and Tenant Foundation,Define the user domain model,backlog,P1-001
 P1-003,1,Identity and Tenant Foundation,"Define roles, groups and memberships",backlog,P1-002

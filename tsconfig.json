@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "checkJs": false,
+    "composite": false,
+    "declaration": false,
+    "emitDeclarationOnly": false,
+    "exactOptionalPropertyTypes": true,
+    "incremental": false,
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "noEmit": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": false,
+    "strict": true,
+    "target": "ES2022",
+    "useUnknownInCatchVariables": true
+  },
+  "include": ["apps/**/*", "packages/**/*", "scripts/**/*", "services/**/*", "tests/**/*"],
+  "exclude": ["node_modules", "dist", "build", "coverage", ".git"]
+}

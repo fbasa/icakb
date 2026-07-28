@@ -1,0 +1,200 @@
+:root {
+  color-scheme: light;
+  --bg: #eef4f8;
+  --surface: rgba(255, 255, 255, 0.78);
+  --surface-strong: #f8fbfe;
+  --text: #13253d;
+  --muted: #516278;
+  --accent: #0f5d6f;
+  --accent-strong: #0b3b48;
+  --border: rgba(19, 37, 61, 0.12);
+  --shadow: 0 24px 80px rgba(19, 37, 61, 0.12);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background:
+    radial-gradient(circle at top left, rgba(15, 93, 111, 0.16), transparent 32%),
+    radial-gradient(circle at 85% 15%, rgba(87, 133, 214, 0.16), transparent 26%),
+    linear-gradient(180deg, #f8fbfe 0%, #eef4f8 100%);
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  color: var(--text);
+  font-family: "Inter", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  background: transparent;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.page-shell {
+  width: min(1120px, calc(100vw - 2rem));
+  margin: 0 auto;
+  padding: 4rem 0 5rem;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.6fr) minmax(280px, 0.9fr);
+  gap: 1.5rem;
+  align-items: stretch;
+}
+
+.hero-copy,
+.status-card,
+.feature-card,
+.roadmap {
+  border: 1px solid var(--border);
+  background: var(--surface);
+  backdrop-filter: blur(18px);
+  box-shadow: var(--shadow);
+}
+
+.hero-copy {
+  border-radius: 32px;
+  padding: 3rem;
+}
+
+.eyebrow,
+.status-label {
+  margin: 0 0 0.75rem;
+  color: var(--accent);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+h1 {
+  max-width: 12ch;
+  font-size: clamp(3rem, 7vw, 5.3rem);
+  line-height: 0.95;
+  letter-spacing: -0.06em;
+}
+
+.lede {
+  max-width: 60ch;
+  margin-top: 1.25rem;
+  font-size: 1.08rem;
+  line-height: 1.7;
+  color: var(--muted);
+}
+
+.hero-actions {
+  display: flex;
+  gap: 0.875rem;
+  align-items: center;
+  margin-top: 1.75rem;
+  flex-wrap: wrap;
+}
+
+.primary-action,
+.secondary-action {
+  border-radius: 999px;
+  padding: 0.8rem 1.1rem;
+  font-size: 0.95rem;
+}
+
+.primary-action {
+  background: var(--accent);
+  color: white;
+  font-weight: 700;
+  box-shadow: 0 12px 24px rgba(15, 93, 111, 0.24);
+}
+
+.secondary-action {
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.58);
+  color: var(--muted);
+}
+
+.status-card {
+  border-radius: 28px;
+  padding: 1.75rem;
+  display: grid;
+  align-content: end;
+  gap: 0.75rem;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.9), rgba(248, 251, 254, 0.9)), var(--surface);
+}
+
+.status-value {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+}
+
+.status-note {
+  color: var(--muted);
+  line-height: 1.65;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.feature-card {
+  border-radius: 24px;
+  padding: 1.4rem;
+}
+
+.feature-card h2,
+.roadmap h2 {
+  font-size: 1.15rem;
+  line-height: 1.35;
+  letter-spacing: -0.03em;
+}
+
+.feature-card p,
+.roadmap li {
+  margin-top: 0.7rem;
+  color: var(--muted);
+  line-height: 1.65;
+}
+
+.roadmap {
+  margin-top: 1rem;
+  border-radius: 28px;
+  padding: 1.6rem 1.75rem;
+}
+
+.roadmap ol {
+  margin: 1rem 0 0;
+  padding-left: 1.25rem;
+}
+
+.roadmap li + li {
+  margin-top: 0.75rem;
+}
+
+@media (max-width: 900px) {
+  .hero,
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-copy {
+    padding: 2rem;
+  }
+
+  .page-shell {
+    padding-top: 1rem;
+  }
+}

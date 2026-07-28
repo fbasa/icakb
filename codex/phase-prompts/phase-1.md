@@ -56,7 +56,6 @@ Stop and provide a precise blocker report when work requires:
 
 When an external setting cannot be changed from the repository, create the smallest reviewable configuration, script, documentation, or verification artifact possible, then clearly identify the remaining manual action.
 
-
 ## Phase mission
 
 Create the trusted identity, tenant, role, group, session, database-isolation, and audit foundation used by every later module.

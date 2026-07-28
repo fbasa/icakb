@@ -115,3 +115,8 @@ Pull requests run formatting, linting, types, unit tests, integration tests, con
 ## Exit criterion
 
 A small change can be implemented, tested, reviewed, built, deployed, verified, promoted, and rolled back through a repeatable process.
+
+The criterion is not satisfied while the verdict in the
+[Phase 0 audit](PHASE_0_AUDIT.md) is `FAIL`. Phase 1 remains blocked until the
+audit's revalidation gate has recorded evidence and every Phase 0 exit-gate item
+in `docs/PLAN.md` is complete.

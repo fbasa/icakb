@@ -56,7 +56,6 @@ Stop and provide a precise blocker report when work requires:
 
 When an external setting cannot be changed from the repository, create the smallest reviewable configuration, script, documentation, or verification artifact possible, then clearly identify the remaining manual action.
 
-
 ## Phase mission
 
 Establish the repeatable repository, quality, security, build, deployment, observability, and rollback process required before business-module implementation.
