@@ -90,6 +90,9 @@ Local evidence recorded on 2026-07-28:
   `continue-on-error` removed after dependency graph is enabled.
 - `codex/tasks/task-index.csv` was regenerated from the authoritative
   `codex/tasks/tasks.json`.
+- Pull request #1 has hosted PR checks passing on commit
+  `4a20e2e5c4f698ecdb8705bdb1f0343ca3c6aad5`: CI, CodeQL, Dependency Review
+  with the temporary repository-settings exception, Gitleaks, and Trivy.
 
 Remaining external or environment-blocked evidence:
 
@@ -98,8 +101,8 @@ Remaining external or environment-blocked evidence:
   the GitHub API.
 - Enable GitHub dependency graph for this repository and remove the temporary
   Dependency Review workflow exception.
-- Run GitHub-hosted CI, CodeQL, Dependency Review, Gitleaks, Trivy, deployment,
-  and rollback workflows successfully on a reviewable pull request.
+- Run development deployment and rollback workflows successfully after the
+  Phase 0 remediation PR merges.
 - Deploy the immutable digest to development and attach health, readiness,
   version, smoke, provenance, and rollback evidence.
 
