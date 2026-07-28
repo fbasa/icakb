@@ -8,3 +8,4 @@ overrides:
   sharp: 0.35.3
 allowBuilds:
   sharp: true
+  unrs-resolver: true
