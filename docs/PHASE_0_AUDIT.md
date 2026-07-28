@@ -34,9 +34,9 @@ Phase 1 must not begin until the priority-zero blockers below are fixed and the 
 
 Repository-side fixes have been implemented for several blockers, but the Phase
 0 exit gate is not yet complete. The verdict remains `FAIL` because credential
-rotation, active remote branch protection, GitHub-hosted CI/security runs, a
-successful development deployment, deployed smoke evidence, and rollback
-evidence still require external verification.
+rotation, active remote branch protection, a successful development deployment,
+deployed smoke evidence, and rollback evidence still require external
+verification.
 
 Local evidence recorded on 2026-07-28:
 
@@ -91,7 +91,7 @@ Local evidence recorded on 2026-07-28:
 - `codex/tasks/task-index.csv` was regenerated from the authoritative
   `codex/tasks/tasks.json`.
 - Pull request #1 has hosted PR checks passing on commit
-  `4a20e2e5c4f698ecdb8705bdb1f0343ca3c6aad5`: CI, CodeQL, Dependency Review
+  `0670892dc2eee2af33b6d24546fd19dbe2fdfcd8`: CI, CodeQL, Dependency Review
   with the temporary repository-settings exception, Gitleaks, and Trivy.
 
 Remaining external or environment-blocked evidence:
